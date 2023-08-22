@@ -13,10 +13,10 @@ global.autodlyt = true // Auto YouTube video downloader
 //---------------------------------
 // Required variables
 //---------------------------------
-global.ownername = "ᴀsᴡɪɴ sᴘᴀʀᴋʏ" // Bot Owner name
+global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
 global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
 global.ownernumber = ["917012984396","917594898804"] //SODO / OWNER NUMBER
-global.caption = "_*ʜᴀᴘᴘʏ ᴀᴀʏɪʟʟᴇ ᴍʏʀᴇ ɴɪ 🗿👍⁉️*_" // Caption 
+global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ x-ʙᴏᴛ-ᴍᴅ*_" // Caption 
 //---------------------------------
 // Owner Mention Audio
 //---------------------------------
