@@ -19,15 +19,15 @@
     <br>
 <a href='http://x-md-qr.up.railway.app' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-#### DEPLOY TO HEROKU 
+#### DEPLOY TO REPLIT 
 
-1. If You don't have a account in Heroku. Create a account.
+1. If You don't have a account in Replit. Create a account.
     <br>
-<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 3. Now Deploy
     <br>
-<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 #### DEPLOY TO KOYEB 
 
@@ -40,3 +40,13 @@
 3. Now Deploy
     <br>
 <a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+#### DEPLOY TO HEROKU ( WASTE 😹 )
+
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
