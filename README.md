@@ -27,7 +27,7 @@
 
 3. Now Deploy
     <br>
-<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 #### DEPLOY TO KOYEB 
 
