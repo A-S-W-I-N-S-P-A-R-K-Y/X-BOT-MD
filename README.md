@@ -10,7 +10,9 @@
   <a aria-label="Join our chats" href="https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
+  
 ---
+
 ### SCAN QR
 
 1. Scan the QR and get the creds
