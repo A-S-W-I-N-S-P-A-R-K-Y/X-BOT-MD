@@ -13,6 +13,7 @@ global.autodlyt = true // Auto YouTube video downloader(true for on, false for o
 //---------------------------------
 // Required variables
 //---------------------------------
+global.prefix = "." // use "" for removing prefix
 global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
 global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
 global.ownernumber = ["917012984396","917594898804","919961857267"] //SODO / OWNER NUMBER
@@ -28,6 +29,9 @@ global.mentionaudio = ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zN
 //---------------------------------
 global.url = 'https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' // mention url
 //---------------------------------
-// No need of editing ( Edit aaki oombanda 🗿🖐🏻)
+// No need of editing ( Edit aaki oombanda 🗿🖐🏻) kuduthal edit aakiyal kolamm aayum myra 🖐🏻🤣
 //---------------------------------
 global.IMGBB_KEY = ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"]
+global.reactemoji = ['😨','😅','😂','😳','😎', '🥵', '😱', '🐦', '🙄', '🐤','🗿','🐦','🤨','🥴','😐','👆','😔', '👀','👎','🔥','💦','✂️','🍭'] // auto react emoji
+global.sparky = ['☆','✼','　 ҉ ','❏','🍭','△'] // menu design's 
+
