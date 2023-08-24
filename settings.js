@@ -17,13 +17,15 @@ global.autodlyt = true // Auto YouTube video downloader(true for on, false for o
 global.prefix = "." // use "" for removing prefix
 global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
 global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
+global.thumb = "https://i.imgur.com/IIHEyLI.jpg" // bot image overall
 global.ownernumber = ["917012984396","917594898804","919961857267"] //SODO / OWNER NUMBER
 global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ x-ʙᴏᴛ-ᴍᴅ*_" // Caption 
 //---------------------------------
 // Owner Mention Audio
 //---------------------------------
 global.ownermention = true // to turn off type false  || turn on type true 👌🏻
-global.thumb = "https://i.imgur.com/VIZ1GUr.jpg" // mention thumbnail
+global.mthumb = 'https://i.imgur.com/J2x8YMw.jpg' // mention thumbnail 
+global.mmurl = 'https://instagram.com/aswin_sparky.exe'
 global.mentionaudio = ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zNWjhDn.mp4","https://i.imgur.com/Ya3325t.mp4","https://i.imgur.com/k4FE9mA.mp4","https://i.imgur.com/X5WGE9W.mp4","https://i.imgur.com/veoDgRH.mp4","https://i.imgur.com/CZ3eJgw.mp4","https://i.imgur.com/6QFiAoM.mp4","https://i.imgur.com/lAbt9ew.mp4"] //mention audios
 //---------------------------------
 // All in One Url ( you can add any url you want )
