@@ -52,28 +52,28 @@
 <a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
 ---
-## IN DEVLOPMENT
+## IN DEVLOPMENT { Stay Turned... } 🙂🙌🏻 
 
 #### DEPLOY ON CYCLIC
 
-1. If You don't have a account in Replit. Create a account.
+1. If You don't have a account in Cyclic. Create a account.
     <br>
-<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=cyclic'/></a>
+<a href='https://cyclic.sh' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=cyclic'/></a>
 
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=cyclic.sh'/></a>
+<a href='https://cyclic.sh' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=cyclic.sh'/></a>
 
 
 #### DEPLOY ON RENDER
 
 1. If You don't have a account in Replit. Create a account.
     <br>
-<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/></a>
+<a href='https://dashboard.render.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/></a>
 
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
+<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
 
 #### DEPLOY ON MOGENIUS
 
