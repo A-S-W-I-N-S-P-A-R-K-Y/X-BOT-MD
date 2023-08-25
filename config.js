@@ -15,6 +15,7 @@ global.autodlyt = true // Auto YouTube video downloader(true for on, false for o
 // Required variables
 //---------------------------------
 global.prefix = "." // use "" for removing prefix
+global.largethumb = "true" // for large thumbnail 
 global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
 global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
 global.thumb = "https://i.imgur.com/IIHEyLI.jpg" // bot image overall
