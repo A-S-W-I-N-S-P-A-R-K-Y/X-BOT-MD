@@ -54,15 +54,25 @@
 ---
 ## IN DEVLOPMENT { Stay Turned... } 🙂🙌🏻 
 
+#### DEPLOY ON RAILWAY
+
+1. If You don't have a account in Railway. Create a account.
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+
 #### DEPLOY ON CYCLIC
 
 1. If You don't have a account in Cyclic. Create a account.
     <br>
-<a href='https://cyclic.sh' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=cyclic'/></a>
+<a href='https://cyclic.sh' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=microsoft'/></a>
 
 2. Now Deploy
     <br>
-<a href='https://cyclic.sh' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=cyclic.sh'/></a>
+<a href='https://cyclic.sh' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=windows'/></a>
 
 
 #### DEPLOY ON RENDER
@@ -79,11 +89,11 @@
 
 1. If You don't have a account in Replit. Create a account.
     <br>
-<a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=mogenius'/></a>
+<a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=genius'/></a>
 
 2. Now Deploy
     <br>
-<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=mogenius'/></a>
+<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
 
 ---
 
