@@ -50,3 +50,12 @@
 2. Now Deploy
     <br>
 <a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+
+
+
+  ## Thanks To
+* [`EX-KRIZ`](https://github.com/EX-KRIZ)
+* [`VIPER`](https://github.com/Sparkymon777)
+* [`KICHUX`](https://github.com/TOXIC-KICHUX)
+* [`AFX-ABU`](https://github.com/Afx-Abu)
