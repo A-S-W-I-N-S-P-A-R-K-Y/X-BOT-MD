@@ -8,7 +8,7 @@ global.autoRecord = false // Auto recording...(true for on, false for off)
 global.autoread = false // Auto Message read(true for on, false for off)
 global.alwaysonline = true // Always Online(true for on, false for off)
 global.statusread = true // Auto status read 🗿🖐🏻(true for on, false for off)
-global.worktype = true // worktype(true for public, false for self)
+global.private = true // worktype(true for private, false for public)
 global.autoreact = false // Auto react ( verum myra aah 🤣🙌🏻 )
 global.autodlyt = true // Auto YouTube video downloader(true for on, false for off)
 //---------------------------------
