@@ -95,6 +95,28 @@
     <br>
 <a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
 
+
+#### DEPLOY ON COOLIFY
+
+1. If You don't have a account in Coolify. Create a account.
+    <br>
+<a href='https://coolify.io/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=cool'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://coolify.io/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=coolify'/></a>
+
+
+#### DEPLOY ON UFFIZZI
+
+1. If You don't have a account in Uffizzi. Create a account.
+    <br>
+<a href='https://www.uffizzi.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=uffizzi'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://www.uffizzi.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=uffizzi'/></a>
+
 ---
 
 
