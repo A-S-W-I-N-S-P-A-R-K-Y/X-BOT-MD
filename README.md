@@ -39,7 +39,7 @@
 
 3. Now Deploy
     <br>
-<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+<a href='https://app.koyeb.com/apps/new/import-project' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
 
 #### DEPLOY TO HEROKU ( WASTE 😹 )
 
@@ -51,7 +51,7 @@
     <br>
 <a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-
+---
 
 
   ## Thanks To
