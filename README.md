@@ -23,33 +23,67 @@
 
 1. If You don't have a account in Replit. Create a account.
     <br>
-<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=replit'/></a>
 
-3. Now Deploy
+2. Now Deploy
     <br>
-<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit'/></a>
 
 #### DEPLOY TO KOYEB 
 
 1. If You don't have a account in koyeb. Create a account.
     <br>
-<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb'/></a>
 
 2. Get [Koyeb api key](https://app.koyeb.com/account/api)
 
 3. Now Deploy
     <br>
-<a href='https://app.koyeb.com/apps/new/import-project' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+<a href='https://app.koyeb.com/apps/new/import-project' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
 #### DEPLOY TO HEROKU ( WASTE 😹 )
 
 1. If You don't have a account in Heroku. Create a account.
     <br>
-<a href='https://signup.heroku.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
 
 2. Now Deploy
     <br>
-<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+
+---
+## IN DEVLOPMENT
+
+#### DEPLOY ON CYCLIC
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=cyclic'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=cyclic.sh'/></a>
+
+
+#### DEPLOY ON RENDER
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
+
+#### DEPLOY ON MOGENIUS
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=mogenius'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=mogenius'/></a>
 
 ---
 
