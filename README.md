@@ -13,10 +13,17 @@
   
 ---
 
+### FORK THIS REPO
+
+1. Must Fork This Repo Before Deployment !
+   <br> 
+<a href="https://github.com/EX-SPARKY/X-BOT-MD/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
+
+
 ### SCAN QR
 
-1. Scan the QR and get the creds
-    <br>
+2. Scan the QR and get the creds
+   <br>
 <a href='http://x-md-qr.up.railway.app' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 #### DEPLOY TO REPLIT 
