@@ -56,6 +56,6 @@
 
   ## Thanks To
 * [`EX-KRIZ`](https://github.com/EX-KRIZ)
-* [`VIPER`](https://github.com/Sparkymon777)
 * [`KICHUX`](https://github.com/TOXIC-KICHUX)
-* [`AFX-ABU`](https://github.com/Afx-Abu)
+* [`VIPER`](https://github.com/Viper-X0)
+* [`ABU`](https://github.com/Afx-Abu)
