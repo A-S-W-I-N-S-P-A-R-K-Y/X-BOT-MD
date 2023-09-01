@@ -14,7 +14,7 @@
   
 <p align="center">
 
-  <a aria-label="Tutorial" href="https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6" target="_blank">
+  <a aria-label="Tutorial" href="https://youtu.be/fi8Z2DoKTKc?si=wgOl-PcSr72NLz7X" target="_blank">
     <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   
 ---
