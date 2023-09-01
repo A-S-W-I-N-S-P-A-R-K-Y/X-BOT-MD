@@ -5,7 +5,6 @@ module.exports = {
     exec: async (msg, client, from) => {
       	
     
-            if (msg.quoted) { adreply(msg.quoted.sender)} else {
-    adreply(from)}
+            if (msg.quoted) { adreply(msg.quoted.sender)}
      }
 }
