@@ -34,7 +34,7 @@
 
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/EX-SPARKY/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit'/></a>
+<a href='https://replit.com/github/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit'/></a>
 
 #### DEPLOY TO KOYEB 
 
