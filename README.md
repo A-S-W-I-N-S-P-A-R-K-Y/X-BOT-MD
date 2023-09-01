@@ -17,7 +17,7 @@
 
 1. Must Fork This Repo Before Deployment !
    <br> 
-<a href="https://github.com/EX-SPARKY/X-BOT-MD/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
 ### SCAN QR
