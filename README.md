@@ -154,4 +154,5 @@
 * [`EX-KRIZ`](https://github.com/EX-KRIZ)
 * [`KICHUX`](https://github.com/TOXIC-KICHUX)
 * [`VIPER`](https://github.com/Viper-X0)
+* [`INRL`](https://github.com/inrl-official)
 * [`ABU`](https://github.com/Afx-Abu)
