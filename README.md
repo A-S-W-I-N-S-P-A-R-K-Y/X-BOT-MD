@@ -1,6 +1,6 @@
 <p align="center"> 
       <h1 align="center">X BOT MD MD</h1>
-  <a href="http://x-md-qr.up.railway.app">
+  <a href="">
     <img alt="secktor docs" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
   </a>
 </p>
@@ -30,7 +30,7 @@
 
 2. Scan the QR and get the creds
    <br>
-<a href='http://x-md-qr.up.railway.app' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://bit.ly/xbotmdqr' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 #### DEPLOY TO REPLIT 
 
