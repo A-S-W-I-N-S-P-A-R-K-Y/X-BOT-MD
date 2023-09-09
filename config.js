@@ -27,6 +27,8 @@ global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ x-ʙᴏᴛ-ᴍᴅ*_" // Captio
 // Owner Mention Audio
 //---------------------------------
 global.ownermention = true // to turn off type false  || turn on type true 👌🏻
+global.mtitle = "X-Bot-Md" // mention tittle
+global.mbody = "TEAM EX BOT-Z" // mention discription 
 global.mthumb = 'https://i.imgur.com/J2x8YMw.jpg' // mention thumbnail 
 global.mmurl = 'https://instagram.com/aswin_sparky.exe'
 global.mentionaudio = ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zNWjhDn.mp4","https://i.imgur.com/Ya3325t.mp4","https://i.imgur.com/k4FE9mA.mp4","https://i.imgur.com/X5WGE9W.mp4","https://i.imgur.com/veoDgRH.mp4","https://i.imgur.com/CZ3eJgw.mp4","https://i.imgur.com/6QFiAoM.mp4","https://i.imgur.com/lAbt9ew.mp4"] //mention audios
