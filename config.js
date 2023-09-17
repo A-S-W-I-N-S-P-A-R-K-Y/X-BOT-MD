@@ -1,5 +1,20 @@
 const fs = require('fs')
 const chalk = require('chalk')
+
+
+
+//-----------------------
+// SESSION ID CONECTING 👇🏻
+//-------------------------
+module.exports = {
+SESSION_ID: '' //Put your session id here
+}
+/*
+
+ Other Configurations are down 👇🏻
+
+
+*/
 //---------------------------------
 // Only use true/false
 //---------------------------------
