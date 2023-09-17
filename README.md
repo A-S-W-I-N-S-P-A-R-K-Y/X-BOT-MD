@@ -44,7 +44,7 @@
 
 3. Importing Problem ( Then try this method )
     <br>
-<a href='https://replit.com/@ruemods/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
+<a href='soon' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
 
 * Now fork it and enjoy 🗿🙌🏻
 <br>
