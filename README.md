@@ -1,7 +1,7 @@
 <p align="center"> 
       <h1 align="center">X BOT MD MD</h1>
   <a href="https://x-md-qr-elctro-wizard.koyeb.app">
-    <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
+   <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
   </a>
 </p>
    
@@ -42,9 +42,9 @@
     <br>
 <a href='https://replit.com/github/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit'/></a>
 
-3. Importing Problem ( Then try this method )
+3. Importing Problem ? ( Then try this method )
     <br>
-<a href='soon' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
+<a href='https://replit.com/@xmorohhh/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
 
 * Now fork it and enjoy 🗿🙌🏻
 <br>
