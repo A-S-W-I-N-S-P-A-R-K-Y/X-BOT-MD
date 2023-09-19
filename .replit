@@ -1,0 +1,15 @@
+run = "npm i && npm start"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "npm  start"]
+
+[languages]
+
+[languages.bash]
+pattern = "**/{*.sh,*.bash}"
+
+[languages.bash.languageServer]
+start = "bash-language-server start"
