@@ -23,7 +23,6 @@ global.autoRecord = false // Auto recording...(true for on, false for off)
 global.autoread = false // Auto Message read(true for on, false for off)
 global.alwaysonline = true // Always Online(true for on, false for off)
 global.statusread = true // Auto status read 🗿🖐🏻(true for on, false for off)
-global.worktype = 'private' // worktype
 global.private = true // worktype(true for private, false for public)
 global.autoreact = false // Auto react ( verum myra aah 🤣🙌🏻 )
 global.autodlyt = false // Auto YouTube video downloader(true for on, false for off)
@@ -57,4 +56,4 @@ global.url = 'https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' // mention url
 global.IMGBB_KEY = ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"]
 global.reactemoji = ['😨','😅','😂','😳','😎', '🥵', '😱', '🐦', '🙄', '🐤','🗿','🐦','🤨','🥴','😐','👆','😔', '👀','👎','🔥','💦','✂️','🍭'] // auto react emoji
 global.sparky = ['☆','✼','　 ҉ ','❏','🍭','△'] // menu design's 
-
+global.worktype = 'X BOT MD MODE' // Dont edit it 💉✨
