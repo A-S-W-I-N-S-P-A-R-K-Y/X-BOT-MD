@@ -16,7 +16,7 @@
     "@develoka/angka-terbilang-js": "^1.4.2",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@toxickichux/fancytext": "^1.0.3",
-    "@sampandey001/baileys": "latest",
+    "@whiskeysockets/baileys": "^6.4.1",
     "acrcloud": "^1.4.0",
     "awesome-phonenumber": "^2.54.0",
     "axios": "^0.24.0",
