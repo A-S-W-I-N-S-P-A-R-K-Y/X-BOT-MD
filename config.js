@@ -27,7 +27,7 @@ global.private = true // worktype(true for private, false for public)
 global.autoreact = false // Auto react ( verum myra aah 🤣🙌🏻 )
 global.autodlyt = false // Auto YouTube video downloader(true for on, false for off)
 global.largethumb = "true" // for large thumbnail 
-global.version = "1.1.1"
+global.version = "1.5.0"
 //---------------------------------
 // Required variables
 //---------------------------------
@@ -37,6 +37,8 @@ global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
 global.thumb = "https://i.imgur.com/IIHEyLI.jpg" // bot image overall
 global.ownernumber = ["917012984396","917594898804","919961857267"] //SODO / OWNER NUMBER
 global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ x-ʙᴏᴛ-ᴍᴅ*_" // Caption 
+global.packname = `X-BOT-MD` //sticker pack
+global.author = "TEAM EX-BOT-Z 🗿" //sticker name
 //---------------------------------
 // Owner Mention Audio
 //---------------------------------
