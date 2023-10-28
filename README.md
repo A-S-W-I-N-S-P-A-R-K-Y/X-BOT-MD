@@ -28,7 +28,7 @@
 
 ### SCAN QR
 
-2. Scan the QR and get the creds
+2. Scan the QR and get the SESSION ID
    <br>
 <a href='https://bit.ly/Scansessionid' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
