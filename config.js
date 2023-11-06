@@ -7,7 +7,7 @@ const chalk = require('chalk')
 // SESSION ID CONECTING 👇🏻
 //-------------------------
 module.exports = {
-SESSION_ID: '', //Put your session id here
+SESSION_ID: 'X-BOT-MD:RacingBeeper', //Put your session id here
 ALIVE: `HELLO I AM ALIVE`
 }
 /*
@@ -36,23 +36,23 @@ global.prefix = "." // use "" for removing prefix
 global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
 global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
 global.thumb = "https://i.imgur.com/IIHEyLI.jpg" // bot image overall
-global.ownernumber = ["917012984396","917594898804","919961857267"] //SODO / OWNER NUMBER
-global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ x-ʙᴏᴛ-ᴍᴅ*_" // Caption 
-global.packname = `X-BOT-MD` //sticker pack
-global.author = "TEAM EX-BOT-Z 🗿" //sticker name
+global.ownernumber = ["923036971399","923070496021"] //SODO / OWNER NUMBER
+global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ sufyan*_" // Caption 
+global.packname =Sufyan jan//sticker pack
+global.author = " sufyan" //sticker name
 //---------------------------------
 // Owner Mention Audio
 //---------------------------------
 global.ownermention = true // to turn off type false  || turn on type true 👌🏻
-global.mtitle = "X-Bot-Md" // mention tittle
-global.mbody = "TEAM EX BOT-Z" // mention discription 
-global.mthumb = 'https://i.imgur.com/J2x8YMw.jpg' // mention thumbnail 
-global.murl = 'https://instagram.com/aswin_sparky.exe'
+global.mtitle = "Sufyan jan" // mention tittle
+global.mbody = "TEAM VOP" // mention discription 
+global.mthumb = 'https://i.imgur.com/1N0OycJ.jpeg' // mention thumbnail 
+global.murl = 'https://instagram.com/sufyan_jan'
 global.mentionaudio = ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zNWjhDn.mp4","https://i.imgur.com/Ya3325t.mp4","https://i.imgur.com/k4FE9mA.mp4","https://i.imgur.com/X5WGE9W.mp4","https://i.imgur.com/veoDgRH.mp4","https://i.imgur.com/CZ3eJgw.mp4","https://i.imgur.com/6QFiAoM.mp4","https://i.imgur.com/lAbt9ew.mp4"] //mention audios
 //---------------------------------
 // All in One Url ( you can add any url you want )
 //---------------------------------
-global.url = 'https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' // mention url
+global.url = 'https://chat.whatsapp.com/CgqsGKXnEvxCRLnIboXpda' // mention url
 //---------------------------------
 // No need of editing ( Edit aaki oombanda 🗿🖐🏻) kuduthal edit aakiyal kolamm aayum myra 🖐🏻🤣
 //---------------------------------
