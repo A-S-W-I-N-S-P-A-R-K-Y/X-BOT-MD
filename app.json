@@ -1,7 +1,12 @@
 {
 	"name": "X-BOT-MD",
 	"description": "TEAM EX-BOT-Z",
-	
+	"keywords": [
+		"whatsapp",
+		"bot"
+	],
+	"repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
+	"stack": "container",
     "env": { 
         "PREFIX": {
             "description": "Prefix of commands. Can be also false",
