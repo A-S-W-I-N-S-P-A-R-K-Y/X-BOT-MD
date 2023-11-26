@@ -19,19 +19,19 @@
             "value":"true"
         },
         "MENTION": {
-            "description": "Bot will read all messages. Can be also false",
+            "description": "Type true to on mention type false to off mention",
             "required": true,
             "value":"true"
         },
       "MENTION_DATA": {
-            "description": "Bot will read all messages. Can be also false",
-            "required": true,
-            "value":"false"
+            "description": "Enter your mention data here",
+            "required": false,
+            "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/923323963788;https://i.imgur.com/3cMVKBk.jpeg"
         },
       "MENTION_AUDIO": {
-            "description": "Bot will read all messages. Can be also false",
-            "required": true,
-            "value":"https://i.imgur.com/X5WGE9W.mp4"
+            "description": "Enter your mention audio link here",
+            "required": false,
+            "value": "https://i.imgur.com/h0mNy8p.mp4"
         },
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
