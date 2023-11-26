@@ -11,7 +11,7 @@
         "PREFIX": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"."
         },
         "AUTO_STATUS_VIEW": {
             "description": "AUTO STATUS READER",
