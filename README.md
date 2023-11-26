@@ -56,11 +56,11 @@
 
 1. If You don't have a account in Heroku. Create a account.
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/tree/V-2.00' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://heroku.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
 
 2. Now Deploy
     <br>
-<a href='https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/tree/V-2.00' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
 #### DEPLOY ON RAILWAY
 
