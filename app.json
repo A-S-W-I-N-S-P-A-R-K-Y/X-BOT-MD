@@ -16,7 +16,7 @@
         "AUTO_STATUS_VIEW": {
             "description": "AUTO STATUS READER",
             "required": false,
-            "value":"jid,jid"
+            "value":"true"
         },
         "MENTION": {
             "description": "Bot will read all messages. Can be also false",
