@@ -1,0 +1,71 @@
+{
+    "name": "X-BOT-MD",
+    "version":"2.0.0",
+    "description": "X-BOT-MD Advanced WhatsApp Bot",
+    "logo": "",
+    "keywords": ["whatsapp,bot,md,multi-device"],
+    "repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
+    "stack": "container",
+    "env": {
+        "MONGODB_URL": {
+            "description": "Enter Your MONGO BD URI",
+            "required": true
+        },
+      "SESSION_ID": {
+          "description": "Enter Your Session ID",
+          "required": true
+      },
+        "PREFIX": {
+            "description": "Entet Prefix For Commands Enter False To Make No Prefix",
+            "required": true,
+            "value": "."
+        },
+        "SUDO": {
+            "description": "Enter Numbers WIth Country Code Without + Seperate With , To Add More Numbers",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Enter Your Heroku App Name Same As Above You Entered",
+            "required": true
+        },
+        "HEROKU_API_KEY": {
+            "description": "Enter Your Heroku Account Api Key Get It From https://dashboard.heroku.com/account",
+            "required": false
+        },
+        "AUTO_STATUS_VIEW": {
+           "description": "If You Want To Viwe Status Automatically Type true Otherwise Type false",
+           "required": false,
+           "value": "true"
+        },
+      "BOT_INFO": {
+          "description": "Name, image, owner and other details in menu (seperate with comma)",
+          "required": false,
+          "value": "X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://i.imgur.com/3cMVKBk.jpeg"
+      },
+      "STICKER_DATA": {
+          "description": "Name of stickers created using bot. Can also split using ;",
+          "required": false,
+          "value": "X-BOTMD;ASWIN SPARKY"
+      },
+      "MENTION": {
+          "description": "true = on",
+          "required": true,
+          "value": "true"
+      },
+      "MENTION_DATA": {
+          "description": "Enter Your Session ID",
+          "required": true,
+          "value": "X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/923323963788;https://i.imgur.com/3cMVKBk.jpeg"
+      },
+      "MENTION_AUDIO": {
+          "description": "mention audios in []",
+          "required": true,
+          "value": "https://i.imgur.com/zNWjhDn.mp4"
+      },
+      "CAPTION": {
+          "description": "GLOBAL CAPTION",
+          "required": true
+          "value": "X-BOT-MD"
+      }
+    }
+}
