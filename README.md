@@ -106,7 +106,6 @@
     <br>
 <a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
 
----
 
 ## 🗿 Why Should You Use X-BOT-MD as your Base :
 
@@ -123,7 +122,6 @@
 
   </details> 
     
----
 
 #### Thanks To
 
