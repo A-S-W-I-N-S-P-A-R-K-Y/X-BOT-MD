@@ -1,5 +1,5 @@
-build: 
-  docker: 
+build:
+  docker:
       worker: Dockerfile
 run:
-   web: forever index.js
+   worker: npm start
