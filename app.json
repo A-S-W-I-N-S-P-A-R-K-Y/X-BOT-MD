@@ -33,11 +33,6 @@
             "required": false,
             "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/923323963788;https://i.imgur.com/3cMVKBk.jpeg"
         },
-      "MENTION_AUDIO": {
-            "description": "Enter your mention audio link here",
-            "required": false,
-            "value": "https://i.imgur.com/h0mNy8p.mp4"
-        },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
@@ -51,7 +46,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"91702984396"
+            "value":""
         },
        "SESSION_ID": {
             "description": "Your MD session",
