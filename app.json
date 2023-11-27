@@ -8,6 +8,11 @@
 	"repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
 	"stack": "container",
     "env": { 
+	    "MONGODB_URL": {
+            "description": "use your mongo db uri",
+            "required": true,
+            "value":""
+        },
         "PREFIX": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
