@@ -31,7 +31,7 @@
       "MENTION_DATA": {
             "description": "Enter your mention data here",
             "required": false,
-            "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/923323963788;https://i.imgur.com/3cMVKBk.jpeg"
+            "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/917012984396;https://i.imgur.com/3cMVKBk.jpeg"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
