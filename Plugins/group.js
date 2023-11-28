@@ -13,8 +13,6 @@ const {
   delGroupChatbot,
 } = require("../lib/MongoDB/MONGO_VEDI");
 let mergedCommands = [
-  "admins",
-  "admin",
   "setgcname",
   "delete",
   "antilink",
@@ -45,7 +43,6 @@ module.exports = {
   name: "groupanagement",
   alias: [...mergedCommands],
   uniquecommands: [
-    "admins",
     "setgcname",
     "delete",
     "demote",
@@ -134,22 +131,7 @@ async function generateProfilePicture(buffer) {
     preview: await cropped.normalize().getBufferAsync(Jimp.MIME_JPEG),
   };
 }
-      case "admins":
-      case "admin":
-        if (!isMedia) {
-          message = m.quoted ? m.quoted.msg : "『 *Attention Admins* 』";
-        } else {
-          message =
-            "『 *Attention Admins* 』\n\n*🎀 Message:* Check this Out !";
-        }
-        await doReact("🏅");
-        Xbot.sendMessage(
-          m.from,
-          { text: message, mentions: groupAdmin },
-          { quoted: m }
-        );
-        break;
-
+     
       case "setgcname":
         if (!isAdmin) {
           await doReact("❌");
