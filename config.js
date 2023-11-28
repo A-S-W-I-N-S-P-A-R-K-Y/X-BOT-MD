@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-global.owner = process.env.SUDO || ["917012984396","917594898804","919656459062"];
+global.owner = process.env.SUDO || ["917012984396","917594898804"];
 
 module.exports = {
   mongodb: process.env.MONGODB_URL || "",
