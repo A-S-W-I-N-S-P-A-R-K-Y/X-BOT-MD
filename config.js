@@ -1,7 +1,6 @@
 require("dotenv").config();
-
-global.owner = process.env.SUDO || ["917012984396","917594898804"];
-
+let gg = process.env.SUDO;
+global.owner = gg.split(",");
 module.exports = {
   mongodb: process.env.MONGODB_URL || "",
   BOT_INFO: process.env.BOT_INFO || "X-BOT-MD;Aswin Sparky;https://graph.org/file/9b477aaa6b90bbb46e4be.mp4;https://i.imgur.com/MsNQ8wf.jpg",
