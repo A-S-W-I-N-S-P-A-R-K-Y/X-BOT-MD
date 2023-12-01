@@ -31,7 +31,12 @@
       "MENTION_DATA": {
             "description": "Enter your mention data here",
             "required": false,
-            "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/917012984396;https://i.imgur.com/3cMVKBk.jpeg"
+            "value":"X-BOT-MD;ASWIN SPARKY;https://wa.me/917012984396;https://i.imgur.com/3cMVKBk.jpeg"
+        },
+	    "MENTION_AUDIO": {
+            "description": "Enter your mention audio by spliting comma ,",
+            "required": false,
+            "value":"https://i.imgur.com/Lc1Yj7t.mp4"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
@@ -41,14 +46,17 @@
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"X-BOT-MD;Aswin Sparky;https://graph.org/file/9b477aaa6b90bbb46e4be.mp4;https://i.imgur.com/MsNQ8wf.jpg"
+            "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/XJ0D4Tq.mp4;https://i.imgur.com/MsNQ8wf.jpg"
         },
        "SESSION_ID": {
             "description": "Your MD session",
-            "required": true
-             
-        }
-    },
+            "required": true    
+        },
+	"SUDO": {
+            "description": "These numbers can control your bot. seperate with commas",
+            "required": false,
+            "value":"91702984396"
+    }
     "buildpacks": [
         {
             "url": "heroku/nodejs"
