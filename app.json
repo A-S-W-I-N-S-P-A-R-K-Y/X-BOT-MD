@@ -33,6 +33,11 @@
             "required": false,
             "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/917012984396;https://i.imgur.com/3cMVKBk.jpeg"
         },
+	    "MENTION_AUDIO": {
+            "description": "Enter your mention audio link here",
+            "required": false,
+            "value": "https://i.imgur.com/Lc1Yj7t.mp4"
+        },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
