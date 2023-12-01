@@ -48,6 +48,11 @@
             "required": true,
             "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/XJ0D4Tq.mp4;https://i.imgur.com/MsNQ8wf.jpg"
         },
+	    "SUDO": {
+            "description": "These numbers can control your bot. seperate with commas",
+            "required": false,
+            "value":"91702984396"
+        },
        "SESSION_ID": {
             "description": "Your MD session",
             "required": true
