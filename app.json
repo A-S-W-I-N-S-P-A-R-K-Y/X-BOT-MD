@@ -41,7 +41,7 @@
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"X-BOT-MD;Aswin Sparky;https://graph.org/file/9b477aaa6b90bbb46e4be.mp4;https://i.imgur.com/MsNQ8wf.jpg"
+            "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/XJ0D4Tq.mp4;https://i.imgur.com/MsNQ8wf.jpg"
         },
        "SESSION_ID": {
             "description": "Your MD session",
