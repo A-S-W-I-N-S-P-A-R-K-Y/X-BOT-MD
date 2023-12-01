@@ -50,8 +50,14 @@
         },
        "SESSION_ID": {
             "description": "Your MD session",
-            "required": true    
-        }
+            "required": true 
+	
+        },
+	"SUDO": {
+            "description": "These numbers can control your bot. seperate with commas",
+            "required": false,
+            "value":"94774490525"
+    },
     "buildpacks": [
         {
             "url": "heroku/nodejs"
