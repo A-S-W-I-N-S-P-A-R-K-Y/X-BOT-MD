@@ -56,7 +56,7 @@
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
             "value":"91702984396"
-    }
+    },
     "buildpacks": [
         {
             "url": "heroku/nodejs"
