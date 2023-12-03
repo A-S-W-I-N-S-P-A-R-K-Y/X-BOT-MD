@@ -51,7 +51,7 @@
 	    "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"91702984396"
+            "value":"917012984396"
         },
        "SESSION_ID": {
             "description": "Your MD session",
