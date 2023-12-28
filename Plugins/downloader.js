@@ -1,1 +1,123 @@
-function _0x1d67(){var _0x285cda=['*_Need\x20query_*','type','*_Need\x20url_*','https://vihangayt.me/download/spotify?url=','link','6qvfmrL','download','axios','audio/mpeg','CAPTION','https://vihangayt.me/download/instagram?url=','*_Need\x20\x20url!_*','song','url','113142eyFOuU','https://vihangayt.me/download/mediafire?url=','All\x20file\x20dowloader\x20commands','*_Need\x20\x20text!_*','application/vnd.android.package-archive','*_Need\x20instagram\x20post\x20url!_*','7JhTerC','title','https://vihangayt.me/download/gdrive?url=','mediafire','get','Downloading\x20','405762HJoaLe','from','230725LyANgH','xdl','yt360','apk','result','spotify','_*Need\x20video\x20url*_','json','data','gdrive','1067ffclNY','sendMessage','reply','_*Downloading\x20','downloadUrl','image','1092795QhRrvM','https://raganork.tk/api/xvideos/download?url=','8TBHgrq','fileName','25850YQofNV','name','332396aMtPAv','https://vihangayt.me/download/ytmp4?url=','*_Need\x20video\x20post\x20url!_*','drive','dllink','insta','https://api-viper-x.koyeb.app/api/song?name=','120627feLEiC','yt720','yta','_*Need\x20yt\x20url*_','exports','https://vihangayt.me/download/apk?id='];_0x1d67=function(){return _0x285cda;};return _0x1d67();}var _0x110a52=_0x7ad3;(function(_0x24a6e4,_0x2f5136){var _0xa86124=_0x7ad3,_0x4c7148=_0x24a6e4();while(!![]){try{var _0x5c4ebf=parseInt(_0xa86124(0x20f))/0x1+-parseInt(_0xa86124(0x20d))/0x2+parseInt(_0xa86124(0x1f8))/0x3*(parseInt(_0xa86124(0x225))/0x4)+parseInt(_0xa86124(0x21f))/0x5+parseInt(_0xa86124(0x201))/0x6*(-parseInt(_0xa86124(0x207))/0x7)+-parseInt(_0xa86124(0x221))/0x8*(parseInt(_0xa86124(0x1ed))/0x9)+-parseInt(_0xa86124(0x223))/0xa*(parseInt(_0xa86124(0x219))/0xb);if(_0x5c4ebf===_0x2f5136)break;else _0x4c7148['push'](_0x4c7148['shift']());}catch(_0x23eab1){_0x4c7148['push'](_0x4c7148['shift']());}}}(_0x1d67,0x1fa3c));const axios=require(_0x110a52(0x1fa)),fetch=require('node-fetch'),X=require('../config');function _0x7ad3(_0xfcd302,_0x3da91b){var _0x1d67ac=_0x1d67();return _0x7ad3=function(_0x7ad349,_0x15387e){_0x7ad349=_0x7ad349-0x1e8;var _0x41ca7d=_0x1d67ac[_0x7ad349];return _0x41ca7d;},_0x7ad3(_0xfcd302,_0x3da91b);}let mergedCommands=[_0x110a52(0x1ff),_0x110a52(0x1eb),'yt360','yt720',_0x110a52(0x218),_0x110a52(0x212),_0x110a52(0x20a),_0x110a52(0x210),_0x110a52(0x214)];module[_0x110a52(0x1f1)]={'name':'downloader','alias':[...mergedCommands],'uniquecommands':[_0x110a52(0x1ff),'insta','gdrive',_0x110a52(0x212),_0x110a52(0x20a),'yt360','yt720',_0x110a52(0x210),_0x110a52(0x214)],'description':_0x110a52(0x203),'start':async(_0x4258c5,_0x5a589c,{inputCMD:_0x57cc75,text:_0x17d442,doReact:_0x416182,prefix:_0x498426,pushName:_0x3e550b})=>{var _0x38efaf=_0x110a52;switch(_0x57cc75){case'song':if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)]('*_Need\x20text_*');await _0x416182('🔅');const _0x52d67d=await axios[_0x38efaf(0x20b)](_0x38efaf(0x1ec)+_0x17d442);let _0x1ef46a=await _0x52d67d[_0x38efaf(0x217)];const _0x417e6d=await(await fetch(''+_0x1ef46a['data'][_0x38efaf(0x21d)]))['buffer']();_0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x21c)+_0x1ef46a['data']['title']+'*_'),_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'audio':_0x417e6d,'mimetype':_0x38efaf(0x1fb)},{'quoted':_0x5a589c}),await _0x416182('🎶');break;case _0x38efaf(0x1eb):case'instagram':if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x206));await _0x416182('🔪');var _0x59d45b=await fetch(_0x38efaf(0x1fd)+_0x17d442),_0xff99ae=await _0x59d45b[_0x38efaf(0x216)]();_0xff99ae[_0x38efaf(0x217)]['data'][0x0][_0x38efaf(0x1f4)]=='video'&&_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'video':{'url':_0xff99ae['data'][_0x38efaf(0x217)][0x0][_0x38efaf(0x200)]},'caption':X[_0x38efaf(0x1fc)]},{'quoted':_0x5a589c});_0xff99ae[_0x38efaf(0x217)]['data'][0x0][_0x38efaf(0x1f4)]==_0x38efaf(0x21e)&&_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'image':{'url':_0xff99ae['data']['data'][0x0][_0x38efaf(0x200)]},'caption':X[_0x38efaf(0x1fc)]},{'quoted':_0x5a589c});break;case _0x38efaf(0x218):case _0x38efaf(0x1e9):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)]('*_Need\x20\x20url!_*');await _0x416182('🔪');var _0x443163=await fetch(_0x38efaf(0x209)+_0x17d442),_0x7d90f=await _0x443163[_0x38efaf(0x216)]();_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'document':{'url':_0x7d90f[_0x38efaf(0x217)]['downloadUrl']},'fileName':''+_0x7d90f['data'][_0x38efaf(0x222)],'mimetype':'application/x-zip-compressed'},{'quoted':_0x5a589c});break;case _0x38efaf(0x20a):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x1fe));await _0x416182('🔪');var _0x443163=await fetch(_0x38efaf(0x202)+_0x17d442),_0x7d90f=await _0x443163[_0x38efaf(0x216)]();_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'document':{'url':_0x7d90f[_0x38efaf(0x217)][_0x38efaf(0x1f7)]},'fileName':''+_0x7d90f[_0x38efaf(0x217)][_0x38efaf(0x224)],'mimetype':'application/zip'},{'quoted':_0x5a589c});break;case _0x38efaf(0x212):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x204));await _0x416182('🔪');var _0x443163=await fetch(_0x38efaf(0x1f2)+_0x17d442),_0x7d90f=await _0x443163[_0x38efaf(0x216)]();_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'document':{'url':_0x7d90f['data'][_0x38efaf(0x1ea)]},'fileName':''+_0x7d90f[_0x38efaf(0x217)]['name'],'mimetype':_0x38efaf(0x205)},{'quoted':_0x5a589c});break;case _0x38efaf(0x211):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x1e8));await _0x416182('🔪');var _0x5ef8f1=await fetch(_0x38efaf(0x226)+_0x17d442),_0x5cef70=await _0x5ef8f1[_0x38efaf(0x216)]();_0x4258c5['sendMessage'](_0x5a589c['from'],{'video':{'url':_0x5cef70['data']['vid_360p']},'caption':'*'+_0x5cef70['data'][_0x38efaf(0x208)]+'*'},{'quoted':_0x5a589c});break;case _0x38efaf(0x214):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x1f5));await _0x416182('🎼');var _0x199d49=await fetch(_0x38efaf(0x1f6)+_0x17d442),_0x430737=await _0x199d49[_0x38efaf(0x216)]();_0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x20c)+_0x430737[_0x38efaf(0x217)][_0x38efaf(0x208)]+'...'),_0x4258c5['sendMessage'](_0x5a589c[_0x38efaf(0x20e)],{'audio':{'url':_0x430737['data'][_0x38efaf(0x200)]},'mimetype':_0x38efaf(0x1fb)},{'quoted':_0x5a589c});break;case _0x38efaf(0x1ee):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x215));var _0x5ef8f1=await fetch(_0x38efaf(0x226)+_0x17d442),_0x5cef70=await _0x5ef8f1[_0x38efaf(0x216)]();_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'video':{'url':_0x5cef70['data']['vid_720p']},'caption':'_*'+_0x5cef70[_0x38efaf(0x217)]['title']+'*_'},{'quoted':_0x5a589c});break;case _0x38efaf(0x1ef):if(!_0x17d442)return _0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'text':_0x38efaf(0x1f0)});var _0x4c958b=await fetch('https://api.xfarr.com/api/download/ytaudio?apikey=rty68kAvnd&url='+_0x17d442),_0x5cef70=await _0x4c958b['json']();_0x4258c5['sendMessage'](_0x5a589c[_0x38efaf(0x20e)],{'audio':{'url':_0x5cef70['result'][_0x38efaf(0x1f9)][0x0][_0x38efaf(0x200)]},'caption':'_*'+_0x5cef70[_0x38efaf(0x213)][_0x38efaf(0x208)]+'*_','mimetype':_0x38efaf(0x1fb),'ptt':![]},{'quoted':_0x5a589c});break;case _0x38efaf(0x210):if(!_0x17d442)return _0x5a589c[_0x38efaf(0x21b)](_0x38efaf(0x1f3));await _0x416182('💦');var _0x199d49=await fetch(_0x38efaf(0x220)+_0x17d442),_0x430737=await _0x199d49[_0x38efaf(0x216)]();_0x4258c5[_0x38efaf(0x21a)](_0x5a589c[_0x38efaf(0x20e)],{'video':{'url':_0x430737['url']},'caption':X[_0x38efaf(0x1fc)]},{'quoted':_0x5a589c});break;}}};
+const axios = require("axios");
+const fetch = require("node-fetch")
+const X = require('../config');
+let mergedCommands = [
+  "song",
+        "insta",
+        "yt360",
+        "yt720",
+        "gdrive",
+        "apk",
+        "mediafire",
+        "xdl",
+        "spotify",
+];
+
+module.exports = {
+  name: "downloader",
+  alias: [...mergedCommands],
+  uniquecommands: ["song","insta","gdrive","apk","mediafire","yt360","yt720","xdl","spotify"],
+  description: "All file dowloader commands",
+  start: async (Xbot, m, { inputCMD, text, doReact, prefix, pushName }) => {
+    switch (inputCMD) {
+//song------------------------------------------------------------------------------------------------
+        case "song" :
+           if (!text)return m.reply(`*_Need text_*`)
+       await doReact("🔅") 
+        const res = await axios.get(`https://api-viper-x0.vercel.app/api/song?name=${text}`)
+        let response = await res.data
+        const aud = await (await fetch(`${response.data.downloadUrl}`)).buffer()
+        m.reply(`_*Downloading ${response.data.title}*_`)
+
+      Xbot.sendMessage(m.from , {audio : aud , mimetype : 'audio/mpeg'} , { quoted : m })
+        await doReact("🎶")
+        break
+// INSTA----------------------------------------------------------------------------------------------
+        case 'insta': case  'instagram' : 
+        if (!text)return m.reply(`*_Need instagram post url!_*`)
+        await doReact("🔪") 
+        var ig = await fetch(`https://vihangayt.me/download/instagram?url=${text}`);
+        var igdl = await ig.json();
+        //let type = igdl.data.data[0].type === "video" ? "image" 
+        if (igdl.data.data[0].type == "video"){
+        Xbot.sendMessage(m.from, { video : { url: igdl.data.data[0].url }, caption:X.CAPTION}, {quoted: m })
+        }
+              if (igdl.data.data[0].type == "image"){
+        Xbot.sendMessage(m.from, { image : { url: igdl.data.data[0].url }, caption:X.CAPTION}, {quoted: m })
+              }
+
+              break
+//gdrive---------------------------------------------------------------------------------------------------------------
+        case 'gdrive'  :
+      case 'drive' :
+        if (!text)return m.reply(`*_Need  url!_*`)
+        await doReact("🔪");
+        var document= await fetch(`https://vihangayt.me/download/gdrive?url=${text}`);
+        var zip = await document.json();
+
+        Xbot.sendMessage(m.from, { document :{ url: zip.data.downloadUrl }, fileName: `${zip.data.fileName}` , mimetype: "application/x-zip-compressed" }, {quoted: m })
+                   break 
+//mediafire-----------------------------------------------------------------------------------------------------------------
+        case 'mediafire'  :
+        if (!text)return m.reply(`*_Need  url!_*`)
+        await doReact("🔪");
+        var document= await fetch(`https://vihangayt.me/download/mediafire?url=${text}`);
+        var zip = await document.json();
+
+        Xbot.sendMessage(m.from, { document :{ url: zip.data.link }, fileName: `${zip.data.name}` , mimetype: "application/zip" }, {quoted: m })
+                   break 
+//apk-------------------------------------------------------------------------------------------------------------
+        case 'apk' : 
+        if (!text)return m.reply(`*_Need  text!_*`)
+        await doReact("🔪");
+        var document= await fetch(`https://vihangayt.me/download/apk?id=${text}`);
+        var zip = await document.json();
+
+        Xbot.sendMessage(m.from, { document :{ url: zip.data.dllink }, fileName: `${zip.data.name}` , mimetype: "application/vnd.android.package-archive" }, {quoted: m })
+
+              break
+//yt---------------------------------------------------------------------------------------------------
+        case 'yt360' : 
+        if (!text)return m.reply(`*_Need video post url!_*`)
+        await doReact("🔪");
+        var ytmp4 = await fetch(`https://vihangayt.me/download/ytmp4?url=${text}`);
+        var yt = await ytmp4.json();
+
+        Xbot.sendMessage(m.from, { video :{ url: yt.data.vid_360p }, caption: `*${yt.data.title}*`}, {quoted: m })
+                    break
+//SPOTIFY----------------------------------------------------------------------------------------------------------------
+                    case 'spotify' : 
+        if (!text)return m.reply(`*_Need url_*`)
+        await doReact("🎼");
+        var sex = await fetch(`https://vihangayt.me/download/spotify?url=${text}`);
+        var fek = await sex.json();
+        m.reply(`Downloading ${fek.data.title}...`)
+        Xbot.sendMessage(m.from, { audio :{ url: fek.data.url } , mimetype : 'audio/mpeg' },  {quoted: m })
+                    break
+
+
+//YT720----------------------------------------------------------------------------------------------------------------------
+            case 'yt720' : 
+                    if (!text) return m.reply('_*Need video url*_')
+                    var ytmp4 = await
+                    fetch(`https://vihangayt.me/download/ytmp4?url=${text}`)
+        var yt = await ytmp4.json()
+                    Xbot.sendMessage(m.from,{video:{ url: yt.data.vid_720p}, caption : `_*${yt.data.title}*_`}, {quoted : m})
+                    break
+                    case 'yta' :
+                    if (!text) return Xbot.sendMessage(m.from, { text : '_*Need yt url*_'} )
+                    var ytmp3 = await fetch(`https://api.xfarr.com/api/download/ytaudio?apikey=rty68kAvnd&url=${text}`)
+        var yt = await ytmp3.json()
+                    Xbot.sendMessage(m.from,{ audio :{ url: yt.result.download[0].url }, caption : `_*${yt.result.title}*_`,  mimetype: 'audio/mpeg' , ptt: false } , {quoted : m})
+                    break
+//XVIDEOS DL-----------------------------------------------------------------------------------------------------------------
+        case 'xdl' : 
+        if (!text)return m.reply(`*_Need query_*`)
+        await doReact("💦");
+        var sex = await fetch(`https://raganork.tk/api/xvideos/download?url=${text}`);
+        var fek = await sex.json();
+
+        Xbot.sendMessage(m.from, { video :{ url: fek.url }, caption: X.CAPTION}, {quoted: m })
+                    break
+//-------------------------------------------------------------------------------------------------------------
+    }}}
