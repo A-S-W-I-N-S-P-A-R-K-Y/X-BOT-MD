@@ -111,7 +111,7 @@ module.exports = {
           );
         }
         await doReact("🧩");
-        fileName = text;
+        fileName = text + '.js';
         plugin = isPluginPresent(fileName)
 
         if (!plugin) {
