@@ -31,18 +31,17 @@ module.exports = {
           var url = new URL(text);
         } catch (e) {
           console.log(e);
-          return await client.sendMessage(
+          return await Xbot.sendMessage(
             m.from,
             { text: `Invalid URL !` },
             { quoted: m }
           );
         }
-
         if (url.host === "gist.github.com") {
           url.host = "gist.githubusercontent.com";
-          url = url.toString() + "/raw";
+         url = url.toString() + "/raw";
         } else {
-          url = url.toString();
+         url = url.toString();
         }
         var { body, statusCode } = await got(url);
         if (statusCode == 200) {
