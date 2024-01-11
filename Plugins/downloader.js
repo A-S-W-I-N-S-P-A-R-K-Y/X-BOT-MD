@@ -24,7 +24,7 @@ module.exports = {
         case "song" :
            if (!text)return m.reply(`*_Need text_*`)
        await doReact("🔅") 
-        const res = await axios.get(`https://api-viper.onrender.com/api/song?name=${text}`)
+        const res = await axios.get(`https://api-viper-x0.cyclic.app/api/song?name=${text}`)
         let response = await res.data
         const aud = await (await fetch(`${response.data.downloadUrl}`)).buffer()
         m.reply(`_*Downloading ${response.data.title}*_`)
