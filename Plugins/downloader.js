@@ -114,7 +114,7 @@ module.exports = {
         case 'xdl' : 
         if (!text)return m.reply(`*_Need query_*`)
         await doReact("💦");
-        var sex = await fetch(`https://raganork.tk/api/xvideos/download?url=${text}`);
+        var sex = await fetch(`https://raganork-network.vercel.app/api/xvideos/download?url=${text}`);
         var fek = await sex.json();
 
         Xbot.sendMessage(m.from, { video :{ url: fek.url }, caption: X.CAPTION}, {quoted: m })
