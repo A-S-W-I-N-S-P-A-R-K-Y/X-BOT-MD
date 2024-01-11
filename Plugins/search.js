@@ -210,7 +210,7 @@ module.exports = {
       case "xv" :
         
         if (!text) return m.reply('Enter query!!')
-            var fek = await fetch(`https://raganork.tk/api/xvideos/search?query=${text}`)
+            var fek = await fetch(`https://raganork-network.vercel.app/api/xvideos/search?query=${text}`)
 var data = await fek.json();
         let txt = `xv search results\n\n`;
       
