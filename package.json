@@ -1,6 +1,6 @@
 {
   "name": "X-BOT-MD",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "The future of WhatsApp bots with plugin support.",
   "main": "index.js",
   "scripts": {
