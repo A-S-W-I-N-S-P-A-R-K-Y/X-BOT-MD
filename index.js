@@ -1,1 +1,471 @@
-const _0x309be5=_0x4ae7;(function(_0x3dc9e0,_0x154d10){const _0x27b515=_0x4ae7,_0x303751=_0x3dc9e0();while(!![]){try{const _0x5c4ba5=-parseInt(_0x27b515(0x1c5))/0x1*(parseInt(_0x27b515(0x17a))/0x2)+parseInt(_0x27b515(0x171))/0x3*(-parseInt(_0x27b515(0x1d9))/0x4)+parseInt(_0x27b515(0x1a5))/0x5*(-parseInt(_0x27b515(0x185))/0x6)+-parseInt(_0x27b515(0x1ef))/0x7*(-parseInt(_0x27b515(0x1cb))/0x8)+parseInt(_0x27b515(0x1c8))/0x9*(parseInt(_0x27b515(0x1a9))/0xa)+parseInt(_0x27b515(0x175))/0xb*(parseInt(_0x27b515(0x1f2))/0xc)+parseInt(_0x27b515(0x1c1))/0xd;if(_0x5c4ba5===_0x154d10)break;else _0x303751['push'](_0x303751['shift']());}catch(_0x49b3b8){_0x303751['push'](_0x303751['shift']());}}}(_0x20e4,0x5ac67),require(_0x309be5(0x1e7)));function _0x20e4(){const _0xb13436=['connectionReplaced','readFileSync','keys','Plugins','group-participants.update','image/webp','@whiskeysockets/baileys','mtype','owner','42EbtmbT','packname','writeFileSync','status@broadcast','WRITING\x20SESSION...','./lib/Welcome.js','0@s.whatsapp.net','loggedOut','open','SESSION\x20CREATED\x20SUCCESSFULLY✅','silent','replace','sendPoll','setStatus','verifiedName','axios','utf-8','fromCharCode','stringify','@hapi/boom','timedOut','yellow','Error:','message','mongoose','decodeJid','audio','SESSION_ID','@g.us','close','key','currentVersion','208265ZYyEaW','public','split','greenBright','222490fICHlK','PREFIX','mongodb','getNumber','badSession','sendText','AUTO_STATUS_VIEW','withoutContact','groupMetadata','msg','connectionClosed','status','crypto-js','X-BOT-MD\x20V2','contacts.update','messages.upsert','isBuffer','downloadAndSaveMediaMessage','./lib/whatsapp.js','*_\x0a\x0a_*Version\x20:\x202.00*_','from','name','restartRequired','BAE5','4149730RqXtxp','[\x20X-BOT-MD\x20]\x20Connection\x20Lost\x20from\x20Server,\x20reconnecting...\x0a','existsSync','length','7601DvxeKR','concat','user','189GuTPiw','BOT\x20IS\x20','exit','8iitpXb','international','getFile','error','invalid','./lib/Function2','image','[\x20X-BOT-MD\x20]\x20Device\x20Logged\x20Out,\x20Please\x20Delete\x20Session\x20and\x20Scan\x20Again.\x0a','https://paste.c-net.org/','notify','messages','path','file-type','promises','28004npDDva','statusCode','join','bind','../src/','asDocument','./lib/sticker.js','[\x20X-BOT-MD\x20]\x20Server\x20Restarting...\x0a','@s.whatsapp.net','store','downloadMediaMessage','WhatsApp','output','./X-BOT-MD.js','./config','mimetype','ext','matchAll','ephemeralMessage','fromBuffer','[\x20X-BOT-MD\x20]\x20Connection\x20Timed\x20Out,\x20Trying\x20to\x20Reconnect...\x0a','readMessages','2177798RLDbwm','[\x20X-BOT-MD\x20]\x20Bad\x20Session\x20File,\x20Please\x20Delete\x20Session\x20and\x20Scan\x20Again.\x0a','NO\x20EXTERNAL\x20PLUGINS\x20INSTALLED🧩\x0a','36lQPxRW','express','base64','test','connect','./lib/auth_info_baileys','./lib/MongoDB/MONGO_VEDI.js','log','CHECKING\x20FOR\x20EXTERNAL\x20PLUGINS🧩\x0a','chalk','./lib/server.js','parseMention','alloc','asSticker','application/octet-stream','sendMessage','PORT','child','redBright','categories','unlink','getName','basename','[\x20X-BOT-MD\x20]\x20Server\x20Disconnected:\x20\x22It\x27s\x20either\x20safe\x20disconnect\x20or\x20WhatsApp\x20Account\x20got\x20banned\x20!\x0a\x22','server','subject','123XAofSJ','set','Error\x20connecting\x20to\x20MongoDB📊\x0aPlease\x20check\x20MongoDB\x20URI\x0a','document','1216369WBddPD','video','contacts','[\x20X-BOT-MD\x20]\x20Connection\x20Replaced,\x20Another\x20New\x20Session\x20Opened,\x20Please\x20Close\x20Current\x20Session\x20First!\x0a','Connecting\x20to\x20MongoDB📊\x0a','126mKymyp','figlet'];_0x20e4=function(){return _0xb13436;};return _0x20e4();}const X=require('./config'),{default:xbotConnect,DisconnectReason,fetchLatestBaileysVersion,downloadContentFromMessage,makeInMemoryStore,jidDecode,useMultiFileAuthState}=require(_0x309be5(0x182)),fs=require('fs'),fx=require('fs-extra'),figlet=require(_0x309be5(0x17b)),{join}=require(_0x309be5(0x1d6)),got=require('got'),pino=require('pino'),path=require(_0x309be5(0x1d6)),FileType=require(_0x309be5(0x1d7)),{AUTO_STATUS_VIEW,SUDO}=require(_0x309be5(0x1e7)),{Boom}=require(_0x309be5(0x198)),{serialize,WAConnection}=require(_0x309be5(0x1bb)),{smsg,getBuffer,getSizeMedia}=require(_0x309be5(0x1d0)),express=require(_0x309be5(0x1f3)),app=express(),PORT=X[_0x309be5(0x202)],owner=global['owner'],welcomeLeft=require(_0x309be5(0x18a)),{readcommands,commands}=require('./lib/Plugins.js');function _0x4ae7(_0x3b3a85,_0x2f4099){const _0x20e407=_0x20e4();return _0x4ae7=function(_0x4ae72c,_0x1c422c){_0x4ae72c=_0x4ae72c-0x169;let _0xb1e062=_0x20e407[_0x4ae72c];return _0xb1e062;},_0x4ae7(_0x3b3a85,_0x2f4099);}commands['prefix']=X[_0x309be5(0x1aa)];const mongoose=require(_0x309be5(0x19d)),qrcode=require('qrcode');var CryptoJS=require(_0x309be5(0x1b5));const axios=require(_0x309be5(0x194)),web=require(_0x309be5(0x1fc)),more=String[_0x309be5(0x196)](0x200e),readMore=more['repeat'](0xfa1),{getPluginURLs}=require(_0x309be5(0x1f8)),chalk=require(_0x309be5(0x1fb)),store=makeInMemoryStore({'logger':pino()[_0x309be5(0x203)]({'level':'silent','stream':_0x309be5(0x1e2)})});let QR_GENERATE=_0x309be5(0x1cf),status,cc=X['SESSION_ID']['replace'](/X-BOT-MD:/g,'');async function MakeSession(){const _0x20aafa=_0x309be5;try{console['log'](_0x20aafa(0x189));const {data:_0xf1bca4}=await axios(_0x20aafa(0x1d3)+X[_0x20aafa(0x1a0)][_0x20aafa(0x1a7)](':')[0x1]);await fs[_0x20aafa(0x187)]('./lib/auth_info_baileys/creds.json',JSON[_0x20aafa(0x197)](_0xf1bca4)),console[_0x20aafa(0x1f9)](_0x20aafa(0x18e));}catch(_0x401e2e){console['log'](_0x401e2e);}}MakeSession();const startXbot=async()=>{const _0x331b45=_0x309be5,_0x3f2e41=()=>{const _0xbea095=_0x4ae7;let _0x40858f;try{let _0x344afa=fetchJson('https://web.whatsapp.com/check-update?version=1&platform=web');_0x40858f=[_0x344afa[_0xbea095(0x1a4)]['replace'](/[.]/g,',\x20')];}catch{_0x40858f=[0x2,0x89c,0xd];}return _0x40858f;};try{await mongoose[_0x331b45(0x1f6)](X[_0x331b45(0x1ab)])['then'](()=>{const _0x535775=_0x331b45;console[_0x535775(0x1f9)](chalk[_0x535775(0x1a8)](_0x535775(0x179)));});}catch(_0x1651ae){console[_0x331b45(0x1f9)](chalk[_0x331b45(0x169)](_0x331b45(0x173))),console['log'](_0x1651ae);}const {state:_0x52c906,saveCreds:_0x4bba68,saveState:_0x124a57,clearState:_0x8871c8}=await useMultiFileAuthState(_0x331b45(0x1f7));console[_0x331b45(0x1f9)]('\x0a'),await _0x4772af();const {version:_0x32b0c7,isLatest:_0x163fce}=await fetchLatestBaileysVersion(),_0x328b5c=xbotConnect({'logger':pino({'level':_0x331b45(0x18f)}),'printQRInTerminal':![],'browser':[_0x331b45(0x1b6)],'auth':_0x52c906,'version':_0x32b0c7});store[_0x331b45(0x1dc)](_0x328b5c['ev']),_0x328b5c[_0x331b45(0x1a6)]=!![];async function _0x4772af(){const _0xded27d=_0x331b45;console['log'](chalk[_0xded27d(0x19a)](_0xded27d(0x1fa)));let _0x15fcb1=[];try{_0x15fcb1=await getPluginURLs();}catch(_0x5858ca){console['log'](chalk[_0xded27d(0x169)](_0xded27d(0x173))),console[_0xded27d(0x1f9)](_0x5858ca);}if(!_0x15fcb1[_0xded27d(0x1c4)]||_0x15fcb1[_0xded27d(0x1c4)]==0x0)console[_0xded27d(0x1f9)](chalk[_0xded27d(0x169)](_0xded27d(0x1f1)));else{console['log'](chalk['greenBright'](_0x15fcb1['length']+'INSTALLING\x20EXTERNAL\x20PLUGINS🧩\x0a'));for(let _0x1db675=0x0;_0x1db675<_0x15fcb1[_0xded27d(0x1c4)];_0x1db675++){pluginUrl=_0x15fcb1[_0x1db675];var {body:_0x567557,statusCode:_0xfd12d2}=await got(pluginUrl);if(_0xfd12d2==0xc8)try{var _0x8945ef=_0xded27d(0x17f),_0x21e5f5=path[_0xded27d(0x16d)](pluginUrl),_0x510ae3=path[_0xded27d(0x1db)](_0x8945ef,_0x21e5f5);fs[_0xded27d(0x187)](_0x510ae3,_0x567557);}catch(_0x23645d){console[_0xded27d(0x1f9)](_0xded27d(0x19b),_0x23645d);}}console[_0xded27d(0x1f9)](chalk[_0xded27d(0x1a8)]('PLUGIN\x27S\x20INSTALLED🧩\x0a'));}}await readcommands(),_0x328b5c['ev']['on']('connection.update',async _0xf67048=>{const _0x2f7700=_0x331b45,{lastDisconnect:_0x1e27b6,connection:_0x45345d,qr:_0x5504e9}=_0xf67048;_0x45345d&&console['info'](_0x2f7700(0x1c9)+_0x45345d);if(_0x45345d===_0x2f7700(0x18d)){let _0x352ca1='_*x-ʙᴏᴛ\x20ᴍᴅ\x20ᴄᴏɴɴᴇᴄᴛᴇᴅ*_\x20'+readMore+'\x20\x0a\x0a\x0a_*Auto\x20status\x20read\x20:*_\x20*_'+X[_0x2f7700(0x1af)]+'_*\x0a\x0a_*Always\x20online\x20:\x20false*_\x0a\x0a_*Prefix\x20:\x20'+X[_0x2f7700(0x1aa)]+_0x2f7700(0x1bc);for(let _0x3d4087 of global[_0x2f7700(0x184)]){_0x328b5c[_0x2f7700(0x201)](_0x3d4087+_0x2f7700(0x1e1),{'text':_0x352ca1});}}if(_0x45345d===_0x2f7700(0x1a2)){let _0x39bdc2=new Boom(_0x1e27b6?.[_0x2f7700(0x1ce)])?.[_0x2f7700(0x1e5)][_0x2f7700(0x1da)];if(_0x39bdc2===DisconnectReason[_0x2f7700(0x1ad)])console[_0x2f7700(0x1f9)](_0x2f7700(0x1f0)),process[_0x2f7700(0x1ca)]();else{if(_0x39bdc2===DisconnectReason[_0x2f7700(0x1b3)])console[_0x2f7700(0x1f9)]('[\x20X-BOT-MD\x20]\x20Connection\x20closed,\x20reconnecting....\x0a'),startXbot();else{if(_0x39bdc2===DisconnectReason['connectionLost'])console[_0x2f7700(0x1f9)](_0x2f7700(0x1c2)),startXbot();else{if(_0x39bdc2===DisconnectReason[_0x2f7700(0x17c)])console[_0x2f7700(0x1f9)](_0x2f7700(0x178)),process[_0x2f7700(0x1ca)]();else{if(_0x39bdc2===DisconnectReason[_0x2f7700(0x18c)])_0x8871c8(),console[_0x2f7700(0x1f9)](_0x2f7700(0x1d2)),process[_0x2f7700(0x1ca)]();else{if(_0x39bdc2===DisconnectReason[_0x2f7700(0x1bf)])console[_0x2f7700(0x1f9)](_0x2f7700(0x1e0)),startXbot();else _0x39bdc2===DisconnectReason[_0x2f7700(0x199)]?(console[_0x2f7700(0x1f9)](_0x2f7700(0x1ed)),startXbot()):console[_0x2f7700(0x1f9)](_0x2f7700(0x16e));}}}}}}_0x5504e9&&(QR_GENERATE=_0x5504e9);}),_0x328b5c['ev']['on'](_0x331b45(0x180),async _0x2eab59=>{welcomeLeft(_0x328b5c,_0x2eab59);}),_0x328b5c['ev']['on'](_0x331b45(0x1b8),async _0x4f39a0=>{const _0x568e07=_0x331b45;m=serialize(_0x328b5c,_0x4f39a0[_0x568e07(0x1d5)][0x0]);if(!m['message'])return;m[_0x568e07(0x19c)]=Object[_0x568e07(0x17e)](m[_0x568e07(0x19c)])[0x0]===_0x568e07(0x1eb)?m[_0x568e07(0x19c)]['ephemeralMessage'][_0x568e07(0x19c)]:m[_0x568e07(0x19c)];m[_0x568e07(0x1a3)]&&m[_0x568e07(0x1a3)]['remoteJid']===_0x568e07(0x188)&&(X[_0x568e07(0x1af)]&&_0x328b5c[_0x568e07(0x1ee)]([m[_0x568e07(0x1a3)]]));if(m[_0x568e07(0x1a3)]['id']['startsWith'](_0x568e07(0x1c0))&&m['key']['id'][_0x568e07(0x1c4)]==0x10)return;require(_0x568e07(0x1e6))(_0x328b5c,m,commands,_0x4f39a0);}),_0x328b5c[_0x331b45(0x16c)]=(_0x3748a9,_0x2ad838=![])=>{const _0x2eab64=_0x331b45;id=_0x328b5c[_0x2eab64(0x19e)](_0x3748a9),_0x2ad838=_0x328b5c[_0x2eab64(0x1b0)]||_0x2ad838;let _0x538fb2;if(id['endsWith'](_0x2eab64(0x1a1)))return new Promise(async _0x25619b=>{const _0x35b7ea=_0x2eab64;_0x538fb2=store[_0x35b7ea(0x177)][id]||{};if(!(_0x538fb2[_0x35b7ea(0x1be)]||_0x538fb2[_0x35b7ea(0x170)]))_0x538fb2=_0x328b5c[_0x35b7ea(0x1b1)](id)||{};_0x25619b(_0x538fb2['name']||_0x538fb2['subject']||PhoneNumber('+'+id[_0x35b7ea(0x190)](_0x35b7ea(0x1e1),''))[_0x35b7ea(0x1ac)]('international'));});else _0x538fb2=id===_0x2eab64(0x18b)?{'id':id,'name':_0x2eab64(0x1e4)}:id===_0x328b5c['decodeJid'](_0x328b5c[_0x2eab64(0x1c7)]['id'])?_0x328b5c[_0x2eab64(0x1c7)]:store[_0x2eab64(0x177)][id]||{};return(_0x2ad838?'':_0x538fb2['name'])||_0x538fb2[_0x2eab64(0x170)]||_0x538fb2[_0x2eab64(0x193)]||PhoneNumber('+'+_0x3748a9[_0x2eab64(0x190)]('@s.whatsapp.net',''))['getNumber'](_0x2eab64(0x1cc));},_0x328b5c[_0x331b45(0x19e)]=_0xe475d8=>{const _0x1a2002=_0x331b45;if(!_0xe475d8)return _0xe475d8;if(/:\d+@/gi[_0x1a2002(0x1f5)](_0xe475d8)){let _0x12948a=jidDecode(_0xe475d8)||{};return _0x12948a[_0x1a2002(0x1c7)]&&_0x12948a[_0x1a2002(0x16f)]&&_0x12948a['user']+'@'+_0x12948a['server']||_0xe475d8;}else return _0xe475d8;},_0x328b5c['ev']['on'](_0x331b45(0x1b7),_0x14e20e=>{const _0x2b7359=_0x331b45;for(let _0x159c34 of _0x14e20e){let _0x35cc85=_0x328b5c[_0x2b7359(0x19e)](_0x159c34['id']);if(store&&store[_0x2b7359(0x177)])store[_0x2b7359(0x177)][_0x35cc85]={'id':_0x35cc85,'name':_0x159c34[_0x2b7359(0x1d4)]};}}),_0x328b5c[_0x331b45(0x1ba)]=async(_0x3a1d67,_0xca6e2e,_0x5b1903=!![])=>{const _0x3269c2=_0x331b45;let _0x12ef91=_0x3a1d67[_0x3269c2(0x1b2)]?_0x3a1d67['msg']:_0x3a1d67,_0x4bb23b=(_0x3a1d67[_0x3269c2(0x1b2)]||_0x3a1d67)[_0x3269c2(0x1e8)]||'',_0x1868bc=_0x3a1d67[_0x3269c2(0x183)]?_0x3a1d67[_0x3269c2(0x183)][_0x3269c2(0x190)](/Message/gi,''):_0x4bb23b[_0x3269c2(0x1a7)]('/')[0x0];const _0x1289df=await downloadContentFromMessage(_0x12ef91,_0x1868bc);let _0x268f44=Buffer['from']([]);for await(const _0x351c92 of _0x1289df){_0x268f44=Buffer[_0x3269c2(0x1c6)]([_0x268f44,_0x351c92]);}let _0x3e0a91=await FileType['fromBuffer'](_0x268f44);return trueFileName=_0x5b1903?_0xca6e2e+'.'+_0x3e0a91[_0x3269c2(0x1e9)]:_0xca6e2e,await fs[_0x3269c2(0x187)](trueFileName,_0x268f44),trueFileName;},_0x328b5c[_0x331b45(0x191)]=(_0x5d4f06,_0x150524='',_0x4c6d9e=[],_0x4b59cf=0x1)=>{const _0x1252b3=_0x331b45;return _0x328b5c[_0x1252b3(0x201)](_0x5d4f06,{'poll':{'name':_0x150524,'values':_0x4c6d9e,'selectableCount':_0x4b59cf}});},_0x328b5c[_0x331b45(0x1e3)]=async _0x11f3dd=>{const _0x62d1bc=_0x331b45;let _0x30f59e=(_0x11f3dd[_0x62d1bc(0x1b2)]||_0x11f3dd)[_0x62d1bc(0x1e8)]||'',_0x47b5f8=_0x11f3dd[_0x62d1bc(0x183)]?_0x11f3dd[_0x62d1bc(0x183)][_0x62d1bc(0x190)](/Message/gi,''):_0x30f59e['split']('/')[0x0];const _0x4856a8=await downloadContentFromMessage(_0x11f3dd,_0x47b5f8);let _0x99a506=Buffer[_0x62d1bc(0x1bd)]([]);for await(const _0x2cd646 of _0x4856a8){_0x99a506=Buffer[_0x62d1bc(0x1c6)]([_0x99a506,_0x2cd646]);}return _0x99a506;},_0x328b5c[_0x331b45(0x1fd)]=async _0x2d0833=>{const _0xbc267=_0x331b45;return[..._0x2d0833[_0xbc267(0x1ea)](/@([0-9]{5,16}|0)/g)]['map'](_0x47856a=>_0x47856a[0x1]+_0xbc267(0x1e1));},_0x328b5c[_0x331b45(0x1ae)]=(_0x15bd07,_0x228cd6,_0x474535='',_0x1fe38b)=>_0x328b5c['sendMessage'](_0x15bd07,{'text':_0x228cd6,..._0x1fe38b},{'quoted':_0x474535}),_0x328b5c[_0x331b45(0x1cd)]=async(_0x431979,_0x304bc4)=>{const _0x33885f=_0x331b45;let _0x1e87f2,_0x3916b0=Buffer[_0x33885f(0x1b9)](_0x431979)?_0x431979:/^data:.*?\/.*?;base64,/i[_0x33885f(0x1f5)](_0x431979)?Buffer[_0x33885f(0x1bd)](_0x431979[_0x33885f(0x1a7)]`,`[0x1],_0x33885f(0x1f4)):/^https?:\/\//[_0x33885f(0x1f5)](_0x431979)?await(_0x1e87f2=await getBuffer(_0x431979)):fs[_0x33885f(0x1c3)](_0x431979)?(filename=_0x431979,fs[_0x33885f(0x17d)](_0x431979)):typeof _0x431979==='string'?_0x431979:Buffer[_0x33885f(0x1fe)](0x0),_0x403d4a=await FileType[_0x33885f(0x1ec)](_0x3916b0)||{'mime':_0x33885f(0x200),'ext':'.bin'};filename=path[_0x33885f(0x1db)](__filename,_0x33885f(0x1dd)+new Date()*0x1+'.'+_0x403d4a[_0x33885f(0x1e9)]);if(_0x3916b0&&_0x304bc4)fs[_0x33885f(0x1d8)]['writeFile'](filename,_0x3916b0);return{'res':_0x1e87f2,'filename':filename,'size':await getSizeMedia(_0x3916b0),..._0x403d4a,'data':_0x3916b0};},_0x328b5c[_0x331b45(0x192)]=_0x37018b=>{const _0x2d8983=_0x331b45;return _0x328b5c['query']({'tag':'iq','attrs':{'to':_0x2d8983(0x1e1),'type':_0x2d8983(0x172),'xmlns':'status'},'content':[{'tag':_0x2d8983(0x1b4),'attrs':{},'content':Buffer['from'](_0x37018b,_0x2d8983(0x195))}]}),_0x37018b;},_0x328b5c['sendFile']=async(_0x567a5a,_0x504367,_0x5dfcec,_0xc1f50b={},_0x5af41d={})=>{const _0x3280b3=_0x331b45;let _0x18f570=await _0x328b5c[_0x3280b3(0x1cd)](_0x504367,!![]),{filename:_0x4cd167,size:_0x2d97bd,ext:_0x2472ea,mime:_0x1a3ce4,data:_0x134c6c}=_0x18f570,_0x4d46cc='',_0x1466c3=_0x1a3ce4,_0x3c9dd5=_0x4cd167;if(_0x5af41d[_0x3280b3(0x1de)])_0x4d46cc=_0x3280b3(0x174);if(_0x5af41d[_0x3280b3(0x1ff)]||/webp/[_0x3280b3(0x1f5)](_0x1a3ce4)){let {writeExif:_0x35b89a}=require(_0x3280b3(0x1df)),_0x48daf5={'mimetype':_0x1a3ce4,'data':_0x134c6c};_0x3c9dd5=await _0x35b89a(_0x48daf5,{'packname':global['packname'],'author':global[_0x3280b3(0x186)],'categories':_0x5af41d['categories']?_0x5af41d[_0x3280b3(0x16a)]:[]}),await fs[_0x3280b3(0x1d8)][_0x3280b3(0x16b)](_0x4cd167),_0x4d46cc='sticker',_0x1466c3=_0x3280b3(0x181);}else{if(/image/[_0x3280b3(0x1f5)](_0x1a3ce4))_0x4d46cc=_0x3280b3(0x1d1);else{if(/video/[_0x3280b3(0x1f5)](_0x1a3ce4))_0x4d46cc=_0x3280b3(0x176);else{if(/audio/[_0x3280b3(0x1f5)](_0x1a3ce4))_0x4d46cc=_0x3280b3(0x19f);else _0x4d46cc=_0x3280b3(0x174);}}}return await _0x328b5c[_0x3280b3(0x201)](_0x567a5a,{[_0x4d46cc]:{'url':_0x3c9dd5},'mimetype':_0x1466c3,'fileName':_0x5dfcec,..._0x5af41d},{'quoted':_0xc1f50b,..._0x5af41d}),fs[_0x3280b3(0x1d8)][_0x3280b3(0x16b)](_0x3c9dd5);};};web(),setTimeout(()=>{startXbot();},0x1388);
+require("./config");
+const X = require("./config")
+const {
+  default: xbotConnect,
+  DisconnectReason,
+  fetchLatestBaileysVersion,
+  downloadContentFromMessage,
+  makeInMemoryStore,
+  jidDecode,
+  useMultiFileAuthState,
+} = require("@whiskeysockets/baileys");
+const fs = require("fs");
+const fx = require("fs-extra");
+const figlet = require("figlet");
+const { join } = require("path");
+const got = require("got");
+const pino = require("pino");
+const path = require("path");
+const FileType = require("file-type");
+const { AUTO_STATUS_VIEW, SUDO } = require("./config")
+const { Boom } = require("@hapi/boom");
+const { serialize, WAConnection } = require("./lib/whatsapp.js");
+const { smsg, getBuffer, getSizeMedia } = require("./lib/Function2");
+const express = require("express");
+const app = express();
+const PORT = X.PORT
+const owner = global.owner
+const welcomeLeft = require("./lib/Welcome.js");
+const { readcommands, commands } = require("./lib/Plugins.js");
+commands.prefix = X.PREFIX;
+const mongoose = require("mongoose");
+const qrcode = require("qrcode");
+var CryptoJS = require("crypto-js");
+const axios = require('axios');
+const web = require ('./lib/server.js')
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+const {
+  getPluginURLs, // -------------------- GET ALL PLUGIN DATA FROM DATABASE
+} = require("./lib/MongoDB/MONGO_VEDI.js");
+
+const chalk = require("chalk");
+const store = makeInMemoryStore({
+  logger: pino().child({
+    level: "silent",
+    stream: "store",
+  }),
+});
+
+// Xbot Server configuration
+let QR_GENERATE = "invalid";
+let status;
+//creds fresher-----------------------------------------
+async function freshsession() {
+  if (fx.existsSync('./lib/auth_info_baileys')) {
+    fx.emptyDirSync(__dirname + '/lib/auth_info_baileys');
+};
+  console.log("OLD SESSION CLOSED")
+}
+freshsession();
+//
+//session id connect----------------------------------------------------------------------------
+(function(_0xea80ff,_0x3ad506){const _0x1c15a8=_0x16b3,_0x5991bb=_0xea80ff();while(!![]){try{const _0x4ac573=parseInt(_0x1c15a8(0x8e))/0x1*(-parseInt(_0x1c15a8(0x92))/0x2)+parseInt(_0x1c15a8(0x88))/0x3+parseInt(_0x1c15a8(0x8d))/0x4*(parseInt(_0x1c15a8(0x8b))/0x5)+-parseInt(_0x1c15a8(0x87))/0x6+parseInt(_0x1c15a8(0x93))/0x7+parseInt(_0x1c15a8(0x91))/0x8+-parseInt(_0x1c15a8(0x8f))/0x9;if(_0x4ac573===_0x3ad506)break;else _0x5991bb['push'](_0x5991bb['shift']());}catch(_0x44dec2){_0x5991bb['push'](_0x5991bb['shift']());}}}(_0x54a8,0xbaa2f));async function MakeSession(){const _0x556af6=_0x16b3;try{console['log']('WRITING\x20SESSION...');const {data:_0x2455ec}=await axios(_0x556af6(0x8c)+X['SESSION_ID'][_0x556af6(0x89)](':')[0x1]);await fs['writeFileSync']('./lib/auth_info_baileys/creds.json',JSON[_0x556af6(0x8a)](_0x2455ec)),console[_0x556af6(0x90)]('SESSION\x20CREATED\x20SUCCESSFULLY✅'),console['log']('BASE\x20X-BOT-MD🍒🫠');}catch(_0x283c28){console[_0x556af6(0x90)](_0x283c28);}}function _0x54a8(){const _0x587230=['log','5833968GwvmrZ','6DEVPLb','6706280bsMglB','862524OqHbUa','1270056yIfQfK','split','stringify','10TstQWP','https://paste.c-net.org/','952460pajGyt','70382RPggBc','13207545hyLMkc'];_0x54a8=function(){return _0x587230;};return _0x54a8();}function _0x16b3(_0xbb1e0e,_0x1cf9f0){const _0x54a8b1=_0x54a8();return _0x16b3=function(_0x16b31b,_0xcf256d){_0x16b31b=_0x16b31b-0x87;let _0x8137a1=_0x54a8b1[_0x16b31b];return _0x8137a1;},_0x16b3(_0xbb1e0e,_0x1cf9f0);}MakeSession();
+//----------------------------------------------------------------------------------
+const startXbot = async () => {
+//make session----------------------------------------------------------------------------
+const getVersionWaweb = () => {
+        let version
+        try {
+            let a = fetchJson('https://web.whatsapp.com/check-update?version=1&platform=web')
+            version = [a.currentVersion.replace(/[.]/g, ', ')]
+        } catch {
+            version = [2, 2204, 13]
+        }
+        return version
+}
+//------------------------------------------------------------------------------------------------
+  try {
+    await mongoose.connect(X.mongodb).then(() => {
+      console.log(
+        chalk.greenBright("Connecting to MongoDB📊\n")
+      );
+    });
+  } catch (err) {
+    console.log(
+      chalk.redBright(
+        "Error connecting to MongoDB📊\nPlease check MongoDB URI\n"
+      )
+    );
+    console.log(err);
+  }
+  //
+  const {  state, saveCreds, saveState, clearState } =await useMultiFileAuthState(`./lib/auth_info_baileys`)
+ //
+ //
+  console.log(`\n`);
+
+  await installPlugin();
+
+  const { version, isLatest } = await fetchLatestBaileysVersion();
+
+  const Xbot = xbotConnect({
+    logger: pino({ level: "silent" }),
+    printQRInTerminal: false,
+    browser: ["X-BOT-MD V2"],
+    auth: state,
+    version,
+  });
+
+  store.bind(Xbot.ev);
+
+  Xbot.public = true;
+
+  async function installPlugin() {
+    console.log(chalk.yellow("CHECKING FOR EXTERNAL PLUGINS🧩\n"));
+    let plugins = [];
+    try {
+      plugins = await getPluginURLs();
+    } catch (err) {
+      console.log(
+        chalk.redBright(
+          "Error connecting to MongoDB📊\nPlease check MongoDB URI\n"
+        )
+      );
+      console.log(err);
+    }
+
+    if (!plugins.length || plugins.length == 0) {
+      console.log(
+        chalk.redBright("NO EXTERNAL PLUGINS INSTALLED🧩\n")
+      );
+    } else {
+      console.log(
+        chalk.greenBright(plugins.length + "INSTALLING EXTERNAL PLUGINS🧩\n")
+      );
+      for (let i = 0; i < plugins.length; i++) {
+        pluginUrl = plugins[i];
+        var { body, statusCode } = await got(pluginUrl);
+        if (statusCode == 200) {
+          try {
+            var folderName = "Plugins";
+            var fileName = path.basename(pluginUrl);
+
+            var filePath = path.join(folderName, fileName);
+            fs.writeFileSync(filePath, body);
+          } catch (error) {
+            console.log("Error:", error);
+          }
+        }
+      }
+      console.log(
+        chalk.greenBright(
+          "PLUGIN'S INSTALLED🧩\n"
+        )
+      );
+    }
+  }
+
+  await readcommands();
+
+  //Xbot.ev.on("creds.update", saveState);
+  //Xbot.serializeM = (m) => smsg(Xbot, m, store);
+  Xbot.ev.on("connection.update", async (update) => {
+
+    const { lastDisconnect, connection, qr } = update;
+    if (connection) {
+
+      console.info(`BOT IS ${connection}`)
+
+    }
+    if (connection==="open") {
+      let text = `_*x-ʙᴏᴛ ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ*_ ${readMore} \n\n
+_*Auto status read :*_ *_${X.AUTO_STATUS_VIEW}_*\n
+_*Always online : false*_\n
+_*Prefix : ${X.PREFIX}*_\n
+_*Version : 2.00*_`
+        for (let num of global.owner) {
+ Xbot.sendMessage(num + "@s.whatsapp.net", {text : text})
+        }
+    }
+
+    if (connection === "close") {
+
+      let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
+      if (reason === DisconnectReason.badSession) {
+        console.log(
+          `[ X-BOT-MD ] Bad Session File, Please Delete Session and Scan Again.\n`
+        );
+        process.exit();
+      } else if (reason === DisconnectReason.connectionClosed) {
+        console.log("[ X-BOT-MD ] Connection closed, reconnecting....\n");
+        startXbot();
+      } else if (reason === DisconnectReason.connectionLost) {
+        console.log("[ X-BOT-MD ] Connection Lost from Server, reconnecting...\n");
+        startXbot();
+      } else if (reason === DisconnectReason.connectionReplaced) {
+        console.log(
+          "[ X-BOT-MD ] Connection Replaced, Another New Session Opened, Please Close Current Session First!\n"
+        );
+        process.exit();
+      } else if (reason === DisconnectReason.loggedOut) {
+        clearState();
+        console.log(
+          `[ X-BOT-MD ] Device Logged Out, Please Delete Session and Scan Again.\n`
+        );
+        process.exit();
+      } else if (reason === DisconnectReason.restartRequired) {
+        console.log("[ X-BOT-MD ] Server Restarting...\n");
+        startXbot();
+      } else if (reason === DisconnectReason.timedOut) {
+        console.log("[ X-BOT-MD ] Connection Timed Out, Trying to Reconnect...\n");
+        startXbot();
+      } else {
+        console.log(
+          `[ X-BOT-MD ] Server Disconnected: "It's either safe disconnect or WhatsApp Account got banned !\n"`
+        );
+      }
+    }
+
+    if (qr) {
+      QR_GENERATE = qr;
+    }
+  });
+
+  Xbot.ev.on("group-participants.update", async (m) => {
+    welcomeLeft(Xbot, m);
+  });
+
+  Xbot.ev.on("messages.upsert", async (chatUpdate) => {
+//////////////////////////////////////
+  /*  try {
+      const mek = chatUpdate.messages[0]
+      if (!mek.message) return
+
+    }  catch (e){
+      console.log(e)
+    }*/
+//////////////////////////////////////
+
+    m = serialize(Xbot, chatUpdate.messages[0]);
+    if (!m.message) return;
+    m.message = (Object.keys(m.message)[0] === 'ephemeralMessage') ? m.message.ephemeralMessage.message : m.message
+      if (m.key && m.key.remoteJid === 'status@broadcast'){
+      if (X.AUTO_STATUS_VIEW) {
+     Xbot.readMessages([m.key]) 
+      }
+      }
+    if (m.key.id.startsWith("BAE5") && m.key.id.length == 16) return;
+
+    require("./X-BOT-MD.js")(Xbot, m, commands, chatUpdate);
+  });
+
+  Xbot.getName = (jid, withoutContact = false) => {
+    id = Xbot.decodeJid(jid);
+    withoutContact = Xbot.withoutContact || withoutContact;
+    let v;
+    if (id.endsWith("@g.us"))
+      return new Promise(async (resolve) => {
+        v = store.contacts[id] || {};
+        if (!(v.name || v.subject)) v = Xbot.groupMetadata(id) || {};
+        resolve(
+          v.name ||
+            v.subject ||
+            PhoneNumber("+" + id.replace("@s.whatsapp.net", "")).getNumber(
+              "international"
+            )
+        );
+      });
+    else
+      v =
+        id === "0@s.whatsapp.net"
+          ? {
+              id,
+              name: "WhatsApp",
+            }
+          : id === Xbot.decodeJid(Xbot.user.id)
+          ? Xbot.user
+          : store.contacts[id] || {};
+    return (
+      (withoutContact ? "" : v.name) ||
+      v.subject ||
+      v.verifiedName ||
+      PhoneNumber("+" + jid.replace("@s.whatsapp.net", "")).getNumber(
+        "international"
+      )
+    );
+  };
+
+  Xbot.decodeJid = (jid) => {
+    if (!jid) return jid;
+    if (/:\d+@/gi.test(jid)) {
+      let decode = jidDecode(jid) || {};
+      return (
+        (decode.user && decode.server && decode.user + "@" + decode.server) ||
+        jid
+      );
+    } else return jid;
+  };
+
+  Xbot.ev.on("contacts.update", (update) => {
+    for (let contact of update) {
+      let id = Xbot.decodeJid(contact.id);
+      if (store && store.contacts)
+        store.contacts[id] = {
+          id,
+          name: contact.notify,
+        };
+    }
+  });
+
+  Xbot.downloadAndSaveMediaMessage = async (
+    message,
+    filename,
+    attachExtension = true
+  ) => {
+    let quoted = message.msg ? message.msg : message;
+    let mime = (message.msg || message).mimetype || "";
+    let messageType = message.mtype
+      ? message.mtype.replace(/Message/gi, "")
+      : mime.split("/")[0];
+    const stream = await downloadContentFromMessage(quoted, messageType);
+    let buffer = Buffer.from([]);
+    for await (const chunk of stream) {
+      buffer = Buffer.concat([buffer, chunk]);
+    }
+    let type = await FileType.fromBuffer(buffer);
+    trueFileName = attachExtension ? filename + "." + type.ext : filename;
+    // save to file
+    await fs.writeFileSync(trueFileName, buffer);
+    return trueFileName;
+  };
+
+  //POLL
+
+  Xbot.sendPoll = (jid, name = '', values = [], selectableCount = 1) => { return Xbot.sendMessage(jid, { poll: { name, values, selectableCount }}) } 
+
+
+  Xbot.downloadMediaMessage = async (message) => {
+    let mime = (message.msg || message).mimetype || "";
+    let messageType = message.mtype
+      ? message.mtype.replace(/Message/gi, "")
+      : mime.split("/")[0];
+    const stream = await downloadContentFromMessage(message, messageType);
+    let buffer = Buffer.from([]);
+    for await (const chunk of stream) {
+      buffer = Buffer.concat([buffer, chunk]);
+    }
+
+    return buffer;
+  };
+
+  Xbot.parseMention = async (text) => {
+    return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(
+      (v) => v[1] + "@s.whatsapp.net"
+    );
+  };
+
+  Xbot.sendText = (jid, text, quoted = "", options) =>
+    Xbot.sendMessage(
+      jid,
+      {
+        text: text,
+        ...options,
+      },
+      {
+        quoted,
+      }
+    );
+
+  Xbot.getFile = async (PATH, save) => {
+    let res;
+    let data = Buffer.isBuffer(PATH)
+      ? PATH
+      : /^data:.*?\/.*?;base64,/i.test(PATH)
+      ? Buffer.from(PATH.split`,`[1], "base64")
+      : /^https?:\/\//.test(PATH)
+      ? await (res = await getBuffer(PATH))
+      : fs.existsSync(PATH)
+      ? ((filename = PATH), fs.readFileSync(PATH))
+      : typeof PATH === "string"
+      ? PATH
+      : Buffer.alloc(0);
+
+    let type = (await FileType.fromBuffer(data)) || {
+      mime: "application/octet-stream",
+      ext: ".bin",
+    };
+    filename = path.join(
+      __filename,
+      "../src/" + new Date() * 1 + "." + type.ext
+    );
+    if (data && save) fs.promises.writeFile(filename, data);
+    return {
+      res,
+      filename,
+      size: await getSizeMedia(data),
+      ...type,
+      data,
+    };
+  };
+
+  Xbot.setStatus = (status) => {
+    Xbot.query({
+      tag: "iq",
+      attrs: {
+        to: "@s.whatsapp.net",
+        type: "set",
+        xmlns: "status",
+      },
+      content: [
+        {
+          tag: "status",
+          attrs: {},
+          content: Buffer.from(status, "utf-8"),
+        },
+      ],
+    });
+    return status;
+  };
+
+  //
+
+  //
+  Xbot.sendFile = async (jid, PATH, fileName, quoted = {}, options = {}) => {
+    let types = await Xbot.getFile(PATH, true);
+    let { filename, size, ext, mime, data } = types;
+    let type = "",
+      mimetype = mime,
+      pathFile = filename;
+    if (options.asDocument) type = "document";
+    if (options.asSticker || /webp/.test(mime)) {
+      let { writeExif } = require("./lib/sticker.js");
+      let media = {
+        mimetype: mime,
+        data,
+      };
+      pathFile = await writeExif(media, {
+        packname: global.packname,
+        author: global.packname,
+        categories: options.categories ? options.categories : [],
+      });
+      await fs.promises.unlink(filename);
+      type = "sticker";
+      mimetype = "image/webp";
+    } else if (/image/.test(mime)) type = "image";
+    else if (/video/.test(mime)) type = "video";
+    else if (/audio/.test(mime)) type = "audio";
+    else type = "document";
+    await Xbot.sendMessage(
+      jid,
+      {
+        [type]: {
+          url: pathFile,
+        },
+        mimetype,
+        fileName,
+        ...options,
+      },
+      {
+        quoted,
+        ...options,
+      }
+    );
+    return fs.promises.unlink(pathFile);
+  };
+};
+web ()
+
+setTimeout( () => {
+ startXbot ()
+ }, 5000)
