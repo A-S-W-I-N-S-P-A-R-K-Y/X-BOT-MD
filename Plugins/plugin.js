@@ -1,1 +1,169 @@
-function _0x3ee9(_0x5639d4,_0x1df276){const _0x1dd8b7=_0x1dd8();return _0x3ee9=function(_0x3ee962,_0x2e9e5d){_0x3ee962=_0x3ee962-0x1b7;let _0x3a8de9=_0x1dd8b7[_0x3ee962];return _0x3a8de9;},_0x3ee9(_0x5639d4,_0x1df276);}function _0x1dd8(){const _0x529bb7=['unlinkSync','.js','remove*\x20mention','*...\x20','get','./Plugins/','uninstall','from','*\x20:\x20*','No\x20additional\x20plugins\x20installed\x20!','162120zfjzuL','url','Plugins','Please\x20provide\x20a\x20plugin\x20name\x20!\x0a\x0aExample:\x20*','data','https://gist.github','plugin','plugins','6743862mAqoRx','writeFileSync','30095yhJGNn','sender','../lib/Plugins.js','*\x0a\x0a','112IJFXLn','324541yEYuTx','*External\x20Plugins*\x0a\x0a','gist.github.com','axios','_*External\x20Plugins*_\x0a\x0a','*\x20plugin\x20uninstalled\x20successfully\x20!\x0a\x0aPlease\x20restart\x20the\x20bot\x20to\x20clear\x20cache\x20!','Install,\x20Uninstall,\x20List\x20plugins','16751799noOfDs','length','356WucHCE','host','1003407ALoGSi','2053348RMfknP','_*Invalid\x20URL\x20!*_','../lib/MongoDB/MONGO_VEDI.js','toString','sendMessage','*\x20Installed\x20Successfully\x20!','pluginlist','util','existsSync','path','join','_*This\x20is\x20an\x20owner\x20command\x20😒*_','split','install','got','\x20:*_\x20*','remove','plugininstaller','*\x20plugin\x20is\x20already\x20Present\x20Locally\x20!','log','Plugin\x20saved\x20successfully!','reply','*\x20plugin\x20is\x20already\x20Installed\x20!','exec'];_0x1dd8=function(){return _0x529bb7;};return _0x1dd8();}const _0xb309a2=_0x3ee9;(function(_0x12624a,_0x254863){const _0x45d2e9=_0x3ee9,_0x809e11=_0x12624a();while(!![]){try{const _0x5e4ffb=parseInt(_0x45d2e9(0x1d6))/0x1+-parseInt(_0x45d2e9(0x1d7))/0x2+-parseInt(_0x45d2e9(0x1bc))/0x3+parseInt(_0x45d2e9(0x1d4))/0x4*(-parseInt(_0x45d2e9(0x1c6))/0x5)+-parseInt(_0x45d2e9(0x1c4))/0x6+parseInt(_0x45d2e9(0x1cb))/0x7*(parseInt(_0x45d2e9(0x1ca))/0x8)+parseInt(_0x45d2e9(0x1d2))/0x9;if(_0x5e4ffb===_0x254863)break;else _0x809e11['push'](_0x809e11['shift']());}catch(_0xd3467f){_0x809e11['push'](_0x809e11['shift']());}}}(_0x1dd8,0xbcd2a));const got=require(_0xb309a2(0x1e5)),fs=require('fs'),path=require(_0xb309a2(0x1e0)),{readcommands}=require(_0xb309a2(0x1c8)),axios=require(_0xb309a2(0x1ce)),util=require(_0xb309a2(0x1de)),{pushPlugin,isPluginPresent,delPlugin,getAllPlugins,checkMod}=require(_0xb309a2(0x1d9));let mergedCommands=[_0xb309a2(0x1e4),_0xb309a2(0x1b8),_0xb309a2(0x1c3),_0xb309a2(0x1dd),_0xb309a2(0x1e7)];module['exports']={'name':_0xb309a2(0x1e8),'alias':[...mergedCommands],'uniquecommands':[_0xb309a2(0x1e4),_0xb309a2(0x1b8),_0xb309a2(0x1c3),_0xb309a2(0x1dd),'remove'],'description':_0xb309a2(0x1d1),'start':async(_0x24af41,_0x451c2b,{text:_0x196ae4,args:_0x2d5ae0,pushName:_0x4a78e6,prefix:_0x316851,inputCMD:_0x3e3a1a,isCreator:_0x2379d5,isintegrated:_0x40f3da,doReact:_0x4c1e79})=>{const _0x3a303b=_0xb309a2;switch(_0x3e3a1a){case _0x3a303b(0x1e4):if(!_0x2379d5)return await _0x4c1e79('❌'),await _0x451c2b[_0x3a303b(0x1ec)]('_*This\x20is\x20an\x20owner\x20command\x20😒*_');if(!_0x196ae4['includes'](_0x3a303b(0x1c1)))return await _0x24af41[_0x3a303b(0x1db)](_0x451c2b[_0x3a303b(0x1b9)],{'text':_0x3a303b(0x1d8)},{'quoted':_0x451c2b});try{var _0x5ad28f=new URL(_0x196ae4);_0x5ad28f[_0x3a303b(0x1d5)]===_0x3a303b(0x1cd)?(_0x5ad28f[_0x3a303b(0x1d5)]='gist.githubusercontent.com',_0x5ad28f=_0x5ad28f[_0x3a303b(0x1da)]()+'/raw'):_0x5ad28f=_0x5ad28f['toString']();}catch(_0x35452e){return console[_0x3a303b(0x1ea)](_0x35452e),await _0x24af41[_0x3a303b(0x1db)](_0x451c2b[_0x3a303b(0x1b9)],{'text':_0x3a303b(0x1d8)},{'quoted':_0x451c2b});}var {body:_0x4433fe,statusCode:_0x501554}=await got(_0x5ad28f);if(_0x501554==0xc8){try{var _0x53c8f2=_0x3a303b(0x1be);let _0x2f66c5=/pattern: ["'](.*)["'],/g[_0x3a303b(0x1ee)](_0x4433fe);fileName=_0x2f66c5[0x1][_0x3a303b(0x1e3)]('\x20')[0x0],plugin=await isPluginPresent(fileName+_0x3a303b(0x1f0));if(plugin)return _0x451c2b[_0x3a303b(0x1ec)]('*'+fileName+_0x3a303b(0x1ed));if(fs[_0x3a303b(0x1df)](_0x3a303b(0x1b7)+(fileName+'.js')))return _0x451c2b[_0x3a303b(0x1ec)]('*'+fileName+_0x3a303b(0x1e9));var _0x3b3a20=path[_0x3a303b(0x1e1)](_0x53c8f2,fileName+_0x3a303b(0x1f0));fs[_0x3a303b(0x1c5)](_0x3b3a20,_0x4433fe),console[_0x3a303b(0x1ea)](_0x3a303b(0x1eb));}catch(_0x3d5e92){console[_0x3a303b(0x1ea)]('Error:',_0x3d5e92);}await _0x451c2b[_0x3a303b(0x1ec)]('Installing\x20*'+fileName+_0x3a303b(0x1f2)),await readcommands(),await pushPlugin(fileName+_0x3a303b(0x1f0),_0x196ae4),await _0x451c2b[_0x3a303b(0x1ec)]('*'+fileName+_0x3a303b(0x1dc));}break;case _0x3a303b(0x1c3):if(!_0x2379d5)return await _0x4c1e79('❌'),await _0x451c2b[_0x3a303b(0x1ec)](_0x3a303b(0x1e2));await _0x4c1e79('🧩');const _0x10b2fe=await getAllPlugins();if(!_0x10b2fe[_0x3a303b(0x1d3)])await _0x24af41[_0x3a303b(0x1db)](_0x451c2b[_0x3a303b(0x1b9)],{'text':_0x3a303b(0x1bb)},{'quoted':_0x451c2b});else{txt=_0x3a303b(0x1cf);for(var _0x2bce1b=0x0;_0x2bce1b<_0x10b2fe[_0x3a303b(0x1d3)];_0x2bce1b++){txt+='*'+_0x10b2fe[_0x2bce1b][_0x3a303b(0x1c2)]+_0x3a303b(0x1ba)+_0x10b2fe[_0x2bce1b][_0x3a303b(0x1bd)]+'*\x0a\x0a';}txt+='',await _0x24af41[_0x3a303b(0x1db)](_0x451c2b[_0x3a303b(0x1b9)],{'text':txt},{'quoted':_0x451c2b});}break;case _0x3a303b(0x1b8):case'remove':chechSenderModStatus=await checkMod(_0x451c2b[_0x3a303b(0x1c7)]);if(!_0x2379d5)return await _0x4c1e79('❌'),await _0x451c2b[_0x3a303b(0x1ec)](_0x3a303b(0x1e2));if(!_0x196ae4)return await _0x451c2b[_0x3a303b(0x1ec)](_0x3a303b(0x1bf)+_0x316851+_0x3a303b(0x1f1));await _0x4c1e79('🧩'),fileName=_0x196ae4+_0x3a303b(0x1f0),plugin=isPluginPresent(fileName);if(fs[_0x3a303b(0x1df)](_0x3a303b(0x1b7)+fileName))fs[_0x3a303b(0x1ef)](_0x3a303b(0x1b7)+fileName),await delPlugin(fileName),await readcommands(),await _0x451c2b[_0x3a303b(0x1ec)]('*'+fileName+_0x3a303b(0x1d0));else return await _0x4c1e79('❌'),_0x451c2b[_0x3a303b(0x1ec)]('*'+fileName+'*\x20plugin\x20is\x20not\x20installed\x20!');break;case _0x3a303b(0x1dd):await _0x4c1e79('🧩');try{var _0x57dad1=await axios[_0x3a303b(0x1f3)]('https://x-md-qr-elctro-wizard.koyeb.app/plugins');let _0x565372=await _0x57dad1[_0x3a303b(0x1c0)],_0x96bfcd=_0x3a303b(0x1cc);for(let _0x2d430b of _0x565372[_0x3a303b(0x1c0)]){_0x96bfcd+='_*'+_0x2d430b['title']+_0x3a303b(0x1e6)+_0x2d430b[_0x3a303b(0x1bd)]+_0x3a303b(0x1c9);}_0x24af41['sendMessage'](_0x451c2b[_0x3a303b(0x1b9)],{'text':_0x96bfcd},{'quoted':_0x451c2b});}catch(_0x21f323){console[_0x3a303b(0x1ea)](_0x21f323);}break;default:break;}}};
+const got = require("got");
+const fs = require("fs");
+const path = require("path");
+const { readcommands } = require("../lib/Plugins.js");
+const axios = require("axios");
+const util = require("util");
+const {
+  pushPlugin, // -------------------- PUSH NEW INSTALLED PLUGIN IN DATABASE
+  isPluginPresent, // --------------- CHECK IF PLUGIN IS ALREADY PRESENT IN DATABASE
+  delPlugin, // --------------------- DELETE A PLUGIN FROM THE DATABASE
+  getAllPlugins, // ----------------- GET ALL PLUGINS FROM DATABASE
+  checkMod, // ---------------------- CHECK IF SENDER IS MOD
+} = require("../lib/MongoDB/MONGO_VEDI.js");
+
+let mergedCommands = ["install", "uninstall", "plugins", "pluginlist", "remove"];
+module.exports = {
+  name: "plugininstaller",
+  alias: [...mergedCommands],
+  uniquecommands: ["install", "uninstall", "plugins", "pluginlist", "remove"],
+  description: "Install, Uninstall, List plugins",
+  start: async (Xbot, m, { text, args, pushName, prefix, inputCMD, isCreator, isintegrated, doReact }) => {
+    switch (inputCMD) {
+        
+      case "install": 
+        if (!isCreator) {
+          await doReact("❌");
+          return await m.reply(
+            `_*This is an owner command 😒*_`
+          );
+        }
+        if (!text.includes("https://gist.github")) return await Xbot.sendMessage(
+            m.from,
+            { text: `_*Invalid URL !*_` },
+            { quoted: m }
+          );
+        try {
+          var url = new URL(text);
+          if (url.host === "gist.github.com") {
+            url.host = "gist.githubusercontent.com";
+            url = url.toString() + "/raw";
+          } else {
+            url = url.toString();
+          }
+        } catch (e) {
+          console.log(e);
+          return await Xbot.sendMessage(
+            m.from,
+            { text: `_*Invalid URL !*_` },
+            { quoted: m }
+          );
+        }
+        
+        var { body, statusCode } = await got(url);
+        if (statusCode == 200) {
+          try {
+            var folderName = "Plugins";
+            let plugin_name =  /pattern: ["'](.*)["'],/g.exec(body)
+            fileName = plugin_name[1].split(' ')[0]
+            // check if plugin is already installed and present in that Database array
+            plugin = await isPluginPresent(fileName + '.js');
+            if (plugin) {
+              return m.reply(`*${fileName}* plugin is already Installed !`);
+            }
+
+            // Check if that file is present in same directory
+            if (fs.existsSync(`./Plugins/${fileName + '.js'}`)) {
+              return m.reply(
+                `*${fileName}* plugin is already Present Locally !`
+              );
+            }
+
+            var filePath = path.join(folderName, fileName + '.js');
+            fs.writeFileSync(filePath, body);
+            console.log("Plugin saved successfully!");
+          } catch (error) {
+            console.log("Error:", error);
+          }
+          await m.reply(`Installing *${fileName}*... `);
+          await readcommands();
+          await pushPlugin(fileName + '.js', text);
+          await m.reply(`*${fileName}* Installed Successfully !`);
+        }
+        break;
+
+      case "plugins":
+                if (!isCreator) {
+          
+          await doReact("❌");
+                  return await m.reply(
+                    `_*This is an owner command 😒*_`
+                  );
+                }
+        await doReact("🧩");
+        const plugins = await getAllPlugins();
+        if (!plugins.length) {
+          await Xbot.sendMessage(
+            m.from,
+            { text: `No additional plugins installed !` },
+            { quoted: m }
+          );
+        } else {
+          txt = "_*External Plugins*_\n\n";
+          for (var i = 0; i < plugins.length; i++) { 
+            txt += `*${plugins[i].plugin}* : *${plugins[i].url}*\n\n`;
+          }
+          txt += ``;
+          await Xbot.sendMessage(m.from, { text: txt }, { quoted: m });
+        }
+
+        break;
+
+      case "uninstall": case "remove":
+        chechSenderModStatus = await checkMod(m.sender);
+        if (!isCreator) {
+          await doReact("❌");
+          return await m.reply(
+            `_*This is an owner command 😒*_`
+          );
+        }
+        if (!text) {
+          return await m.reply(
+            `Please provide a plugin name !\n\nExample: *${prefix}remove* mention`
+          );
+        }
+        await doReact("🧩");
+        fileName = (text + '.js');
+        plugin = isPluginPresent(fileName)
+/*
+        if (!plugin) {
+          await doReact("❌");
+          return await m.reply(`*${fileName}* plugin is not installed !`);
+        }
+*/
+        if (fs.existsSync(`./Plugins/${fileName}`)) {
+          fs.unlinkSync(`./Plugins/${fileName}`);
+          await delPlugin(fileName);
+          await readcommands();
+          await m.reply(
+            `*${fileName}* plugin uninstalled successfully !\n\nPlease restart the bot to clear cache !`
+          );
+        } else {
+          await doReact("❌");
+          return m.reply(`*${fileName}* plugin is not installed !`);
+        }
+
+        break;
+
+        case "pluginlist":
+          await doReact("🧩");
+        try {
+            var res = await axios.get(`https://x-md-qr-elctro-wizard.koyeb.app/plugins`)
+        
+        let response = await res.data
+          let sperky = `*External Plugins*\n\n`
+          
+            for (let i of response.data) {
+              sperky+= `_*${i.title} :*_ *${i.url}*\n\n`
+            }
+          Xbot.sendMessage(m.from, { text : sperky },  {quoted: m })
+        } catch (e) {
+        console.log(e)
+    }
+          break;
+//
+      default:
+        break;
+    }
+  },
+};
