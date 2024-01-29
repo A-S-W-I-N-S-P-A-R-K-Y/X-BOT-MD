@@ -120,9 +120,7 @@
 
 <br>
 
-- X-BOT-MD is a `fully open source 😹🖐🏻` bot which means `no copyright`.
-- X-BOT-MD is a `multi character bot` which means you can `change bot's character` to any of the 8 added characters or add more characters by yourself.
-- X-BOT-MD is a `multi database bot Eg : MongoVedi,PostgreMYR,VediDB` which means you can use 3 different databases at the same time.
+- X-BOT-MD is a `fully open source` bot which means `no copyright`.
 - X-BOT-MD is a `multi mode` bot which means you can use it in `Self / Public / Private` mode.
 
   </details> 
