@@ -12,7 +12,7 @@ const { Boom } = require('@hapi/boom');
 const P = require('pino');
 const path = require('path');
 const fs = require('fs');
-const web = require('./server.js');
+const web = require('./lib/server.js');
 const MsgHandler = require('./lib/handler.js')
 const cron = require('node-cron');
 const {
