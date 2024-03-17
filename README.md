@@ -44,8 +44,7 @@
 1. If You don't have a account in Replit. Create a account.
     <br>
 <a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=replit'/></a>
-
-   <br><br>
+   <br>
 2. Now Deploy
     <br>
 <a href='https://bit.ly/X-BOT-MD-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
@@ -58,8 +57,7 @@
 1. If You don't have a account in Heroku. Create a account.
     <br>
 <a href='https://heroku.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
-
-   <br><br>
+   <br>
 2. Now Deploy
     <br>
 <a href='https://heroku.com/deploy?template=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
@@ -68,9 +66,7 @@
 
 1. If You don't have a account in Railway. Create a account.
     <br>
-<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/></a>
-
-   <br><br>
+<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
 2. Now Deploy
     <br>
 <a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
@@ -89,24 +85,11 @@
     <br>
 <a href='https://app.koyeb.com/apps/new/import-project' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
-#### DEPLOY ON CYCLIC
-
-1. If You don't have a account in Cyclic. Create a account.
-    <br>
-<a href='https://cyclic.sh' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=c'/></a>
-
-   <br><br>
-2. Now Deploy
-    <br>
-<a href='https://cyclic.sh' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=c'/></a>
-
 #### DEPLOY ON MOGENIUS
 
 1. If You don't have a account in Replit. Create a account.
     <br>
 <a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=genius'/></a>
-
-   <br><br>
 2. Now Deploy
     <br>
 <a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
