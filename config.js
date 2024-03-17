@@ -8,13 +8,9 @@ if (fs.existsSync('config.env')) {
 }
 
 const HANDLERS = process.env.HANDLER === undefined ? "^" : process.env.HANDLER;
-//const HANDLERS =  process.env.HANDLER === "false" || '^';
 const SESSION_ID = process.env.SESSION_ID || "";
-//const HANDLERS = process.env.HANDLER === 'false' || process.env.HANDLER === 'null' ? '^' : '^';
 const AUTHOR = process.env.AUTHOR || 'sparky';
 const SUDO = process.env.SUDO || '919656459062,917012984396';
-const OWNER_NAME = process.env.OWNER_NAME || 'sparky';
-const BOT_NAME = process.env.BOT_NAME || 'WhatsApp-Bot';
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
 //const AUDIO_DATA‎ = process.env.AUDIO_DATA‎ || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
