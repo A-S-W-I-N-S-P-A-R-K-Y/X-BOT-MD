@@ -106,7 +106,7 @@ var time = '0 */5 * * *'
           
         }
         if (connection === "open") {
-          client.sendMessage("919656459062@s.whatsapp.net", { text : "_BOAT NIRVANA STARTED_"})
+          client.sendMessage(`${config.SUDO.split(";")[0]}@s.whatsapp.net`, { text : "_X BOT MD STARTED..._"})
           client.sendPresenceUpdate('unavailable')
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
             fs.readdirSync("./plugins").forEach((plugin) => {
