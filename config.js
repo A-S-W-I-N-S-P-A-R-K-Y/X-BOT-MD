@@ -14,7 +14,7 @@ const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.
 //const AUDIO_DATA‎ = process.env.AUDIO_DATA‎ || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
 const WORK_TYPE = process.env.WORK_TYPE || 'public'
-const DATABASE_URL = process.env.DATABASE_URL ||'postgres://viper_sql_user:APW8aUC7b48Bifkod5ytFICG9eTuQ24c@dpg-cng830fsc6pc73eno5a0-a.oregon-postgres.render.com/viper_sql';
+const DATABASE_URL = process.env.DATABASE_URL ||'';
 const DATABASE = new Sequelize(DATABASE_URL, {
    dialectOptions: {
     ssl: {
