@@ -9,7 +9,7 @@ const {
 	MusicFind
 } = require('../lib/sub.js');
 const axios = require('axios');
-const { generateWAMessageContent } = require('@whiskeysockets/baileys')
+
 
 Sparky(
     {
@@ -108,24 +108,24 @@ client.sendMessage(m.jid, { image :{ url: dll }, caption: "_X BOT MD V3_"}, {quo
     }
 	);
 
-
 Sparky(
     {
         name: "vdo",
-        fromMe: true,
+        fromMe: isPublic,
         category: "tools",
         desc: "Finds music from replied Audio",
     },
     async ({
         m, client, args
     }) => {
+const { generateWAMessageContent } = require('@whiskeysockets/baileys')
 let buff = await m.quoted.download()
 let msg = await generateWAMessageContent({
             video: buff
         }, {
             upload: client.waUploadToServer
         })
-        await client.relayMessage(args || m.jid, {
+        await client.relayMessage(m.jid, {
             ptvMessage: msg.videoMessage
         }, {
             quoted: m
