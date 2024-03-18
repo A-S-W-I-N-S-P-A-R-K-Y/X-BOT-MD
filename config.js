@@ -15,23 +15,31 @@ const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
 const WORK_TYPE = process.env.WORK_TYPE || 'public'
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
-const DATABASE = new Sequelize(DATABASE_URL, {
-   dialectOptions: {
-    ssl: {
-     require: true,
-     rejectUnauthorized: false
-    } 
-   }, logging: false 
-  });
-
 
 
 module.exports = {
   HANDLERS,
   SUDO,
   WORK_TYPE,
-  DATABASE,
   SESSION_ID,
   STICKER_DATA,
-  BOT_INFO
+  BOT_INFO,
+  DATABASE_URL: DATABASE_URL,
+  DATABASE:
+    DATABASE_URL === "./lib/database.db"
+      ? new Sequelize({
+          dialect: "sqlite",
+          storage: DATABASE_URL,
+          logging: false,
+        })
+      : new Sequelize(DATABASE_URL, {
+          dialect: "postgres",
+          ssl: true,
+          protocol: "postgres",
+          dialectOptions: {
+            native: true,
+            ssl: { require: true, rejectUnauthorized: false },
+          },
+          logging: false,
+        }),
 };
