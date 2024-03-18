@@ -7,7 +7,13 @@
 	],
 	"repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
 	"stack": "container",
-    "env": "PREFIX": {
+    "env": { 
+	    "DATABASE_URL": {
+            "description": "use your SQL db url",
+            "required": false,
+            "value":""
+        },
+        "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
             "value":"."
@@ -17,6 +23,21 @@
             "required": false,
             "value":"true"
         },
+        "WORK_TYPE": {
+            "description": "bot mode public/private",
+            "required": true,
+            "value":"public"
+        },
+      " AUDIO_DATA": {
+            "description": "Enter your mention data here",
+            "required": false,
+            "value":"X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
+        },
+	    "ALWAYS_ONLINE": {
+            "description": "Bot online or not",
+            "required": false,
+            "value": "false"
+        },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
@@ -25,11 +46,11 @@
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/XJ0D4Tq.mp4"
+            "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
         },
 	    "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
-            "required": false,
+            "required": true,
             "value":"917012984396"
         },
        "SESSION_ID": {
@@ -49,4 +70,4 @@
             "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
         }
     ]
-}
+  }
