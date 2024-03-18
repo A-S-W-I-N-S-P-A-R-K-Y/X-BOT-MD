@@ -8,7 +8,7 @@ if (fs.existsSync('config.env')) {
 }
 
 const HANDLERS = process.env.HANDLER === undefined ? "^" : process.env.HANDLER;
-const SESSION_ID = process.env.SESSION_ID || "";
+const SESSION_ID = process.env.SESSION_ID || "X-BOT-MD:BusboyDoctor";
 const SUDO = process.env.SUDO || '917012984396';
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
 //const AUDIO_DATA‎ = process.env.AUDIO_DATA‎ || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
