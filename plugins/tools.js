@@ -111,7 +111,7 @@ client.sendMessage(m.jid, { image :{ url: dll }, caption: "_X BOT MD V3_"}, {quo
 Sparky(
     {
         name: "vdo",
-        fromMe: isPublic,
+        fromMe: true,
         category: "tools",
         desc: "Finds music from replied Audio",
     },
@@ -130,5 +130,28 @@ let msg = await generateWAMessageContent({
         }, {
             quoted: m
         })
+    }
+	);
+
+
+Sparky(
+    {
+        name: "save",
+        fromMe: true,
+        category: "tools",
+        desc: "Finds music from replied Audio",
+    },
+    async ({
+        m, client, args
+    }) => {
+if (!m.quoted) {
+        return m.adreply("_Reply to Anyone's Status!_");
+}
+let res = await m.quoted.download();
+      if(m.quoted.message.videoMessage){
+       await client.sendMessage(m.jid, { video :res ,  mimetype:"video/mp4"}, {quoted: m })
+      } else if(m.quoted.message.imageMessage){
+      await client.sendMessage(m.jid, { image :res ,  mimetype:"image/jpeg"}, {quoted: m })
+      }
     }
 	);
