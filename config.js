@@ -7,7 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 }
 
-const HANDLERS = process.env.HANDLER === undefined ? "^" : process.env.HANDLER;
+const HANDLERS = process.env.HANDLER === "false" || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
