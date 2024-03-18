@@ -44,7 +44,7 @@
             "value":"X-BOT-MD;ASWIN SPARKY"
         },
         "BOT_INFO": {
-            "description": "Name, image, owner and other details in menu (seperate with comma)",
+            "description": "Name;owner;imageurl (seperate with ;)",
             "required": true,
             "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
         },
