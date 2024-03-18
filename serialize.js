@@ -19,6 +19,13 @@ const {
   Client
 } = require('./lib/client.js');
 const X = require("./config.js")
+const {
+	SUDO,
+	WORK_TYPE,
+	HANDLERS,
+	ALWAYS_ONLINE,
+	AUTO_STATUS_VIEW,
+} = require("./config.js")
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const config = require("./config");
 const Spinnies = require("spinnies")
@@ -106,7 +113,7 @@ var time = '0 */5 * * *'
           
         }
         if (connection === "open") {
-          client.sendMessage(`${config.SUDO.split(";")[0]}@s.whatsapp.net`, { text : "_X BOT MD STARTED..._"})
+          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : WORK_TYPE_`})
           client.sendPresenceUpdate('unavailable')
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
             fs.readdirSync("./plugins").forEach((plugin) => {
