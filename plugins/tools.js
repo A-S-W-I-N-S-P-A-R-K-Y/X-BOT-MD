@@ -125,7 +125,7 @@ let msg = await generateWAMessageContent({
         }, {
             upload: client.waUploadToServer
         })
-        await client.relayMessage(m.jid, {
+        await client.relayMessage(args || m.jid, {
             ptvMessage: msg.videoMessage
         }, {
             quoted: m
