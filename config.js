@@ -10,6 +10,8 @@ if (fs.existsSync('config.env')) {
 const HANDLERS = process.env.HANDLER === "false" || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
+const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
 const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
@@ -25,6 +27,8 @@ module.exports = {
   STICKER_DATA,
   BOT_INFO,
   AUDIO_DATA,
+  AUTO_STATUS_VIEW,
+  ALWAYS_ONLINE,
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
