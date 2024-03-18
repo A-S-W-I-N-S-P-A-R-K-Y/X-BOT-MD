@@ -1,10 +1,10 @@
 {
-  "name": "Phoenix-MD",
-  "version": "1.0.0",
-  "description": "Phoenix-MD Simple WhatsApp Bot",
+  "name": "X-BOT-MD",
+  "version": "3.0.0",
+  "description": "X-BOT-MD Simple WhatsApp Bot",
   "logo": "https://i.imgur.com/T78fhJk.jpeg",
-  "keywords": ["whatsapp", "bot", "md", "multi-device", "Phoenix", "Phoenix-MD", "wabot", "termux-bot", "sc-bot"],
-  "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
+  "keywords": ["whatsapp", "bot", "md", "multi-device"],
+  "repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {
