@@ -9,7 +9,8 @@ const {
     BOT_NAME,
     HANDLERS,
     WORK_TYPE,
-    BOT_INFO
+    BOT_INFO,
+    URL
 } = require("../config.js");
 const font = require("@viper-x/fancytext");
 const fs = require("fs");
@@ -99,8 +100,8 @@ Sparky(
 contextInfo: { externalAdReply: {                                           
 title: font.tiny(`Hey there  ${m.pushName}`),
 body: font.tiny(`this is ${BOT_INFO.split(";")[0]}`),
-sourceUrl: "https://instagram.com/imspxxky",
-mediaUrl: "https://instagram.com/imspxxky",
+sourceUrl: URL,
+mediaUrl: URL,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
