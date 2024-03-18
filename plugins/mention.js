@@ -1,29 +1,18 @@
-const {
-    SUDO
-} = require('../config.js');
-const {
-    toAudio,
-    getBuffer
-} = require("../lib/functions.js");
-const {
-    Sparky,
-    commands,
-    isPublic
-} = require("../lib/plugins.js");
 
+var audios = "https://i.imgur.com/koShroP.mp4,https://i.imgur.com/jp56U2U.mp4,https://i.imgur.com/Bn3LRsC.mp4,https://i.imgur.com/8IbgdWB.mp4,https://i.imgur.com/MYKKVWi.mp4"
+var image = "https://i.imgur.com/ICAw6Vd.jpeg,https://i.imgur.com/E6oGes7.jpeg"
+var title "X BOT ND V3"
+var body = "ASWIN SPARKY 💗"
+var url = "https://wa.me/917012984396"
+var forward = true
+var via_ad = false
 
- Sparky({
-    on: "text",
-    fromMe: isPublic,
-},
-    async({
-        m, client, args
-    })=> {
-
-        let sudo = SUDO.split(",")
-        var audios = "https://i.imgur.com/koShroP.mp4,https://i.imgur.com/jp56U2U.mp4,https://i.imgur.com/Bn3LRsC.mp4,https://i.imgur.com/8IbgdWB.mp4,https://i.imgur.com/MYKKVWi.mp4"
-        var image = "https://i.imgur.com/ICAw6Vd.jpeg,https://i.imgur.com/E6oGes7.jpeg,https://i.imgur.com/E6oGes7.jpeg,"
-
+const {SUDO} = require('../config.js');
+const {toAudio,getBuffer} = require("../lib/functions.js");
+const {Sparky,commands,isPublic} = require("../lib/plugins.js");
+Sparky({on:"text",fromMe: isPublic,},
+async({m,client,args})=> {
+    let sudo = SUDO.split(",")
         for (any in sudo)
             if (args.includes(sudo[any])) {
             const imgsplit = image.split(",")
@@ -40,15 +29,15 @@ const {
                 waveform: [00, 99, 00, 99, 00, 99, 00, 99, 00],
                 contextInfo: {
                     "forwardingScore": 999,
-                    "isForwarded": true,
+                    "isForwarded": forward,
                     externalAdReply: {
-                        title: "✪⏤͟͞★⃝ꪶ ѕᴩ⃪ᴀʀ⃪ⲕʏ𖥘✪͜͡➺",
-                        body: "TEAM EX-BOT-Z 🗿",
+                        title: title,
+                        body: body,
                         mediaType: 2,
                         thumbnail: image1,
-                        mediaUrl: 'https://wa.me/917012984396',
-                        sourceUrl: 'https://wa.me/917012984396',
-                        showAdAttribution: true
+                        mediaUrl: url,
+                        sourceUrl: url,
+                        showAdAttribution: via_ad
                     }
                 }
             }, {
