@@ -4,10 +4,8 @@
   "description": "WhatsApp Helper Bot",
   "main": "index.js",
   "scripts": {
-    "fcf": "supervisor -s index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start . --attach --name X BOT MD V3",
-    "stop": "pm2 stop . --attach --name X BOT MD V3"
+    "start": "pm2 start . --attach --name X-BOT-MD"
   },
   "repository": {
     "type": "git",
