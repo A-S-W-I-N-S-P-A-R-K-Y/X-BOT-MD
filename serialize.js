@@ -113,7 +113,7 @@ var time = '0 */5 * * *'
           
         }
         if (connection === "open") {
-          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : WORK_TYPE_`})
+          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_`})
           client.sendPresenceUpdate('unavailable')
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
             fs.readdirSync("./plugins").forEach((plugin) => {
