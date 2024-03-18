@@ -1,73 +1,63 @@
 {
-	"name": "x bot md",
-	"description": "TEAM EX-BOT-Z",
-	"keywords": [
-		"whatsapp",
-		"bot"
-	],
-	"repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
-	"stack": "container",
-    "env": { 
-	    "DATABASE_URL": {
-            "description": "use your SQL db url",
-            "required": false,
-            "value":""
-        },
-        "HANDLERS": {
-            "description": "Prefix of commands. Can be also false",
-            "required": true,
-            "value":"."
-        },
-        "AUTO_STATUS_VIEW": {
-            "description": "AUTO STATUS READER",
-            "required": false,
-            "value":"true"
-        },
-        "WORK_TYPE": {
-            "description": "bot mode public/private",
-            "required": true,
-            "value":"public"
-        },
-      " AUDIO_DATA": {
-            "description": "Enter your mention data here",
-            "required": false,
-            "value":"X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
-        },
-	    "ALWAYS_ONLINE": {
-            "description": "Bot online or not",
-            "required": false,
-            "value": "false"
-        },
-        "STICKER_DATA": {
-            "description": "Name of stickers created using bot. Can also split using ;",
-            "required": true,
-            "value":"X-BOT-MD;ASWIN SPARKY"
-        },
-        "BOT_INFO": {
-            "description": "Name;owner;imageurl (seperate with ;)",
-            "required": true,
-            "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
-        },
-	    "SUDO": {
-            "description": "These numbers can control your bot. seperate with commas",
-            "required": true,
-            "value":"917012984396"
-        },
-       "SESSION_ID": {
-            "description": "Your MD session",
-            "required": true
-             
-        }
+  "name": "Phoenix-MD",
+  "version": "1.0.0",
+  "description": "Phoenix-MD Simple WhatsApp Bot",
+  "logo": "https://i.imgur.com/T78fhJk.jpeg",
+  "keywords": ["whatsapp", "bot", "md", "multi-device", "Phoenix", "Phoenix-MD", "wabot", "termux-bot", "sc-bot"],
+  "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Enter Your Session ID",
+      "required": true
     },
-    "buildpacks": [
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        },
-        {
-            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
-        }
-    ]
-  }
+    "HANDLERS": {
+      "description": "Enter Prefix For Commands",
+      "required": false,
+      "value": "."
+    },
+    "SUDO": {
+      "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
+      "required": true,
+      "value": "917012984396"
+    },
+    "STICKER_DATA": {
+      "description": "Enter Your Sticker PackName And Author Name",
+      "required": false,
+      "value": "X BOT MD;ASWIN SPARKY"
+    },
+    "AUDIO_DATA": {
+      "description": "Enter Your Owner Name",
+      "required": false,
+      "value": "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
+    },
+    "BOT_INFO": {
+      "description": "Enter Your Owner Number",
+      "required": false,
+      "value": "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Enter Your Bot Name",
+      "required": false,
+      "value": "false"
+    },
+    "WORK_TYPE": {
+      "description": "Enter Your Mode Type public For Public Otherwise Type private",
+      "required": false,
+      "value": "public"
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "If You Want To View Status Automatically, Type true. Otherwise, Type false",
+      "required": false,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
