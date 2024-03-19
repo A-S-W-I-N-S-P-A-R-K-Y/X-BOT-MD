@@ -18,6 +18,8 @@ const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.im
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
 const WORK_TYPE = process.env.WORK_TYPE || 'public';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
+const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
+const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
 
 
 module.exports = {
@@ -31,6 +33,8 @@ module.exports = {
   AUTO_STATUS_VIEW,
   ALWAYS_ONLINE,
   URL,
+  HEROKU_API_KEY,
+  HEROKU_APP_NAME,
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
