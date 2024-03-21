@@ -7,7 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 }
 
-const HANDLERS = process.env.HANDLER === "false" ? "^" || ".";
+const HANDLERS = process.env.HANDLER === "false" || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
