@@ -7,6 +7,9 @@ const googleTTS = require('google-tts-api');
 const FakeYou = require('fakeyou.js');
 const fetch = require('node-fetch')
 const config = require('../config.js');
+const {
+    STICKER_DATA
+} = require('../config.js');
 const fy = new FakeYou.Client({
     token: 'TR:p1921zb51ha60mbp4zbqtgyftcnn6',
     usernameOrEmail: 'vbcoc18@gmail.com',
@@ -38,7 +41,7 @@ Sparky(
         } else {
             let buff = await m.quoted.download();
         m.sendMsg(m.jid, buff, {
-    packname: '', author: ' ' , quoted : m 
+    packname: `${STICKER_DATA.split(";")[0]}`, author: `${STICKER_DATA.split(";")[1]}` , quoted : m 
 }, "sticker")
         }
     }
@@ -94,36 +97,7 @@ Sparky(
 
         }
     });
-/*
-Sparky(
-    {
-        name: "ftts",
-        fromMe: isPublic,
-        category: "converter",
-        desc: "text to speech"
-    },
-    async ({
-        m, client, args
-    }) => {
-        await fy.start(); //required
-        if (!args) return m.reply('_Enter words!_')
-        let [txt,
-            lang] = args.split`:`
-        m.reply('_Generating audio..._')
-        let models = fy.searchModel(lang || "ronaldo");
-        if (models.size >= 1) {
-            let result = await fy.makeTTS(models.first(), txt);
-            console.log(result.audioURL());
-            let buff = await (await fetch(result.audioURL())).buffer()
-            return await client.sendMessage(m.jid, {
-                audio: buff, mimetype: 'audio/mpeg', ptt: true,
-            }, {
-                quoted: m
-            })
-        }
-    }
-);
-*/
+
 Sparky(
     {
         name: "wave",
