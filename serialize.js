@@ -113,7 +113,7 @@ var time = '0 */5 * * *'
           
         }
         if (connection === "open") {
-          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_`})
+          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_\n\n\n _For Update Follow Our Channel :_ https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00\n\n©ASWIN SPARKY`})
           client.sendPresenceUpdate('unavailable')
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
             fs.readdirSync("./plugins").forEach((plugin) => {
