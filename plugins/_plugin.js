@@ -16,6 +16,7 @@ Sparky(
         category: "sudo",
     },
     async ({client, m, args}) => {
+        args = args || m.quoted?.text;
         if (!args) return m.reply("_Send a plugin url_");
 
       try {
