@@ -5,7 +5,10 @@ const {
 } = require("../lib/plugins.js");
 const axios = require('axios');
 const fetch = require('node-fetch');
-const API = require("../config.js");
+const {
+  API
+} = require("../config.js");
+
 
 Sparky(
     {
