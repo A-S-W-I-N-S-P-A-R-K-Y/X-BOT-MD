@@ -80,7 +80,7 @@ Sparky(
             let [txt,
                 lang] = args.split`:`
             const audio = googleTTS.getAudioUrl(`${txt}`, {
-                lang: lang || "en-US",
+                lang: lang || "ml",
                 slow: false,
                 host: "https://translate.google.com",
             })
