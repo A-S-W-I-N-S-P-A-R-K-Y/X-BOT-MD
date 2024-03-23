@@ -7,6 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 }
 
+const API = "https://api-aswin-sparky.koyeb.app";
 const HANDLERS = process.env.HANDLER || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
@@ -23,6 +24,7 @@ const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
 
 
 module.exports = {
+  API,
   HANDLERS,
   SUDO,
   WORK_TYPE,
