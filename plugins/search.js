@@ -5,7 +5,7 @@ const {
 } = require("../lib/plugins.js");
 const axios = require('axios');
 const fetch = require('node-fetch');
-let API = "https://api-aswin-sparky.koyeb.app";
+const API = require("../config.js");
 
 Sparky(
     {
