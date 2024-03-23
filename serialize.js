@@ -16,6 +16,11 @@ const web = require('./lib/server.js');
 const MsgHandler = require('./lib/handler.js')
 const cron = require('node-cron');
 const {
+    GevPlugin,
+    PluginInstall
+} = require("./lib/database/ext_plugins.js");
+const got = require("got");
+const {
   Client
 } = require('./lib/client.js');
 const X = require("./config.js")
@@ -32,23 +37,31 @@ const Spinnies = require("spinnies")
 const spinnies = new Spinnies({
   spinner: { interval: 200, frames: [" ", "_"], }
 })
- 
+ ///////
+const readAndRequireFiles = async (directory) => {
+  const files = await fs.readdir(directory);
+  return Promise.all(
+    files
+      .filter((file) => path.extname(file).toLowerCase() === ".js")
+      .map((file) => require(path.join(directory, file)))
+  );
+};
+///////
 async function MakeSession() {
     try {
-        console.log("WRITING SESSION...");
+        console.log("ᴡʀɪᴛᴛɪɴɢ sᴇssɪᴏɴ");
         const {
           data
         } = await axios(`https://paste.c-net.org/${X.SESSION_ID.split(':')[1]}`);
         await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data));
-        console.log("SESSION CREATED SUCCESSFULLY✅");
+        console.log("sᴇssɪᴏɴ ᴄʀᴇᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ");
       } catch (err) {
         console.log(err);
       }
 }
 MakeSession();
-/*module.exports = async(m, client, from, jid) => {
-client.sendPresenceUpdate('unavailable', from)
-}*/
+/////////////////////
+
 async function Bot() {
 
     const {
@@ -101,7 +114,7 @@ var time = '0 */5 * * *'
   job.start();
     //////////////////////////////////////
 
-    client.ev.on('connection.update', (update) => {
+    client.ev.on('connection.update', async(update) => {
         const {
             connection
         } = update;
@@ -110,15 +123,26 @@ var time = '0 */5 * * *'
             console.log("sʏɴᴄɪɴɢ ᴅᴀᴛᴀʙᴀsᴇ...");
  // config.DATABASE.authenticate();
   config.DATABASE.sync();
-          
         }
         if (connection === "open") {
-          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_\n\n\n _For Update Follow Our Channel :_ https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00\n\n©ASWIN SPARKY`})
-          client.sendPresenceUpdate('unavailable')
+          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_\n\n\n _For Update Follow Our Channel :_ https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00`})
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
-            fs.readdirSync("./plugins").forEach((plugin) => {
+            
+          var plugins = await GevPlugin.findAll();
+        plugins.map(async (plugin) => {
+            if (!fs.existsSync('./plugins/' + plugin.dataValues.name + '.js')) {
+                var response = await got(plugin.dataValues.url);
+                if (response.statusCode == 200) {
+              fs.writeFileSync('./plugins/' + plugin.dataValues.name + '.js', response.body);
+                    require('./plugins/' + plugin.dataValues.name + '.js');
+console.log("ᴇxᴛᴇʀɴᴀʟ ᴘʟᴜɢɪɴs ɪɴsᴛᴀʟʟᴇᴅ")
+                }     
+            }
+        });
+          
+          fs.readdirSync("./plugins").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    import("./plugins/" + plugin);
+          import("./plugins/" + plugin);
                 }
             });
             console.log("ᴘʟᴜɢɪɴs ʟᴏᴀᴅᴇᴅ");
