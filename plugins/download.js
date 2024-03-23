@@ -7,9 +7,8 @@ let gis = require("g-i-s");
 const axios = require('axios');
 const fetch = require('node-fetch');
 const {
-    API
+  API
 } = require("../config.js");
-
 Sparky(
     {
         name: "insta",
