@@ -125,7 +125,7 @@ var time = '0 */5 * * *'
   config.DATABASE.sync();
         }
         if (connection === "open") {
-		//
+		/*
 let txt = `_X BOT MD STARTED..._\n\n_Mode : ${WORK_TYPE}_\n_Prefix : ${HANDLERS}_\n_Version : 3.00_\n\n\n_Plugins :_ https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/EXTERNAL-PLUGINS\n\n\n💗`
 let URL = "https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00"
 return await client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net` , { text : txt,
@@ -138,8 +138,8 @@ mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: true,
 thumbnailUrl: "https://i.imgur.com/Q2UNwXR.jpg" }}},{ quoted: false })
-		//
-          //client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : ` _For Update Follow Our Channel :_ https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00`})
+		*/
+          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._\n\n_Mode : ${WORK_TYPE}_\n_Prefix : ${HANDLERS}_\n_Version : 3.00_\n\n\n_Plugins :_ https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/EXTERNAL-PLUGINS`})
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
             
           var plugins = await GevPlugin.findAll();
