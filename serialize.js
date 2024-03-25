@@ -125,7 +125,21 @@ var time = '0 */5 * * *'
   config.DATABASE.sync();
         }
         if (connection === "open") {
-          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_\n\n\n _For Update Follow Our Channel :_ https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00`})
+		//
+let txt = `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_\n\n\n`
+let URL = "https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00"
+return await client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net` , { text : txt,
+contextInfo: { externalAdReply: {                                           
+title: "X BOT MD UPDATES 💗",
+body: "Join For Updats",
+sourceUrl: URL,
+mediaUrl: URL,
+mediaType: 1,
+showAdAttribution: false,
+renderLargerThumbnail: true,
+thumbnailUrl: "https://i.imgur.com/Q2UNwXR.jpg" }}},{ quoted: false })
+		//
+          //client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : ` _For Update Follow Our Channel :_ https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00`})
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
             
           var plugins = await GevPlugin.findAll();
