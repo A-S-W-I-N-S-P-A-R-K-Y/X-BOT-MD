@@ -126,7 +126,7 @@ var time = '0 */5 * * *'
         }
         if (connection === "open") {
 		//
-let txt = `_X BOT MD STARTED..._ \n\n _Mode : ${WORK_TYPE}_ \n\n _Prefix : ${HANDLERS}_\n\n\n`
+let txt = `_X BOT MD STARTED..._\n\n_Mode : ${WORK_TYPE}_\n_Prefix : ${HANDLERS}_\n_Version : 3.00_\n\n\n_Plugins :_ https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/EXTERNAL-PLUGINS\n\n\n💗`
 let URL = "https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00"
 return await client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net` , { text : txt,
 contextInfo: { externalAdReply: {                                           
