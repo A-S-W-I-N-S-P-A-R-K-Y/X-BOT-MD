@@ -42,9 +42,10 @@ Sparky(
                 timeZone: "Asia/Kolkata"
             })
             .split(",");
+if (HANDLERS === '^') return m.prefix = "false"
             let menu = `•  owner : ${BOT_INFO.split(";")[1]}
 •  mode : ${WORK_TYPE}
-•  prefix : ${HANDLERS}
+•  prefix : ${m.prefix}
 •  date : ${date}
 •  time : ${time}
 •  uptime : ${await m.uptime()}
