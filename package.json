@@ -24,7 +24,6 @@
     "acrcloud": "^1.4.0",
     "axios": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
-    "canvacord": "^5.4.10",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "fakeyou.js": "^1.1.1",
