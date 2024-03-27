@@ -78,7 +78,7 @@ async function Bot() {
          creds: state.creds,
          keys: makeCacheableSignalKeyStore(state.keys, P({ level: "fatal" }).child({ level: "fatal" })),
       },
-        browser: Browsers.macOS('Desktop'),
+        browser: ['X-BOT-MD', 'Chrome', '1.0.0'],
         downloadHistory: false,
         syncFullHistory: false,
         logger: P({
@@ -164,10 +164,6 @@ console.log("ᴇxᴛᴇʀɴᴀʟ ᴘʟᴜɢɪɴs ɪɴsᴛᴀʟʟᴇᴅ")
         }
       
     })
-
-    //////////////////////////////////////
-//client.sendPresenceUpdate('unavailable', m.user)
-  ////////////////
 
   async function getMessage(key){
         if (store) {
