@@ -26,3 +26,25 @@ Sparky(
             console.log(e)
         }
     })
+
+Sparky(
+    {
+        name: "gpp",
+        fromMe: true,
+        category: "sudo",
+        desc: "fullgpp"
+    }, async ({
+            m, client, args
+        }) => {
+
+try {
+            if (!m.quoted || (!m.quoted.message.imageMessage))
+                return m.reply("_Reply to an Image_");
+            let media = await m.quoted.download();
+            await updatefullpp(m.jid, media, client);
+            return await m.reply("_Group Profile Picture Updated_");
+        } catch (e) {
+            console.log(e)
+        }
+
+});
