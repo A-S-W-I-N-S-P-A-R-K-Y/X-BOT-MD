@@ -5,7 +5,7 @@ const {
 } = require("../lib/plugins.js");
 const font = require("@viper-x/fancytext");
 
-
+/*
 Sparky(
     {
         name: "invite",
@@ -22,11 +22,11 @@ Sparky(
         let code = await client.groupInviteCode(m.jid)
         return m.reply('https://chat.whatsapp.com/' + code)
     })
-
+*/
 Sparky(
     {
         name: "mute",
-        fromMe: isPublic,
+        fromMe: true,
         desc: "Mutes the group.",
         category: "group"
     },
@@ -43,7 +43,7 @@ Sparky(
 Sparky(
     {
         name: "unmute",
-        fromMe: isPublic,
+        fromMe: true,
         desc: "Unmutes the group",
         category: "group"
     },
@@ -60,7 +60,7 @@ Sparky(
 Sparky(
     {
         name: "promote",
-        fromMe: isPublic,
+        fromMe: true,
         desc: "Promotes a user to admin",
         category: "group"
     },
@@ -93,7 +93,7 @@ Sparky(
 Sparky(
     {
         name: "demote",
-        fromMe: isPublic,
+        fromMe: true,
         desc: "Demotes a user from admin",
         category: "group"
     },
