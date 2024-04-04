@@ -173,3 +173,20 @@ var data = await xvdl.json();
   client.sendMessage(m.jid, { video :{ url: data.data }, caption: "🤤💦" }, {quoted: m })
     }
   );
+
+Sparky(
+    {
+        name: "ytv",
+        fromMe: isPublic,
+        category: "downloader",
+        desc: "",
+    },
+    async ({
+        m, client, args
+    }) => {
+args = args || m.quoted?.text;
+if (!args) return await m.reply("_Reply to a link_");
+let dll = `https://api-viper-x.koyeb.app/api/ytdl?video360p=${args}`
+client.sendMessage(m.jid, { video :{ url: dll }, caption: "_X BOT MD V3_"}, {quoted: m })
+    }
+    );
