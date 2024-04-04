@@ -12,7 +12,7 @@ const {
 } = require('fs');
 const fetch = require('node-fetch')
 const yts = require("yt-search")
-const ytdl = require("youtubedl-core");
+//const ytdl = require("youtubedl-core");
 const NodeID3 = require('node-id3')
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const axios = require("axios")
