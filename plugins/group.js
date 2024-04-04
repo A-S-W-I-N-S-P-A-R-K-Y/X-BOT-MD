@@ -135,3 +135,62 @@ Sparky({
        }
 	await client.groupLeave(m.jid)
 });
+
+
+Sparky(
+    {
+        name: "invite",
+        fromMe: true,
+        desc: "Mutes the group.",
+        category: "group"
+    },
+    async ({
+        m, client, args
+    }) => {
+
+        if (!await m.isAdmin(client.user.id)) return m.reply("_Admin access not conferred._")
+        if (!await m.isAdmin(m.sender)) return m.reply("_Only for authorized administrators._")
+const response = await client.groupInviteCode(m.jid)
+await m.reply(`_https://chat.whatsapp.com/${response}_`)
+    }
+	);
+
+Sparky(
+    {
+        name: "revoke",
+        fromMe: true,
+        desc: "Mutes the group.",
+        category: "group"
+    },
+    async ({
+        m, client, args
+    }) => {
+
+        if (!await m.isAdmin(client.user.id)) return m.reply("_Admin access not conferred._")
+        if (!await m.isAdmin(m.sender)) return m.reply("_Only for authorized administrators._")
+await client.groupRevokeInvite(m.jid)
+await m.reply("_The Invite Was Revoked!_")
+    }
+	);
+
+Sparky(
+    {
+        name: "join",
+        fromMe: true,
+        desc: "Mutes the group.",
+        category: "group"
+    },
+    async ({
+        m, client, args
+    }) => {
+
+        if (!await m.isAdmin(client.user.id)) return m.reply("_Admin access not conferred._")
+        if (!await m.isAdmin(m.sender)) return m.reply("_Only for authorized administrators._")
+	    
+    var rgx = /^(https?:\/\/)?chat\.whatsapp\.com\/(?:invite\/)?([a-zA-Z0-9_-]{22})$/
+    if (!args || !rgx.test(args)) return await m.reply("_Need group link_")
+    var res = await client.groupAcceptInvite(args.split("/")[3])
+    if (!res) return await m.reply("_Invalid Group Link!_")
+    if (res) return await m.reply("_Joined!_")
+    }
+	);
