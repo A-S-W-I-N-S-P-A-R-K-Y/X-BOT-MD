@@ -109,6 +109,6 @@
 * [`EX-KRIZ`](https://github.com/EX-KRIZ)
 * [`VIPER`](https://github.com/Viper-X0)
 * ## Beta Testers
-
+* [`Nithin R`](https://wa.me/917012013707?text=Hy+Bro+Big+Fan💕)
  </details>
  
