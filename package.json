@@ -1,5 +1,5 @@
 {
-  "name": "X-BOT-MD",
+  "name": "X-BOT-MD-BY MR WAHAB",
   "version": "3.0.0",
   "description": "WhatsApp Helper Bot",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "bot",
     "whatsapp"
   ],
-  "author": "ASWIN SPARKY",
+  "author": "MR WAHAB",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
