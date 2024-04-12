@@ -21,7 +21,7 @@
   
 <p align="center">
 
-  <a aria-label="Tutorial" href="https://youtu.be/SfXJuSug4Lo?si=KTVnXxbERAdroIEb" target="_blank">
+  <a aria-label="Tutorial" href="https://youtube" target="_blank">
     <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   
 <div align="center">
