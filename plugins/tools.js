@@ -129,3 +129,17 @@ let res = await m.quoted.download();
       }
     }
 	);
+
+Sparky(
+    {
+        name: "forward",
+        fromMe: true,
+        category: "tools",
+        desc: "Finds music from replied Audio",
+    },
+    async ({
+        m, client, args
+    }) => {
+return await m.forward(args || m.jid, m.quoted.message)
+    }
+	);
