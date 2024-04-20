@@ -104,7 +104,7 @@ async function Bot() {
     
             
     //////////////////////////////////////
-var time = '0 */1 * * *'
+var time = '0 */2 * * *'
   const job = cron.schedule(time, () => {
     Bot();
     job.destroy(); bb
