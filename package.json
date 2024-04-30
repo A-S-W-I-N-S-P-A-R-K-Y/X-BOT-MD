@@ -20,7 +20,7 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "@viper-x/fancytext": "^1.0.2",
-    "@whiskeysockets/baileys": "^6.5.0",
+    "@whiskeysockets/baileys": "^6.6.0",
     "acrcloud": "^1.4.0",
     "axios": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
