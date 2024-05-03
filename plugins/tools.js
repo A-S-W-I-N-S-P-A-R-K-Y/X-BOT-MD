@@ -110,32 +110,6 @@ client.sendMessage(m.jid, { image :{ url: dll }, caption: "_X BOT MD V3_"}, {quo
 
 Sparky(
     {
-        name: "vdo",
-        fromMe: true,
-        category: "tools",
-        desc: "Finds music from replied Audio",
-    },
-    async ({
-        m, client, args
-    }) => {
-const { generateWAMessageContent } = require('@whiskeysockets/baileys')
-let buff = await m.quoted.download()
-let msg = await generateWAMessageContent({
-            video: buff
-        }, {
-            upload: client.waUploadToServer
-        })
-        await client.relayMessage(args || m.jid, {
-            ptvMessage: msg.videoMessage
-        }, {
-            quoted: m
-        })
-    }
-	);
-
-
-Sparky(
-    {
         name: "save",
         fromMe: true,
         category: "tools",
@@ -153,5 +127,19 @@ let res = await m.quoted.download();
       } else if(m.quoted.message.imageMessage){
       await client.sendMessage(m.jid, { image :res ,  mimetype:"image/jpeg"}, {quoted: m })
       }
+    }
+	);
+
+Sparky(
+    {
+        name: "forward",
+        fromMe: true,
+        category: "tools",
+        desc: "Finds music from replied Audio",
+    },
+    async ({
+        m, client, args
+    }) => {
+return await m.forward(args || m.jid, m.quoted.message)
     }
 	);

@@ -16,6 +16,7 @@ Sparky(
         category: "sudo",
     },
     async ({client, m, args}) => {
+        args = args || m.quoted?.text;
         if (!args) return m.reply("_Send a plugin url_");
 
       try {
@@ -110,3 +111,18 @@ Sparky(
         }
     }
 );
+
+Sparky(
+    {
+        name: "allplugin",
+        fromMe: true,
+        desc: "shows all available external plugins",
+        category: "sudo",
+    },
+    async ({client, m, args}) => {
+ const {
+          data
+        } = await axios(`https://x-bot-md-qr.vercel.app/allplug.js`);
+
+m.adreply(data)
+    });

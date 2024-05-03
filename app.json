@@ -11,7 +11,7 @@
       "description": "Enter Your Session ID",
       "required": true
     },
-    "HANDLERS": {
+    "HANDLER": {
       "description": "Enter Prefix For Commands",
       "required": false,
       "value": "."
@@ -44,7 +44,7 @@
     "WORK_TYPE": {
       "description": "Enter Your Mode Type public For Public Otherwise Type private",
       "required": false,
-      "value": "public"
+      "value": "private"
     },
     "AUTO_STATUS_VIEW": {
       "description": "If You Want To View Status Automatically, Type true. Otherwise, Type false",
@@ -52,6 +52,11 @@
       "value": "false"
     }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
   "buildpacks": [
     {
       "url": "heroku/nodejs"

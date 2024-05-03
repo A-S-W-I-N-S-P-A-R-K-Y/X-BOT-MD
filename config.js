@@ -7,6 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 }
 
+const API = "https://api-aswin-sparky.koyeb.app";
 const HANDLERS = process.env.HANDLER || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
@@ -20,9 +21,11 @@ const WORK_TYPE = process.env.WORK_TYPE || 'public';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
 const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
+const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
 
 
 module.exports = {
+  API,
   HANDLERS,
   SUDO,
   WORK_TYPE,
@@ -35,6 +38,7 @@ module.exports = {
   URL,
   HEROKU_API_KEY,
   HEROKU_APP_NAME,
+  KOYEB_API_KEY,
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"

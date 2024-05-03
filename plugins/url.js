@@ -45,8 +45,7 @@ Sparky(
 
         if (mime.includes('audio')) {
             const tmpInput = `${tmpdir()}/imgur.mp4`
-            await delay (3000)
-            const aud = await toVideo(data);
+            const aud = await toVideo(buff);
             fs.writeFileSync(tmpInput, aud)
         } else {
             tmpInput = `${tmpdir()}/imgur.${mime.split("/")[1]}`

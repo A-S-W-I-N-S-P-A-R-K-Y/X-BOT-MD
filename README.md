@@ -1,5 +1,10 @@
 <p align="center"> 
-      <h1 align="center">X BOT MD MD V-3.00</h1>
+      <h1 align="center">X BOT MD MD V-3.00 (BETA)</h1>
+      <h2 align="center">This bot is still under development so if you want to use it, please check this main repo every day and update your "FORKED REPO" because i am continuously debugging it and making major changes in it</h2>
+     <div align="center">
+           
+## _[Update My Repo](https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/FORK-UPDATE)_
+</div>
   <a href="https://x-md-qr-elctro-wizard.koyeb.app">
         <p align="center">
    <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
@@ -16,7 +21,7 @@
   
 <p align="center">
 
-  <a aria-label="Tutorial" href="https://youtu.be/SfXJuSug4Lo?si=KTVnXxbERAdroIEb" target="_blank">
+  <a aria-label="Tutorial" href="https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/DEPLOY-TUTORIAL" target="_blank">
     <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   
 <div align="center">
@@ -60,8 +65,7 @@
 
 4. Now Deploy
     <br>
-<a href='https://app.koyeb.com/apps/deploy?type=git&repository=github.com/hunky254-BOT-MD&branch=main&name=X-BOT-MD&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLERS]=.&env[BOT_INFO]=X-BOT-MD;ASWIN%20SPARKY;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=917012984396&env[STICKER_DATA]=SPARKY' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
-
+<
 #### DEPLOY ON RAILWAY
 
 1. If You don't have a account in Railway. Create a account.
@@ -89,7 +93,7 @@
    <br>
 2. Now Deploy
     <br>
-<a href='https://bit.ly/trapstar-MD-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
+
 
 * Now fork it and enjoy 🗿🙌🏻
 <br>
@@ -104,6 +108,6 @@
 * [`EX-KRIZ`](https://github.com/EX-KRIZ)
 * [`VIPER`](https://github.com/Viper-X0)
 * ## Beta Testers
-
+* [`Nithin R`](https://wa.me/917012013707?text=Hy+Bro+Big+Fan💕)
  </details>
  
