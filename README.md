@@ -5,7 +5,7 @@
            
 ## _[Update My Repo](https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/FORK-UPDATE)_
 </div>
-  <a href="https://x-md-qr-elctro-wizard.koyeb.app">
+  <a href="https://x-bot-md-qr.koyeb.app">
         <p align="center">
    <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
               </p>
@@ -42,7 +42,7 @@
 
 2. Scan the QR and get the SESSION ID
    <br>
-<a href='https://x-bot-md-qr.vercel.app/Qr.html' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://x-bot-md-qr.koyeb.app' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 #### DEPLOY TO HEROKU 
