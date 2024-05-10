@@ -50,9 +50,16 @@ const readAndRequireFiles = async (directory) => {
 async function MakeSession() {
     try {
         console.log("ᴡʀɪᴛᴛɪɴɢ sᴇssɪᴏɴ");
+	if (!X.SESSION_ID) {
+		console.log('please provide a session id');
+		console.log('please provide a session id');
+		console.log('please provide a session id');
+		await sleep(10000);
+		process.exit(1);
+	}
         const {
           data
-        } = await axios(`https://paste.c-net.org/${X.SESSION_ID.split(':')[1]}`);
+        } = await axios(`https://gist.github.com/ESWIN-SPERKY/${X.SESSION_ID.split(':')[1]}/raw`);
         await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data));
         console.log("sᴇssɪᴏɴ ᴄʀᴇᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ");
       } catch (err) {
