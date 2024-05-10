@@ -38,6 +38,7 @@
 <a href="https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
+
 ### SCAN QR
 
 2. Scan the QR and get the SESSION ID
