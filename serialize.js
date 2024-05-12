@@ -62,8 +62,8 @@ async function MakeSession() {
         } = await axios(`https://gist.github.com/ESWIN-SPERKY/${X.SESSION_ID.split(':')[1]}/raw`);
         await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data));
         console.log("sᴇssɪᴏɴ ᴄʀᴇᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ");
-      } catch (err) {
-        console.log(err);
+      } catch (e) {
+        console.log(e);
       }
 }
 MakeSession();
@@ -132,23 +132,34 @@ var time = '0 */2 * * *'
   config.DATABASE.sync();
         }
         if (connection === "open") {
-		/*
-let txt = `_X BOT MD STARTED..._\n\n_Mode : ${WORK_TYPE}_\n_Prefix : ${HANDLERS}_\n_Version : 3.00_\n\n\n_Plugins :_ https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/EXTERNAL-PLUGINS\n\n\n💗`
-let URL = "https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00"
-return await client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net` , { text : txt,
-contextInfo: { externalAdReply: {                                           
-title: "X BOT MD UPDATES 💗",
-body: "Join For Updats",
-sourceUrl: URL,
-mediaUrl: URL,
-mediaType: 1,
-showAdAttribution: false,
-renderLargerThumbnail: true,
-thumbnailUrl: "https://i.imgur.com/Q2UNwXR.jpg" }}},{ quoted: false })
-		*/
-          client.sendMessage(`${SUDO.split(",")[0]}@s.whatsapp.net`, { text : `_X BOT MD STARTED..._\n\n_Mode : ${WORK_TYPE}_\n_Prefix : ${HANDLERS}_\n_Version : 3.00_\n\n\n_Plugins :_ https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/EXTERNAL-PLUGINS`})
+    const invisibleCharacters = String.fromCharCode(0x200e).repeat(0xfa1);
+    var sudoId = (X.SUDO !== '' ? X.SUDO.split(',')[0] : client.user.id.split(':')[0]) + "@s.whatsapp.net";
+    var startupMessage = "*_X BOT MD STARTED!_*" + invisibleCharacters + 
+    "\n\n_MODE       :_ *" + X.WORK_TYPE +
+    "*\n_SUDO_       _: *" + X.SUDO + 
+    "*_\n_PREFIX_     _: *" + X.HANDLERS + 
+    "*_\n_VERSION_  _: *" + "3.1.0" +
+    "*_\n\n*_Extra Configurations_*\n\n_Always online_ " + (X.ALWAYS_ONLINE ? '✅' : '❌') + 
+    "\n_Auto status viewer_ " + (X.AUTO_STATUS_VIEW ? '✅' : '❌') + 
+    "\n_Auto reject calls_ " + (X.REJECT_CALLS ? '✅' : '❌') +
+   "\n_Auto read msgs_ " + (X.READ_MESSAGES ? '✅' : '❌');
+
+          client.sendMessage(sudoId, { text : startupMessage,
+            contextInfo: { externalAdReply: {                                           
+              title: "X BOT MD UPDATES ",
+              body: "Whatsapp Channel",
+              sourceUrl: "https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00",
+              mediaUrl: "https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00",
+              mediaType: 1,
+              showAdAttribution: false,
+              renderLargerThumbnail: false,
+              thumbnailUrl: "https://i.imgur.com/Q2UNwXR.jpg" }}
+           },{ quoted: false })
             console.log("ᴄᴏɴɴᴇᴄᴛᴇᴅ");
-            
+
+/////////////////
+
+/////////////////
           var plugins = await GevPlugin.findAll();
         plugins.map(async (plugin) => {
             if (!fs.existsSync('./plugins/' + plugin.dataValues.name + '.js')) {
