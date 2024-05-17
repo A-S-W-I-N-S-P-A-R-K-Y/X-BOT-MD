@@ -21,6 +21,14 @@
       "required": true,
       "value": "917012984396"
     },
+    "HEROKU_APP_NAME": {
+      "description": "Enter Your Heroku App Name Same As Above You Entered",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter Your Heroku Account Api Key. Get It From https://dashboard.heroku.com/account",
+      "required": true
+    },
     "STICKER_DATA": {
       "description": "Enter Your Sticker PackName And Author Name",
       "required": false,
