@@ -24,9 +24,9 @@ Sparky(
         'main' + "..origin/" + 'main',
       ]);
       if (commits.total === 0) {
-        return await m.reply("*_Bot Is Up-to-Date_*");
+        return await m.reply("_Bot Is Up-to-Date_");
       } else {
-        await m.reply("*_Update Started_*");
+        await m.reply("_Update Started_");
 
         try {
           var app = await heroku.get("/apps/" + Config.HEROKU_APP_NAME);
@@ -50,13 +50,13 @@ Sparky(
         }
         await git.push("heroku", 'main');
 
-        await m.reply("*_Successfully Updated_*");
+        await m.reply("_Successfully Updated_");
       }
     }
     await git.fetch();
     var commits = await git.log(['main' + "..origin/" + 'main']);
     if (commits.total === 0) {
-      await m.reply("*_No Updates Available_*");
+      await m.reply("_No Updates Available_");
     } else {
       var availupdate = "*ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ* \n\n";
       commits["all"].map((commit, num) => {
