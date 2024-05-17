@@ -60,7 +60,7 @@ Sparky(
     } else {
       var availupdate = "*ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ* \n\n";
       commits["all"].map((commit, num) => {
-        availupdate += num + 1 + " ⋆ " + (commit.m) + "\n";
+        availupdate += num + 1 + " ⋆ " + (commit.message) + "\n";
       });
       return await client.sendMessage(m.jid, {
         text: availupdate,
