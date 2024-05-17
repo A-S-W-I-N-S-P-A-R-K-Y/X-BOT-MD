@@ -64,7 +64,6 @@ Sparky(
       });
       return await client.sendMessage(m.jid, {
         text: availupdate,
-        footer: ("click here to update"),
       });
     }
 /////////
