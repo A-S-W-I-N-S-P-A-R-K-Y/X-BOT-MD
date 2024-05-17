@@ -1,5 +1,4 @@
 FROM node:lts-buster
-
 RUN apt-get update && \
   apt-get install -y \
   ffmpeg \
@@ -8,11 +7,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
-
-COPY package.json .
-
+RUN git clone https://github.com/ruemods/X-BOT-MD /root/Sparky
+WORKDIR /root/Sparky/
 RUN yarn install
-
-COPY . .
-
 CMD ["npm", "start"]
