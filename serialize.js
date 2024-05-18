@@ -57,9 +57,8 @@ async function MakeSession() {
 		await sleep(10000);
 		process.exit(1);
 	}
-        const {
-          data
-        } = await axios(`https://gist.github.com/ESWIN-SPERKY/${X.SESSION_ID.split(':')[1]}/raw`);
+	const sid = await axios(`https://api-aswin-sparky.koyeb.app/api/session?id=${X.SESSION_ID.split(':')[1]}`)
+	let data =  sid.data
         await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data));
         console.log("sᴇssɪᴏɴ ᴄʀᴇᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ");
       } catch (e) {
