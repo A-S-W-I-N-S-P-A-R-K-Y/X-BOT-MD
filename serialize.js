@@ -57,9 +57,9 @@ async function MakeSession() {
 		await sleep(10000);
 		process.exit(1);
 	}
-	const sid = await axios(`https://api-aswin-sparky.koyeb.app/api/session?id=${X.SESSION_ID.split(':')[1]}`)
+	const sid = await axios(`${X.API}/api/session?id=${X.SESSION_ID.split(':')[1]}`)
 	let data =  sid.data
-        await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data));
+        await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data.data));
         console.log("sᴇssɪᴏɴ ᴄʀᴇᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ");
       } catch (e) {
         console.log(e);
