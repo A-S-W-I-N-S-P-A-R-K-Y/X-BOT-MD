@@ -8,6 +8,7 @@ if (fs.existsSync('config.env')) {
 }
 
 const API = "https://api-aswin-sparky.koyeb.app";
+const ALIVE = process.env.ALIVE || "HELLOLOLOLOLOLOLOLOLOLOLOLOLOLOLO";
 const HANDLERS = process.env.HANDLER || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
@@ -26,6 +27,7 @@ const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
 
 module.exports = {
   API,
+  ALIVE,
   HANDLERS,
   SUDO,
   WORK_TYPE,

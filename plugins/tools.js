@@ -2,8 +2,6 @@ const {
     Sparky,
     isPublic
 } = require("../lib/plugins.js");
-const { elevenlabs
-} = require('../lib/functions.js');
 
 const { 
 	MusicFind

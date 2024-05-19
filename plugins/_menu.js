@@ -10,7 +10,8 @@ const {
     HANDLERS,
     WORK_TYPE,
     BOT_INFO,
-    URL
+    URL,
+    ALIVE
 } = require("../config.js");
 const font = require("@viper-x/fancytext");
 const fs = require("fs");
@@ -107,3 +108,20 @@ thumbnailUrl: `${BOT_INFO.split(";")[2]}` }}},{ quoted: sperky })
       }
     }
 );
+
+const { GevAlive } = require("../lib/functions.js");
+
+Sparky(
+    {
+        name: "alive",
+        fromMe: true,
+        desc: "shows all available external plugins",
+        category: "sudo",
+    },
+    async ({client, m, args}) => {
+        try{
+await GevAlive(m, ALIVE)
+        } catch (e) {
+            console.log(e)
+        }
+    });
