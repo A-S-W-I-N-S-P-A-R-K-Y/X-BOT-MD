@@ -102,7 +102,26 @@ m.sendMsg(m.jid , `_@${m.sender.split("@")[0]}_`  , {   mentions : [m.sender]} )
                 console.log(e)
             }
         });
-    
+
+        Sparky(
+            {
+                name: "unblock",
+                fromMe: true,
+                desc: "",
+                category: "sudo",
+            },
+            async ({client, m, args}) => {
+                try{
+        /////////////////////
+            let jid = m.quoted.sender || m.jid;
+            return await client.updateBlockStatus(jid, "unblock");
+            return await m.reply("_unblocked_");
+        //////////////////////
+                } catch (e) {
+                    console.log(e)
+                }
+            });
+/* 
     Sparky(
         {
             name: "block",
@@ -121,22 +140,4 @@ m.sendMsg(m.jid , `_@${m.sender.split("@")[0]}_`  , {   mentions : [m.sender]} )
                 console.log(e)
             }
         });
-    
-    Sparky(
-        {
-            name: "unblock",
-            fromMe: true,
-            desc: "",
-            category: "sudo",
-        },
-        async ({client, m, args}) => {
-            try{
-    /////////////////////
-        let jid = m.quoted.sender || m.jid;
-        return await client.updateBlockStatus(jid, "unblock");
-        return await m.reply("_unblocked_");
-    //////////////////////
-            } catch (e) {
-                console.log(e)
-            }
-        });
+        */
