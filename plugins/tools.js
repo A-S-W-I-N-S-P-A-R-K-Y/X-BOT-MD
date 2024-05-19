@@ -143,3 +143,21 @@ Sparky(
 return await m.forward(args || m.jid, m.quoted.message)
     }
 	);
+
+Sparky(
+        {
+            name: "allplugin",
+            fromMe: true,
+            desc: "",
+            category: "sudo",
+        },
+        async ({client, m, args}) => {
+            try{
+     const {
+              data
+            } = await axios(`https://x-bot-md-qr.vercel.app/allplug.js`);
+    return await m.adreply(data)
+            } catch (e) {
+                console.log(e)
+            }
+        });

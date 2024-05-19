@@ -61,3 +61,82 @@ Sparky(
     }) => {
 m.sendMsg(m.jid , `_@${m.sender.split("@")[0]}_`  , {   mentions : [m.sender]} )
     })
+
+
+    Sparky(
+        {
+            name: "setname",
+            fromMe: true,
+            desc: "",
+            category: "sudo",
+        },
+        async ({client, m, args}) => {
+            try{
+    /////////////////////
+        args = args || m.quoted?.text;
+        if (!args) return await m.reply('_Need Name!*\n*Example: setname S P A R K Y._');
+        await client.updateProfileName(args);
+        await m.reply('_Profile name updated_');
+    //////////////////////
+            } catch (e) {
+                console.log(e)
+            }
+        });
+    
+    Sparky(
+        {
+            name: "setbio",
+            fromMe: true,
+            desc: "",
+            category: "sudo",
+        },
+        async ({client, m, args}) => {
+            try{
+    /////////////////////
+        args = args || m.quoted?.text;
+        if (!args) return await m.reply('_Need Status!*\n*Example: setbio Hey there! I am using WhatsApp._');
+        await client.updateProfileStatus(args);
+        await m.reply('_Profile status updated_');
+    //////////////////////
+            } catch (e) {
+                console.log(e)
+            }
+        });
+    
+    Sparky(
+        {
+            name: "block",
+            fromMe: true,
+            desc: "",
+            category: "sudo",
+        },
+        async ({client, m, args}) => {
+            try{
+    /////////////////////
+       let jid = m.quoted.sender || m.jid;
+       await client.updateBlockStatus(jid, "block");
+       return await m.reply("_blocked_");
+    //////////////////////
+            } catch (e) {
+                console.log(e)
+            }
+        });
+    
+    Sparky(
+        {
+            name: "unblock",
+            fromMe: true,
+            desc: "",
+            category: "sudo",
+        },
+        async ({client, m, args}) => {
+            try{
+    /////////////////////
+        let jid = m.quoted.sender || m.jid;
+        return await client.updateBlockStatus(jid, "unblock");
+        return await m.reply("_unblocked_");
+    //////////////////////
+            } catch (e) {
+                console.log(e)
+            }
+        });

@@ -111,18 +111,3 @@ Sparky(
         }
     }
 );
-
-Sparky(
-    {
-        name: "allplugin",
-        fromMe: true,
-        desc: "shows all available external plugins",
-        category: "sudo",
-    },
-    async ({client, m, args}) => {
- const {
-          data
-        } = await axios(`https://x-bot-md-qr.vercel.app/allplug.js`);
-
-m.adreply(data)
-    });
