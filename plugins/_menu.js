@@ -56,8 +56,8 @@ Sparky(
             commands.map((command, num) => {
               
                 if (command.name) {
-              let cmdName = command.name
-                  Sparky = cmdName.source.split('\\s*')[1]
+              let SparkyName = command.name
+                  Sparky = SparkyName.source.split('\\s*')[1]
                   .toString()
                   .match(/(\W*)([A-Za-züşiğ öç1234567890]*)/)[2];
               }
@@ -108,20 +108,3 @@ thumbnailUrl: `${BOT_INFO.split(";")[2]}` }}},{ quoted: sperky })
       }
     }
 );
-
-const { GevAlive } = require("../lib/functions.js");
-
-Sparky(
-    {
-        name: "alive",
-        fromMe: true,
-        desc: "shows all available external plugins",
-        category: "sudo",
-    },
-    async ({client, m, args}) => {
-        try{
-await GevAlive(m, ALIVE)
-        } catch (e) {
-            console.log(e)
-        }
-    });

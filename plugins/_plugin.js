@@ -1,7 +1,7 @@
 const got = require("got");
 const fs = require("fs");
 const {
-    Sparky
+    Sparky,
 } = require("../lib/plugins.js");
 const {
     GevPlugin,

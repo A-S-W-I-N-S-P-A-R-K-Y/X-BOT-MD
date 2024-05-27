@@ -1,6 +1,5 @@
 const {
-    Sparky,
-    commands,
+    Sparky, 
     isPublic
 } = require("../lib/plugins.js");
 let gis = require("g-i-s");

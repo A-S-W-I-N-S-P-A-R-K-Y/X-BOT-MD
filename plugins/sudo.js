@@ -133,4 +133,3 @@ m.sendMsg(m.jid , `_@${m.sender.split("@")[0]}_`  , {   mentions : [m.sender]} )
        await client.updateBlockStatus(m.jid, "block");
        return m.reply("_blocked_");
         });
-        

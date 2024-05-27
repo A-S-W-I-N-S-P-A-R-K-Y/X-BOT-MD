@@ -1,20 +1,12 @@
 const {
     Sparky,
-    commands,
     isPublic
 } = require("../lib/plugins.js");
 const googleTTS = require('google-tts-api');
-const FakeYou = require('fakeyou.js');
-const fetch = require('node-fetch')
 const config = require('../config.js');
 const {
     STICKER_DATA
 } = require('../config.js');
-const fy = new FakeYou.Client({
-    token: 'TR:p1921zb51ha60mbp4zbqtgyftcnn6',
-    usernameOrEmail: 'vbcoc18@gmail.com',
-    password: 'barishvb-8'
-});
 const { toAudio,
         AudioData,
         toVideo
@@ -110,8 +102,11 @@ Sparky(
     }) => {
         if (!m.quoted || !(m.quoted.message.audioMessage || m.quoted.message.documentMessage ))
             return await m.reply("_Reply to Audio Message_");
-        let buff = await m.quoted.download()
-m.sendMsg(m.jid , buff,{ audiowave : Array.from({length: 30}, () => Math.floor(Math.random() * 100)) , ptt : true , mimetype : "audio/mpeg" } , "audio" )
+         const options = {}
+        var waveform = Array.from({length: 30}, () => Math.floor(Math.random() * 100));
+        options.ptt = true
+       options.audiowave = waveform
+        await m.forwardMessage(m.jid,m.quoted,options)
     }
     );
 
@@ -164,12 +159,7 @@ Sparky(
         if (!m.quoted || !(m.quoted.message.imageMessage || m.quoted.message.videoMessage || m.quoted.message.documentMessage ))
             return await m.reply("_Reply to photo or video_");
 await m.reply("_Please Wait...._")
-let res = await m.quoted.download();
-      if(m.quoted.message.videoMessage){
-       await client.sendMessage(m.jid, { video :res ,  mimetype:"video/mp4", caption: (args)}, {quoted: m })
-      } else if(m.quoted.message.imageMessage){
-      await client.sendMessage(m.jid, { image :res ,  mimetype:"image/jpeg",caption: (args)}, {quoted: m })
-      }
+m.forwardMessage(m.jid , m.quoted , { caption : args })
     }
     );
 

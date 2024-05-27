@@ -1,11 +1,12 @@
 {
   "name": "X-BOT-MD",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "description": "WhatsApp Helper Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start . --attach --name X-BOT-MD"
+    "start": "pm2 start . --attach --name X-BOT-MD",
+    "stop": "pm2 stop . --attach --name X-BOT-MD"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "@viper-x/fancytext": "^1.0.2",
-    "@whiskeysockets/baileys": "git+https://github.com/WhiskeySockets/Baileys.git",
+    "@whiskeysockets/baileys": "git@github.com:WhiskeySockets/Baileys.git",
     "acrcloud": "^1.4.0",
     "axios": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
@@ -51,10 +52,6 @@
     "sqlite3": "^5.1.6",
     "supervisor": "^0.12.0",
     "youtubei.js": "^6.3.0",
-    "yt-search": "^2.10.4",
-    "y2mate-dl": "^1.0.4",
-    "mfiredlcore-vihangayt": "^1.0.0",
-    "vihangayt-fbdl": "^1.0.2",
-    "chatgpt-scraper": "^1.0.1"
+    "yt-search": "^2.10.4"
   }
 }
