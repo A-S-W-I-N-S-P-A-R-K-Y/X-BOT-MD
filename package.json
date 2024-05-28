@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "supervisor -s index.js",
+    "start": "pm2 start . --attach --name X-BOT-MD",
     "stop": "pm2 stop . --attach --name X-BOT-MD"
   },
   "repository": {
