@@ -39,6 +39,25 @@ Sparky(
     }
     );
 
+    Sparky(
+        {
+            name: "photo",
+            fromMe: isPublic,
+            desc: "Converts an image to sticker",
+            category: "converter",
+        },
+        async ({
+            m, client, args
+        }) => {
+            if (!m.quoted || !(m.quoted.message.stickerMessage))
+                return await m.reply("_Reply to a Sticker_");
+                /////////
+                let buff = await m.quoted.download();
+                client.sendMessage(m.jid , { image : buff } )
+            ////////////
+}
+    );
+
 Sparky(
     {
         name: "mp3",
