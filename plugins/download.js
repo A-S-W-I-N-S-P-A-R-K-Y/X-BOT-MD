@@ -185,7 +185,7 @@ Sparky(
     }) => {
 args = args || m.quoted?.text;
 if (!args) return await m.reply("_Reply to a link_");
-let dll = `https://api-viper-x.koyeb.app/api/ytdl?video360p=${args}`
+let dll = `${API}/api/downloader/ytv?url=${args}`
 client.sendMessage(m.jid, { video :{ url: dll }, caption: "_X BOT MD V3_"}, {quoted: m })
     }
     );
