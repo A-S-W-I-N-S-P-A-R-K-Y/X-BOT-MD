@@ -185,7 +185,8 @@ Sparky(
     }) => {
 args = args || m.quoted?.text;
 if (!args) return await m.reply("_Reply to a link_");
-let dll = `${API}/api/downloader/ytv?url=${args}`
-client.sendMessage(m.jid, { video :{ url: dll }, caption: "_X BOT MD V3_"}, {quoted: m })
+let data = await fetch(`${API}/api/downloader/ytv?url=${args}`);
+var result = await data.json();
+client.sendMessage(m.jid, { video :{ url: result.dlink }, caption: "_X BOT MD V3_"}, {quoted: m })
     }
     );
