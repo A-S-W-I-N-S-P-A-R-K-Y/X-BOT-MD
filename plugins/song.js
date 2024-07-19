@@ -59,7 +59,7 @@ Sparky(
       args = args || m.quoted?.text;
         if (!args) return m.reply("_Enter Query !_")
       let mes = await client.sendMessage(m.jid, { text : `_Searching..._` } , { quoted : m })
-   const res = await axios.get(`https://api-viper-x.koyeb.app/api/song?name=${args}`)
+   const res = await axios.get(`https://viper.xasena.me/api/v1/yta?query=${args}`)
     let response = await res.data
     let coverBuffer = await (await fetch(`${response.data.thumbnail}`)).buffer()
      client.sendMessage(m.jid, { text : `_Downloading : ${response.data.title}_` , edit : mes.key })

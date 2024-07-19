@@ -185,8 +185,10 @@ Sparky(
     }) => {
 args = args || m.quoted?.text;
 if (!args) return await m.reply("_Reply to a link_");
+let ytdlmsg = await client.sendMessage(m.jid , { text : "_Please Wait...._" } , { quoted : m })
 let data = await fetch(`${API}/api/downloader/ytv?url=${args}`);
 var result = await data.json();
-client.sendMessage(m.jid, { video :{ url: result.dlink }, caption: "_X BOT MD V3_"}, {quoted: m })
+await client.sendMessage(m.jid, { text : result.data.title, edit : ytdlmsg.key })
+client.sendMessage(m.jid, { video :{ url: result.data.dlink }, caption: result.data.title }, {quoted: m })
     }
     );
