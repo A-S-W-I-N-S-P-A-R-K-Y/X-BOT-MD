@@ -157,7 +157,7 @@ Sparky(
                 await m.sendMsg(m.jid,"_*No result found!*_",{edit:msg.key});
             }
         })
-    
+    /*
     Sparky(
         {
             name: "ss",
@@ -174,7 +174,7 @@ Sparky(
     client.sendMessage(m.jid, { image :{ url: dll }, caption: "_X BOT MD V3_"}, {quoted: m })
         }
         );
-    
+    */
     Sparky(
         {
             name: "save",
