@@ -1,22 +1,22 @@
 {
-  "name": "X-BOT-MD",
+  "name": "MR-ONLINE-MD",
   "version": "3.2.0",
   "description": "WhatsApp Helper Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start . --attach --name X-BOT-MD",
-    "stop": "pm2 stop . --attach --name X-BOT-MD"
+    "start": "pm2 start . --attach --name MR-ONLINE-MD",
+    "stop": "pm2 stop . --attach --name MR-ONLINE-MD"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD.git"
+    "url": "git+https://github.com/TcronebHackx-Md/mr-online-md.git"
   },
   "keywords": [
     "bot",
     "whatsapp"
   ],
-  "author": "ASWIN SPARKY",
+  "author": "TCRONEB HACKX",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
