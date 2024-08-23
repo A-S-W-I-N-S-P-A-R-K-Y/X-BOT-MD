@@ -1,10 +1,10 @@
 {
-  "name": "X-BOT-MD",
+  "name": "MR-ONLINE-MD",
   "version": "3.0.0",
-  "description": "X-BOT-MD Simple WhatsApp Bot",
+  "description": "MR-ONLINE-MD Simple WhatsApp Bot",
   "logo": "https://i.imgur.com/Q2UNwXR.jpg",
   "keywords": ["whatsapp", "bot", "md", "multi-device"],
-  "repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
+  "repository": "https://github.com/TcronebHackx/mr-online-md",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -19,7 +19,7 @@
     "SUDO": {
       "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
       "required": true,
-      "value": "917012984396"
+      "value": "263716394979"
     },
     "HEROKU_APP_NAME": {
       "description": "Enter Your Heroku App Name Same As Above You Entered",
@@ -32,17 +32,17 @@
     "STICKER_DATA": {
       "description": "Enter Your Sticker PackName And Author Name",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY"
+      "value": MR ONLINE MD;TCRONEB HACKX"
     },
     "AUDIO_DATA": {
       "description": "Enter Your Owner Name",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
+      "value": "MR-ONLINE-MD;TCRONEB HACKX;https://i.imgur.com/fVCRCYG.jpeg"
     },
     "BOT_INFO": {
       "description": "Enter Your Owner Number",
       "required": false,
-      "value": "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
+      "value": "MR ONLINE MD;TCRONEB HACKX;https://i.imgur.com/r3GZeiX.jpeg"
     },
     "ALWAYS_ONLINE": {
       "description": "Enter Your Bot Name",
