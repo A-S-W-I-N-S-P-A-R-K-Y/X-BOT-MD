@@ -1,20 +1,20 @@
 <p align="center"> 
-      <h1 align="center">X BOT MD MD V-3.2.0 (BETA)</h1>
+      <h1 align="center">MR ONLINE MD MD V-3.2.0 (BETA)</h1>
       <h2 align="center">This bot is still under development so if you want to use it, please check this main repo every day and update your "FORKED REPO" because i am continuously debugging it and making major changes in it</h2>
      <div align="center">
            
 ## _[Update My Repo](https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/FORK-UPDATE)_
 </div>
-  <a href="https://x-bot-md-qr.koyeb.app">
+  <a href="https://https://mr-online-md.onrender.com">
         <p align="center">
-   <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
+   <img alt="TCRONEB HACKX" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
               </p>
   </a>
 </p>
    
 <p align="center">
 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/KMqXtMicl9uCgMuduidlXb" target="_blank">
+  <a aria-label="Join our chats" href="https://whatsapp.com/channel/0029Vafg8mVLtOj6eAvlZO0w" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 
