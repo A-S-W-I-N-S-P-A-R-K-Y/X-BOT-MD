@@ -1,5 +1,5 @@
 {
-  "name": "X-BOT-MD",
+  "name": "A S A D H E R E",
   "version": "3.2.0",
   "description": "WhatsApp Helper Bot",
   "main": "index.js",
@@ -16,12 +16,12 @@
     "bot",
     "whatsapp"
   ],
-  "author": "ASWIN SPARKY",
+  "author": "asadhere",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
     "@viper-x/fancytext": "^1.0.2",
-    "@whiskeysockets/baileys": "git@github.com:WhiskeySockets/Baileys.git",
+    "@whiskeysockets/baileys": "",
     "acrcloud": "^1.4.0",
     "axios": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
