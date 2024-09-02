@@ -14,15 +14,12 @@
    
 <p align="center">
 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/KMqXtMicl9uCgMuduidlXb" target="_blank">
+  <a aria-label="Join our channel" href="https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 
   
 <p align="center">
-
-  <a aria-label="Tutorial" href="https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/DEPLOY-TUTORIAL" target="_blank">
-    <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   
 <div align="center">
 
@@ -44,6 +41,20 @@
 2. Scan the QR and get the SESSION ID
    <br>
 <a href='https://x-bot-md-qr.koyeb.app' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+#### DEPLOY ON RENDER
+
+1. If You don't have a account in Render. Create a account.
+    <br>
+<a href='https://render.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/>
+2. Now Deploy
+    
+<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
+<br>
+
+
+<a aria-label="Tutorial" href="https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/DEPLOY-TUTORIAL" target="_blank">
+    <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 
 
 #### DEPLOY TO HEROKU 
@@ -76,6 +87,7 @@
 2. Now Deploy
     <br>
 <a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+
 
 
 #### DEPLOY ON MOGENIUS

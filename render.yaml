@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: x-bot-md
+    env: node
+    branch: main
+    repo: https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD.git
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: SESSION_ID
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: SUDO
+        sync: false
