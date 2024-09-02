@@ -14,7 +14,7 @@
    
 <p align="center">
 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/KMqXtMicl9uCgMuduidlXb" target="_blank">
+  <a aria-label="Join our channel" href="https://whatsapp.com/channel/0029Va9ZOf36rsR1Ym7O2x00" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 
