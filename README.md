@@ -45,6 +45,15 @@
    <br>
 <a href='https://x-bot-md-qr.koyeb.app' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
+#### DEPLOY ON RENDER
+
+1. If You don't have a account in Render. Create a account.
+    <br>
+<a href='https://render.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/>
+2. Now Deploy
+    <br>
+<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
+
 
 #### DEPLOY TO HEROKU 
 
@@ -68,6 +77,15 @@
     <br>
 <a href='https://app.koyeb.com/services/deploy?type=git&repository=github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=X-BOT-MD;ASWIN%20SPARKY;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=917012984396&env[STICKER_DATA]=SPARKY&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
+#### DEPLOY ON RENDER
+
+1. If You don't have a account in Render. Create a account.
+    <br>
+<a href='https://render.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/>
+2. Now Deploy
+    <br>
+<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
+
 #### DEPLOY ON RAILWAY
 
 1. If You don't have a account in Railway. Create a account.
@@ -76,6 +94,7 @@
 2. Now Deploy
     <br>
 <a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+
 
 
 #### DEPLOY ON MOGENIUS
