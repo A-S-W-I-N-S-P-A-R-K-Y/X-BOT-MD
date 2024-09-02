@@ -20,9 +20,6 @@
 
   
 <p align="center">
-
-  <a aria-label="Tutorial" href="https://youtu.be/OqYCvFNE4sU" target="_blank">
-    <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   
 <div align="center">
 
