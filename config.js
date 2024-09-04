@@ -8,12 +8,12 @@ if (fs.existsSync('config.env')) {
 }
 
 const API = "https://api-aswin-sparky.koyeb.app";
-const ALIVE = process.env.ALIVE || "I am Alive";
+const ALIVE = process.env.ALIVE || "I am Alive-Mr-Shaban-3788";
 const HANDLERS = process.env.HANDLER || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
-const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "false";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
+const SUDO = process.env.SUDO || '923043788282';
+const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
