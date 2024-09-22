@@ -3,7 +3,7 @@ services:
     name: x-bot-md
     env: node
     branch: main
-    repo: https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD.git
+    repo: https://github.com/Devenlee350/X-BOT-MD.git
     buildCommand: npm install
     startCommand: npm start
     plan: free
