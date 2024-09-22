@@ -1,13 +1,13 @@
 <p align="center"> 
-      <h1 align="center">X BOT MD MD V-3.2.0 (BETA)</h1>
+      <h1 align="center"> NOVA V-3.2.0 (BETA)</h1>
       <h2 align="center">This bot is still under development so if you want to use it, please check this main repo every day and update your "FORKED REPO" because i am continuously debugging it and making major changes in it</h2>
      <div align="center">
            
-## _[Update My Repo](https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki/FORK-UPDATE)_
+## _[Update My Repo](https://github.com/Devenlee350/X-BOT-MD/wiki/FORK-UPDATE)_
 </div>
   <a href="https://x-bot-md-qr.koyeb.app">
         <p align="center">
-   <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
+   <img alt="𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈" height="300" src="https://i.imgur.com/3Fq3Ucq.jpeg">
               </p>
   </a>
 </p>
@@ -32,7 +32,7 @@
 
 1. Must Fork This Repo Before Deployment !
    <br> 
-<a href="https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Devenlee350/X-BOT-MD/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
 
@@ -49,7 +49,7 @@
 <a href='https://render.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render'/>
 2. Now Deploy
     
-<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
+<a href='https://dashboard.render.com/blueprint/new?repo=https://github.com/Devenlee350/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render'/></a>
 <br>
 
 
@@ -65,7 +65,7 @@
    <br>
 2. Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/Devenlee350/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
 #### DEPLOY TO KOYEB 
 
@@ -77,7 +77,7 @@
 
 4. Now Deploy
     <br>
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=X-BOT-MD;ASWIN%20SPARKY;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=917012984396&env[STICKER_DATA]=SPARKY&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+<a href='https://app.koyeb.com/services/deploy?type=git&repository=github.com/Devenlee350/X-BOT-MD&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=𝐍𝐎𝐕𝐀;𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈;https://i.imgur.com/3Fq3Ucq.jpeg&env[SUDO]=263784562833&env[STICKER_DATA]=𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
 #### DEPLOY ON RAILWAY
 
@@ -107,7 +107,7 @@
    <br>
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
+<a href='https://replit.com/github/Devenlee350/X-BOT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
 
 * Now fork it and enjoy 🗿🙌🏻
 <br>
