@@ -9,11 +9,11 @@ if (fs.existsSync('config.env')) {
 
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
-const HANDLERS = process.env.HANDLER || "^";
-const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const HANDLERS = process.env.HANDLER || ".";
+const SESSION_ID = process.env.SESSION_ID || "A-S-W-I-N-S-P-A-R-K-Y:e0875e5baed1897efcb14917565993dc";
+const SUDO = process.env.SUDO || '94703701793';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
@@ -22,11 +22,11 @@ const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.
 const URL = process.env.URL || "https://www.instagram.com/sparky.drip";
 const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
-const WORK_TYPE = process.env.WORK_TYPE || 'public';
+const WORK_TYPE = process.env.WORK_TYPE || 'privet';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
-const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
-const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
-const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
+const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "vidu-bot";
+const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "vidu-bot";
+const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "vidu-bot";
 
 
 
@@ -66,7 +66,7 @@ module.exports = {
       ? new Sequelize({
           dialect: "sqlite",
           storage: DATABASE_URL,
-          logging: false,
+          logging: true,
         })
       : new Sequelize(DATABASE_URL, {
           dialect: "postgres",
@@ -76,6 +76,6 @@ module.exports = {
             native: true,
             ssl: { require: true, rejectUnauthorized: false },
           },
-          logging: false,
+          logging: true,
         }),
 };
