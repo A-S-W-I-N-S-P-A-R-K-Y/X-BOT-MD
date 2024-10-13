@@ -1,11 +1,10 @@
 services:
   - type: web
     name: x-bot-md
-    env: node
+    env: docker
     branch: main
     repo: https://github.com/Devenlee350/X-BOT-MD.git
-    buildCommand: npm install
-    startCommand: npm start
+    dockerfilePath: Dockerfile
     plan: free
     autoDeploy: false
     envVars:
