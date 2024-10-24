@@ -1,10 +1,10 @@
 {
-  "name": "X-BOT-MD",
+  "name": "𝚇𝙴𝙽𝙰-𝙼𝙳💌🪻",
   "version": "3.0.0",
-  "description": "X-BOT-MD Simple WhatsApp Bot",
-  "logo": "https://i.imgur.com/Q2UNwXR.jpg",
+  "description": "𝚇𝙴𝙽𝙰-𝙼𝙳 Simple WhatsApp Bot",
+  "logo": "https://i.imgur.com/3PqqACp.jpeg",
   "keywords": ["whatsapp", "bot", "md", "multi-device"],
-  "repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
+  "repository": "https://github.com/Unnifx/X-BOT-MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -19,7 +19,7 @@
     "SUDO": {
       "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
       "required": true,
-      "value": "917012984396"
+      "value": "919074403240"
     },
     "HEROKU_APP_NAME": {
       "description": "Enter Your Heroku App Name Same As Above You Entered",
@@ -32,7 +32,7 @@
     "STICKER_DATA": {
       "description": "Enter Your Sticker PackName And Author Name",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY"
+      "value": "𝚇𝙴𝙽𝙰-𝙼𝙳 𝙱𝙾𝚃💌🪻;ᴀᴅᴜʟ ᴠꜱ"
     },
     "AUDIO_DATA": {
       "description": "Enter Your Owner Name",
@@ -42,7 +42,7 @@
     "BOT_INFO": {
       "description": "Enter Your Owner Number",
       "required": false,
-      "value": "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
+      "value": "𝚇𝙴𝙽𝙰-𝙼𝙳🪻💌;𝙰𝙳𝚄𝙻 𝚅𝚂;https://i.imgur.com/3PqqACp.jpeg"
     },
     "ALWAYS_ONLINE": {
       "description": "Enter Your Bot Name",
