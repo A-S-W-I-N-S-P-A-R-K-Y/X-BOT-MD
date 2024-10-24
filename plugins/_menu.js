@@ -1,5 +1,5 @@
 const {
-    Sparky,
+    𝙰𝙳𝚄𝙻𝚅𝚂,
     commands,
     isPublic
 } = require("../lib/plugins.js");
@@ -51,20 +51,20 @@ Sparky(
 •  uptime : ${await m.uptime()}
 •  plugins : ${commands.length}\n ${readMore}\n\n`
             let cmnd = [];
-            let Sparky;
+            let 𝙰𝙳𝚄𝙻𝚅𝚂;
             let type = [];
             commands.map((command, num) => {
               
                 if (command.name) {
-              let SparkyName = command.name
+              let 𝙰𝙳𝚄𝙻𝚅𝚂Name = command.name
                   Sparky = SparkyName.source.split('\\s*')[1]
                   .toString()
                   .match(/(\W*)([A-Za-züşiğ öç1234567890]*)/)[2];
               }
 
-              if (command.dontAddCommandList || Sparky === undefined) return;
+              if (command.dontAddCommandList || 𝙰𝙳𝚄𝙻𝚅𝚂 === undefined) return;
                    
-                if (!command.dontAddCommandList && Sparky !== undefined) {
+                if (!command.dontAddCommandList && 𝙰𝙳𝚄𝙻𝚅𝚂 !== undefined) {
                     let category;
                     if (!command.category) {
                         category = "misc";
@@ -72,7 +72,7 @@ Sparky(
                         category = command.category.toLowerCase();
                     }
                     cmnd.push({
-                        Sparky, category: category
+                        𝙰𝙳𝚄𝙻𝚅𝚂, category: category
                     });
                     if (!type.includes(category)) type.push(category);
                 }
@@ -87,11 +87,11 @@ Sparky(
                 comad.forEach(({
                     Sparky
                 }, num) => {
-                   menu += `• ${Sparky.trim()}\n`
+                   menu += `• ${𝙰𝙳𝚄𝙻𝚅𝚂.trim()}\n`
                  });
              });
            
-        let sperky = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "displayName": "X BOT MD V3","vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+        let 𝙰𝙳𝚄𝙻𝚅𝚂 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "displayName": "X BOT MD V3","vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
         return await client.sendMessage(m.jid , { text : font.tiny(menu),
 contextInfo: { externalAdReply: {                                           
 title: font.tiny(`Hey there  ${m.pushName}`),
@@ -101,7 +101,7 @@ mediaUrl: URL,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: `${BOT_INFO.split(";")[2]}` }}},{ quoted: sperky })      
+thumbnailUrl: `${BOT_INFO.split(";")[2]}` }}},{ quoted: 𝙰𝙳𝚄𝙻𝚅𝚂 })      
     }
       } catch (e) {
         m.error(`hey : ${e}`)
