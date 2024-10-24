@@ -1,5 +1,5 @@
 const {
-    Sparky, 
+    𝙰𝙳𝚄𝙻𝚅𝚂, 
     isPublic
 } = require("../lib/plugins.js");
 let gis = require("g-i-s");
@@ -21,7 +21,7 @@ Sparky(
         args = args || m.quoted?.text;
         if (!args) return await m.reply("_Enter Link_");
         let dl = await client.sendMessage(m.jid, {
-            text: "_Downloading..._"
+            text: "_𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝 𝚢𝚘𝚞𝚛 𝚟𝚎𝚍𝚒𝚘, 𝚊𝚞𝚍𝚒𝚘, 𝚖𝚙𝟹 𝚒𝚜 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐 𝚋𝚢 xᴇɴᴀ-ᴍᴅ💌🪻.._"
         }, {
             quoted: m
         })
@@ -33,13 +33,13 @@ Sparky(
             }
         } catch (e) {
             client.sendMessage(m.jid, {
-                text: `_Error_`, edit: dl.key
+                text: `_𝙾𝚘𝚖𝚋𝚒𝚒𝚒𝚒_`, edit: dl.key
             })
         }
     }
 );
 
-Sparky(
+𝙰𝙳𝚄𝙻𝚅𝚂(
     {
         name: "story",
         fromMe: isPublic,
@@ -52,7 +52,7 @@ Sparky(
         args = args || m.quoted?.text;
         if (!args) return await m.reply("_Enter Link_");
         let dl = await client.sendMessage(m.jid, {
-            text: "_Just a moment..._"
+            text: "_𝚓𝚞𝚜𝚝 𝚠𝚊𝚒𝚝 𝚊𝚗𝚍 𝚜𝚎𝚎𝚎𝚎😌👍🏻..._"
         }, {
             quoted: m
         })
@@ -72,7 +72,7 @@ Sparky(
     }
 );
 
-Sparky(
+𝙰𝙳𝚄𝙻𝚅𝚂(
     {
         name: "img",
         fromMe: isPublic,
@@ -103,7 +103,7 @@ Sparky(
                 amount] = args.split(",");
             let result = await gimage(query, amount);
             await m.reply(
-                `_Downloading ${amount || 5} images for ${query}_`
+                `_𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝 𝚢𝚘𝚞𝚛 𝙸𝙼𝙶 𝚒𝚜 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚒𝚗𝚐 𝚋𝚢 xᴇɴᴀ-ᴍᴅ💌🪻.._ ${amount || 5} images for ${query}_`
             );
             for (let i of result) {
                 await m.sendMsg(m.jid , i, {}, "image")
@@ -116,7 +116,7 @@ Sparky(
 );
 
 
-Sparky(
+𝙰𝙳𝚄𝙻𝚅𝚂(
     {
         name: "gdrive",
         fromMe: isPublic,
@@ -134,7 +134,7 @@ var document= await fetch(`${API}/api/downloader/gdrive?url=${args}`);
     }
     );
 
-Sparky(
+𝙰𝙳𝚄𝙻𝚅𝚂(
     {
         name: "mediafire",
         fromMe: isPublic,
@@ -153,7 +153,7 @@ var document= await fetch(`${API}/api/downloader/mediafire?url=${args}`);
     );
 
 
-Sparky(
+𝙰𝙳𝚄𝙻𝚅𝚂(
     {
         name: "xvdl",
         fromMe: isPublic,
@@ -165,7 +165,7 @@ Sparky(
     }) => {
         args = args || m.quoted?.text;
         if (!args) return await m.reply("_Enter Link/Reply to a link_");
-m.reply("_Downloading..._")
+m.reply("_𝚈𝚘𝚞𝚛 𝚡𝚟𝚎𝚍𝚒𝚘 𝚒𝚜 𝚍𝚘𝚠𝚗𝚕𝚘𝚍𝚒𝚗𝚐 𝚊𝚕𝚙𝚊𝚜𝚊𝚖𝚊𝚢𝚊𝚖 𝚗𝚒𝚕𝚔𝚞𝚔𝚊😌🤤 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙰𝙳𝚄𝙻 𝚅𝚂..._")
 let xvdl = await fetch(`${API}/api/downloader/xdl?url=${args}`);
 var data = await xvdl.json();
 
@@ -173,7 +173,7 @@ var data = await xvdl.json();
     }
   );
 
-Sparky(
+𝙰𝙳𝚄𝙻𝚅𝚂(
     {
         name: "ytv",
         fromMe: isPublic,
