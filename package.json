@@ -1,7 +1,7 @@
 {
-  "name": "X-BOT-MD",
+  "name": "𝚇𝙴𝙽𝙰-𝙼𝙳💌🪻",
   "version": "3.2.0",
-  "description": "WhatsApp Helper Bot",
+  "description": "𝚇𝙴𝙽𝙰 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD.git"
+    "url": "git+https://github.com/Unnifx/X-BOT-MD"
   },
   "keywords": [
     "bot",
     "whatsapp"
   ],
-  "author": "ASWIN SPARKY",
+  "author": "ᴀᴅᴜʟ ᴠ ꜱ",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
