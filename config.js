@@ -7,7 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 }
 
-const API = "https://api-aswin-sparky.onrender.com";
+const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
 const HANDLERS = process.env.HANDLER || ".";
 const SESSION_ID = process.env.SESSION_ID || "";
