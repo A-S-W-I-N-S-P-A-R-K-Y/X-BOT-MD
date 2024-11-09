@@ -10,21 +10,60 @@ Sparky(
     {
         name: "tag",
         fromMe: true,
-        desc: "Tags a content",
+        desc: "Tags content by mentioning all participants",
         category: "group"
     },
     async ({
         m, client, args
     }) => {
-        arg = m.quoted || args
-    if (!arg) return m.reply("_Enter or reply to a message_");
-    //if (!m.isGroup) return;
-    const { participants } = await client.groupMetadata(m.jid);
-        let jids = await participants.map((a) => a.id)
-    m.forwardMessage(m.jid, arg , {contextInfo: {
-      mentionedJid: jids
-    }});
-  }
+        args = args || m.quoted?.text;
+        const arg = m.quoted || args;
+        if (!arg) return m.reply("_Enter or reply to a message_");
+        const groupMetadata = await client.groupMetadata(m.jid);
+        const jids = groupMetadata.participants.map((participant) => participant.id);
+        let messageContent;
+        if (typeof arg === "string") {
+            messageContent = {
+                text: arg,
+                mentions: jids
+            };
+        } else {
+            messageContent = arg;
+            const options = { contextInfo: { mentionedJid: jids } };
+            return await m.forwardMessage(m.jid, messageContent, options);
+        }
+        await client.sendMessage(m.jid, messageContent, { quoted: m });
+    }
+);
+
+
+Sparky(
+    {
+        name: "tagall",
+        fromMe: true,
+        desc: "Tags all participants with a numbered list",
+        category: "sudo",
+    },
+    async ({ client, m, args }) => {
+        try {
+            const groupMetadata = await client.groupMetadata(m.jid).catch(e => null);
+            if (!groupMetadata) return m.reply("Failed to fetch group metadata.");
+            const participants = groupMetadata.participants;
+            let msg = "";
+            participants.forEach((participant, index) => {
+                msg += `${index + 1}. @${participant.id.split('@')[0]}\n`;
+            });
+            const jids = participants.map((participant) => participant.id);
+            await client.sendMessage(m.jid, { 
+                text: msg, 
+                mentions: jids 
+            }, { quoted: m });
+            
+        } catch (e) {
+            console.error(e);
+            m.reply("An error occurred while processing the command.");
+        }
+    }
 );
 
 Sparky(
