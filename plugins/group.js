@@ -16,7 +16,6 @@ Sparky(
     async ({
         m, client, args
     }) => {
-        args = args || m.quoted?.text;
         const arg = m.quoted || args;
         if (!arg) return m.reply("_Enter or reply to a message_");
         const groupMetadata = await client.groupMetadata(m.jid);
