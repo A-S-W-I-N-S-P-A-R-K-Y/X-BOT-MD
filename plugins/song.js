@@ -19,31 +19,31 @@ const {
   AddMp3Meta
 } = require("../lib/functions.js");
     
-Sparky(
-    {
-        name: "yt",
-        fromMe: isPublic,
-        category: "downloader",
-        desc: "To download yt vid/aud"
-    },
-async ({
+// Sparky(
+//     {
+//         name: "yt",
+//         fromMe: isPublic,
+//         category: "downloader",
+//         desc: "To download yt vid/aud"
+//     },
+// async ({
 
-        m, client, args
+//         m, client, args
 
-    }) => {
+//     }) => {
 
-    if (!args) return m.reply("_Enter Query !_")
-   let mes = await client.sendMessage(m.jid, { text : `_Searching..._`}, {quoted : m })
-    let datai = `_Youtube Downloader_\n\n`
-    let search = await yts(`${args}`)
-    let hdata = search.all
+//     if (!args) return m.reply("_Enter Query !_")
+//    let mes = await client.sendMessage(m.jid, { text : `_Searching..._`}, {quoted : m })
+//     let datai = `_Youtube Downloader_\n\n`
+//     let search = await yts(`${args}`)
+//     let hdata = search.all
  
-    for (let i=1; i<11; i++){
-        datai += `_${i} .${hdata[i].title}_\n`
-    }
-   return client.sendMessage(m.jid, { text : `${datai}` , edit : mes.key })
-      }
-    )
+//     for (let i=1; i<11; i++){
+//         datai += `_${i} .${hdata[i].title}_\n`
+//     }
+//    return client.sendMessage(m.jid, { text : `${datai}` , edit : mes.key })
+//       }
+//     )
 
         
 Sparky(
@@ -59,7 +59,7 @@ Sparky(
       args = args || m.quoted?.text;
         if (!args) return m.reply("_Enter Query !_")
       let mes = await client.sendMessage(m.jid, { text : `_Searching..._` } , { quoted : m })
-   const res = await axios.get(`https://viper.xasena.me/api/v1/yta?query=${args}`)
+   const res = await axios.get(`https://viper.devstackx.in/api/v1/yta?query=${args}`)
     let response = await res.data
     let coverBuffer = await (await fetch(`${response.data.thumbnail}`)).buffer()
      client.sendMessage(m.jid, { text : `_Downloading : ${response.data.title}_` , edit : mes.key })
