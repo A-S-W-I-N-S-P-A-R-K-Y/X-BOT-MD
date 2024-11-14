@@ -85,13 +85,14 @@ Sparky(
             args = args || m.quoted?.text;
             if (!args) return await m.reply("_Enter Link Or Reply To a Link_");
             let url = args
+            m.reply("_Please hold on This May Take Sometime._");
             let sample = await fetch(`https://viper.devstackx.in/api/v1/ytdl?query=${url}`);
             let data = await sample.json();
             let mediaList = data.data.media;
 
             let dl = await client.sendMessage(m.jid, { text: 'Processing your download options...' }, { quoted: m });
 
-            let datai = `_*YouTube Downloader*_\nUrl : args\n\n`
+            let datai = `_*YouTube Downloader*_\nUrl : ${url}\n\n`
             for (let i = 1; i < mediaList.length + 1; i++) {
                 datai += `_${i} . ${mediaList[i - 1].type} - ${mediaList[i - 1].quality}_\n`
             }
@@ -205,7 +206,7 @@ Sparky(
         let xvdl = await fetch(`${API}/api/downloader/xdl?url=${args}`);
         var data = await xvdl.json();
 
-        client.sendMessage(m.jid, { video: { url: data.data }, caption: "🤤💦" }, { quoted: m })
+        client.sendMessage(m.jid, { video: { url: data.data }, caption: "ðŸ¤¤ðŸ’¦" }, { quoted: m })
     }
 );
 
