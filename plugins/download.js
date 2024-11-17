@@ -210,6 +210,59 @@ Sparky(
     }
 );
 
+
+Sparky({
+    name: "play",
+    fromMe: isPublic,
+    desc: "Download and play your favorite audio or video directly from a link.",
+    category: "downloader",
+},
+async ({
+    m,
+    client,
+    args
+}) => {
+    try{
+        args = args || m.quoted?.text;
+if (!args) return await m.reply("_enter query or reply to link_");
+let mes = await client.sendMessage(m.jid, { text : `Please wait, searching...` } , { quoted : m })
+let sample = await fetch(`https://viper.devstackx.in/api/v1/yta?query=${args}`);
+var data = await sample.json();
+const songbuff = await (await fetch(`${data.data.downloadUrl}`)).buffer()
+client.sendMessage(m.jid, { text : `_Downloading : ${data.data.title}_` , edit : mes.key })
+await client.sendMessage(m.jid , {audio : songbuff,  mimetype : 'audio/mpeg'} , { quoted : m })
+    } catch(e) {
+        m.reply(e)
+    }
+    }
+);
+
+Sparky({
+    name: "song",
+    fromMe: isPublic,
+    desc: "Download and play your favorite audio or video directly from a link.",
+    category: "downloader",
+},
+async ({
+    m,
+    client,
+    args
+}) => {
+    try{
+        args = args || m.quoted?.text;
+if (!args) return await m.reply("_enter query or reply to link_");
+let mes = await client.sendMessage(m.jid, { text : `Please wait, searching...` } , { quoted : m })
+let sample = await fetch(`https://viper.devstackx.in/api/v1/yta?query=${args}`);
+var data = await sample.json();
+const songbuff = await (await fetch(`${data.data.downloadUrl}`)).buffer()
+client.sendMessage(m.jid, { text : `_Downloading : ${data.data.title}_` , edit : mes.key })
+await client.sendMessage(m.jid , {audio : songbuff,  mimetype : 'audio/mpeg'} , { quoted : m })
+    } catch(e) {
+        m.reply(e)
+    }
+    }
+);
+
 // Sparky(
 //     {
 //         name: "ytv",
