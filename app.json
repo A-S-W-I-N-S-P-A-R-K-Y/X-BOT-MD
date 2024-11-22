@@ -11,7 +11,7 @@
       "description": "Enter Your Session ID",
       "required": true
     },
-    "HANDLER": {
+    "HANDLERS": {
       "description": "Enter Prefix For Commands",
       "required": false,
       "value": "."

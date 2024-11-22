@@ -7,9 +7,10 @@ if (fs.existsSync('config.env')) {
   });
 }
 
+const LOGS = process.env.LOGS || "false";
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
-const HANDLERS = process.env.HANDLER || ".";
+const HANDLERS = process.env.HANDLERS || ".";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
@@ -42,6 +43,7 @@ const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
 module.exports = {
   API,
   ALIVE,
+  LOGS,
   HANDLERS,
   SUDO,
   WORK_TYPE,
