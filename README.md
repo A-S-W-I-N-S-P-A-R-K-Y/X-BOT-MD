@@ -42,12 +42,12 @@
    <br>
    
 **Server 1**  
-<a href='https://x-bot-md-qr.koyeb.app' target="_blank">
+<a href='https://https-x-bot-md-qr-2.onrender.com' target="_blank">
     <img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/>
 </a>
 
 **Server 2**  
-<a href='https://https-x-bot-md-qr-2.onrender.com' target="_blank">
+<a href='https://x-bot-md-qr.koyeb.app' target="_blank">
     <img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/>
 </a>
 
