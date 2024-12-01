@@ -207,7 +207,7 @@ Sparky(
         async ({
             m, client, args
         }) => {
-    return await m.forward(args || m.jid, m.quoted.message)
+    return await m.forwardMessage(args || m.jid, m.quoted,{contextInfo:{ isForwarded: false}}) //m.forward(args || m.jid, m.quoted.message)
         }
         );
     
