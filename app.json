@@ -8,7 +8,7 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Enter Your Session ID",
+      "description": "A-S-W-I-N-S-P-A-R-K-Y:ec99389d39d4b5ac8a528cc8cc47ad8b",
       "required": true
     },
     "HANDLERS": {
@@ -19,7 +19,7 @@
     "SUDO": {
       "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
       "required": true,
-      "value": "917012984396"
+      "value": "919356730236"
     },
     "HEROKU_APP_NAME": {
       "description": "Enter Your Heroku App Name Same As Above You Entered",
@@ -37,12 +37,12 @@
     "AUDIO_DATA": {
       "description": "Enter Your Owner Name",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
+      "value": "Rahul-police-officers;Rahul_JI;https://i.imgur.com/7Ebd232.jpeg"
     },
     "BOT_INFO": {
       "description": "Enter Your Owner Number",
       "required": false,
-      "value": "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
+      "value": "Rahul-police-officers;Rahul_JI;https://i.imgur.com/7Ebd232.jpeg"
     },
     "ALWAYS_ONLINE": {
       "description": "Enter Your Bot Name",
@@ -52,12 +52,12 @@
     "WORK_TYPE": {
       "description": "Enter Your Mode Type public For Public Otherwise Type private",
       "required": false,
-      "value": "private"
+      "value": "public"
     },
     "AUTO_STATUS_VIEW": {
       "description": "If You Want To View Status Automatically, Type true. Otherwise, Type false",
       "required": false,
-      "value": "false"
+      "value": "true"
     }
   },
   "addons": [
