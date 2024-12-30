@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs') mr_louventz
 const dotenv = require('dotenv');
 const { Sequelize } = require('sequelize');
 if (fs.existsSync('config.env')) {
@@ -11,7 +11,7 @@ const LOGS = process.env.LOGS || "false";
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
 const HANDLERS = process.env.HANDLERS || ".";
-const SESSION_ID = process.env.SESSION_ID || "";
+const SESSION_ID = process.env.SESSION_ID ||A-S-W-I-N-S-P-A-R-K-Y:140aee14a839368d45f530bad048444f
 const SUDO = process.env.SUDO || '917012984396';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
